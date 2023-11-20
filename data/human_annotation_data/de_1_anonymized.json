@@ -1,0 +1,1996 @@
+[
+    {
+        "text": "<b>Source:</b> Herzlische gl\u00fcckw\u00fcnsche mein Freund Jens f\u00fcr Vater worden.<br><b>Target:</b> Herzliche Gl\u00fcckw\u00fcnsche, mein Freund Jens, zum Vaterwerden.<br><br><b>Explanation:</b><br>The word 'Herzlische' is replaced by 'Herzliche' because 'Herzliche' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'gl\u00fcckw\u00fcnsche' is replaced by 'Gl\u00fcckw\u00fcnsche' because nouns in German should be capitalized.<br><b>Error type</b>: capitalization<br>Commas are inserted to set off \"mein Freund Jens\" as an apposition, which provides additional information about the person being congratulated.<br><b>Error type</b>: punctuation<br>The word 'Vater worden' is replaced by 'Vaterwerden' because the compound noun form 'Vaterwerden' is more appropriate in this context.<br><b>Error type</b>: compound noun<br>'zum' is inserted because it's a shortened form of 'zu dem' and is used to express 'on becoming' in a smooth way, making the phrase 'zum Vaterwerden'.<br><b>Error type</b>: preposition",
+        "author": "merlin_1071_0241832",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 42,
+                "endOffset": 45,
+                "globalOffsets": {
+                    "start": 49,
+                    "end": 52
+                },
+                "text": "f\u00fcr",
+                "labels": [
+                    "Missing error"
+                ]
+            },
+            {
+                "start": "/text()[11]",
+                "end": "/text()[11]",
+                "startOffset": 0,
+                "endOffset": 150,
+                "globalOffsets": {
+                    "start": 720,
+                    "end": 870
+                },
+                "text": "'zum' is inserted because it's a shortened form of 'zu dem' and is used to express 'on becoming' in a smooth way, making the phrase 'zum Vaterwerden'.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ],
+        "comments": "\"which provides additional information about the person being congratulated\" - I would formulate is as \"because mein Freund Jens is a vocative expression which is always marked by commas before and after it in a sentence \n\n"
+    },
+    {
+        "text": "<b>Source:</b> in dem Sinn, m\u00f6chte ich dazu sagen, dass integrationsprozes entwickelt sich schneller, wenn man das Gastland nicht als \u201efremd\u201c empfindet.<br><b>Target:</b> In dem Sinn m\u00f6chte ich dazu sagen, dass ein Integrationsprozess sich schneller entwickelt, wenn man das Gastland nicht als \fremd\" empfindet.<br><br><b>Explanation:</b><br>The word 'in' is replaced by 'In' because the beginning of a sentence requires a capital letter.<br><b>Error type</b>: capitalization<br><br>The comma is deleted because there is no need for a comma after an introductory phrase.<br><b>Error type</b>: punctuation<br><br>The word 'ein' is inserted because German requires an indefinite article for the singular noun 'Integrationsprozess'.<br><b>Error type</b>: determiner<br><br>The word 'integrationsprozes' is replaced by 'Integrationsprozess' because 'Integrationsprozess' is the correct spelling.<br><b>Error type</b>: spelling<br><br>The word 'entwickelt' is relocated because the verb should be positioned after the subject in a German sentence.<br><b>Error type</b>: word order<br><br>The word '\u201e' is replaced by '\"' because the correct quotation marks for standard English are '\"'.<br><b>Error type</b>: punctuation<br><br>The word '\u201c' is replaced by '\"' because the correct quotation marks for standard English are '\"'.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003337",
+        "cefr": "B2",
+        "label": [
+            {
+                "start": "/text()[11]",
+                "end": "/text()[11]",
+                "startOffset": 43,
+                "endOffset": 112,
+                "globalOffsets": {
+                    "start": 876,
+                    "end": 945
+                },
+                "text": "the verb should be positioned after the subject in a German sentence.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Das ist mannlich oder weiblich?<br><b>Target:</b> Ist es m\u00e4nnlich oder weiblich?<br><br><b>Explanation:</b><br>The word 'Das' is replaced by 'es' because 'es' is a more suitable pronoun for referring to gender in questions.<br><b>Error type</b>: pronoun<br>The word 'ist' is capitalized and relocated to the beginning (inserted before 'es') to form the correct question structure in German.<br><b>Error type</b>: word order<br>The word 'mannlich' is replaced by 'm\u00e4nnlich' because 'm\u00e4nnlich' is the correct spelling with the umlaut.<br><b>Error type</b>: spelling",
+        "author": "merlin_1071_0024855",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> wenn die anderen nicht st\u00f6ren, es ist nich sinnvoll aus in Ausland die fortzusetzen.<br><b>Target:</b> Wenn die anderen nicht st\u00f6ren, ist es nicht sinnvoll, die im Ausland fortzusetzen.<br><br><b>Explanation:</b><br>The word 'wenn' is replaced by 'Wenn' because the sentence should start with a capital letter as it is the first word.<br><b>Error type</b>: capitalization<br>The word 'ist' is relocated because the word order of a main clause with a subordinate clause requires the verb to be in the second position after the comma.<br><b>Error type</b>: word order<br>The word 'nich' is replaced by 'nicht' because 'nicht' is the correct spelling.<br><b>Error type</b>: spelling<br>The symbol ',' is inserted because a comma is needed between two clauses.<br><b>Error type</b>: punctuation<br>The word 'aus' is replaced by 'im' because the preposition 'im' is used to indicate 'in the' for dative masculine and neuter nouns.<br><b>Error type</b>: preposition<br>The word 'in' is replaced by 'Ausland' because the correct noun for 'abroad' in German is 'Ausland'.<br><b>Error type</b>: noun<br>The word 'die' is deleted because it is unnecessary in this specific context.<br><b>Error type</b>: article",
+        "author": "merlin_1031_0002002",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[5]",
+                "end": "/text()[5]",
+                "startOffset": 36,
+                "endOffset": 157,
+                "globalOffsets": {
+                    "start": 380,
+                    "end": 501
+                },
+                "text": "the word order of a main clause with a subordinate clause requires the verb to be in the second position after the comma.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            },
+            {
+                "start": "/text()[2]",
+                "end": "/text()[2]",
+                "startOffset": 55,
+                "endOffset": 58,
+                "globalOffsets": {
+                    "start": 155,
+                    "end": 158
+                },
+                "text": "die",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Da bin ich sicher, dass diese Situation mit der Hilfe der Bildung gel\u00f6st werden kann, aber f\u00fcr die Ver\u00e4nderung beide Gruppen arbeiten m\u00fcssen.<br><b>Target:</b> Da bin ich sicher, dass diese Situation mit der Hilfe der Bildung gel\u00f6st werden kann, aber f\u00fcr die Ver\u00e4nderung m\u00fcssen beide Gruppen arbeiten.<br><br><b>Explanation:</b><br>The word 'm\u00fcssen' is relocated because the verb should be placed before the subject in a subordinate clause, following the V2 word order rule in German.<br><b>Error type</b>: word order",
+        "author": "merlin_1031_0003239",
+        "cefr": "C1",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 39,
+                "endOffset": 151,
+                "globalOffsets": {
+                    "start": 353,
+                    "end": 465
+                },
+                "text": "the verb should be placed before the subject in a subordinate clause, following the V2 word order rule in German",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ],
+        "comments": "the explanation about the subordinate clause word order is not correct"
+    },
+    {
+        "text": "<b>Source:</b> Ich bin jetz sehr beschaftigt, aber wenn das Wetter sch\u00f6ne ist, ich mochten euch ein Wochende besuchen.<br><b>Target:</b> Ich bin jetzt sehr besch\u00e4ftigt, aber wenn das Wetter sch\u00f6ner ist, m\u00f6chte ich euch ein Wochenende besuchen.<br><br><b>Explanation:</b><br>The word 'jetz' is replaced by 'jetzt' because 'jetzt' is the correct spelling for 'now'.<br><b>Error type</b>: spelling<br>The word 'beschaftigt' is replaced by 'besch\u00e4ftigt' because 'besch\u00e4ftigt' is the correct spelling for 'busy'.<br><b>Error type</b>: spelling<br>The word 'sch\u00f6ne' is replaced by 'sch\u00f6ner' because the comparative form of the adjective 'sch\u00f6n' is used in this context.<br><b>Error type</b>: comparative<br>The word 'mochten' is deleted, and 'm\u00f6chte' is inserted because the verb 'm\u00f6chten' has to be conjugated in the first person singular, which is 'm\u00f6chte'.<br><b>Error type</b>: conjugation<br>The word 'Wochende' is replaced by 'Wochenende' because 'Wochenende' is the correct spelling for 'weekend'.<br><b>Error type</b>: spelling",
+        "author": "merlin_1061_0120376",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[2]",
+                "end": "/text()[2]",
+                "startOffset": 74,
+                "endOffset": 77,
+                "globalOffsets": {
+                    "start": 193,
+                    "end": 196
+                },
+                "text": "ich",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Man muss erstmal \u00fcberlegen wie viel Geld f\u00fcr die Mieten oder f\u00fcr Einkauf zur Verf\u00fcgung steht.<br><b>Target:</b> Man muss erstmal \u00fcberlegen, wie viel Geld f\u00fcr die Mieten oder f\u00fcr den Einkauf zur Verf\u00fcgung steht.<br><br><b>Explanation:</b><br>The comma is inserted because a subordinate clause is introduced by 'wie', requiring a comma to separate it from the main clause.<br><b>Error type</b>: punctuation<br>The word 'den' is inserted because the preposition 'f\u00fcr' requires the accusative case of a noun, and 'Einkauf' needs the masculine accusative article 'den'.<br><b>Error type</b>: case",
+        "author": "merlin_1031_0003353",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Die Kirche argumentiert noch heute mit der Rolle der Frau so wie sie in der Bibel beschrieben und aus nat\u00fcrlichen Gegebenheiten bestimmt ist.<br><b>Target:</b> Die Kirche argumentiert noch heute mit der Rolle der Frau, so wie sie in der Bibel beschrieben und aus nat\u00fcrlichen Gegebenheiten bestimmt ist.<br><br><b>Explanation:</b><br>The comma is inserted because it separates the main clause from the subordinate clause, providing clarity to the sentence.<br><b>Error type</b>: punctuation",
+        "author": "falko_dcs009_2007_10_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> ANfangen m\u00f6chte ich mit den beispielen was f\u00fcr die Kriminalit\u00e4t spricht.<br><b>Target:</b> Anfangen m\u00f6chte ich mit den Beispielen, was f\u00fcr die Kriminalit\u00e4t spricht.<br><br><b>Explanation:</b><br>The word 'ANfangen' is replaced by 'Anfangen' because the first letter of a sentence should be capitalized.<br><b>Error type</b>: capitalization<br>The word 'beispielen' is replaced by 'Beispielen' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization<br>A comma is inserted after 'Beispielen' to separate the main clause from the relative clause.<br><b>Error type</b>: punctuation",
+        "author": "falko_dew08_2007_09_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above.",
+        "comments": "because the first letter - because ONLY the first letter, I would say"
+    },
+    {
+        "text": "<b>Source:</b> Es gibt viele preiswerte oder teuere M\u00f6glichkeiten.<br><b>Target:</b> Es gibt viele preiswerte oder teure M\u00f6glichkeiten.<br><br><b>Explanation:</b><br>The word 'teuere' is replaced by 'teure' because 'teure' is the correct adjective form for expensive.<br><b>Error type</b>: adjective form",
+        "author": "merlin_1031_0003419",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> bette ashraiben mir E-mail.<br><b>Target:</b> Bitte schreib mir eine E-Mail.<br><br><b>Explanation:</b><br>The word 'bette' is replaced by 'Bitte' because 'Bitte' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'ashraiben' is replaced by 'schreib' because 'schreib' is the correct spelling and the conjugated form of the verb 'schreiben'.<br><b>Error type</b>: spelling<br>The word 'eine' is inserted because it is required as an indefinite article in this context.<br><b>Error type</b>: determiner<br>The word 'E-mail' is replaced by 'E-Mail' because 'E-Mail' is the correct spelling and format in German.<br><b>Error type</b>: spelling",
+        "author": "merlin_1071_0248305",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above.",
+        "comments": "\"and the conjugated form of the verb 'schreiben'\" - to be precise,  imperative form of schreiben"
+    },
+    {
+        "text": "<b>Source:</b> Gibt es ein Balkon oder nicht?<br><b>Target:</b> Gibt es einen Balkon oder nicht?<br><br><b>Explanation:</b><br>The word 'ein' is replaced by 'einen' because it should agree with the gender and case of the word 'Balkon', which is masculine and accusative.<br><b>Error type</b>: gender and case",
+        "author": "merlin_1091_0000192",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wie Sie wissen, Englisch, Franz\u00f6sichs, Spanisch sind eine Weltsprache, aber deutsche Sprache ist auch eine Weltsprache, sie steht nicht an der Spitze.<br><b>Target:</b> Wie Sie wissen, sind Englisch, Franz\u00f6sisch, Spanisch Weltsprachen, aber die deutsche Sprache ist auch eine Weltsprache, sie steht nicht an der Spitze.<br><br><b>Explanation:</b><br>The word 'sind' is relocated because the verb should follow the subject in a sentence.<br><b>Error type</b>: word order<br>The word 'Franz\u00f6sichs' is replaced by 'Franz\u00f6sisch' because 'Franz\u00f6sisch' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'Weltsprache' is replaced by 'Weltsprachen' because when referring to multiple languages, the plural form 'Weltsprachen' should be used.<br><b>Error type</b>: plural<br>The word 'die' is inserted because it is the correct determiner for the feminine noun 'deutsche Sprache'.<br><b>Error type</b>: determiner",
+        "author": "merlin_1031_0003127",
+        "cefr": "C1",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 37,
+                "endOffset": 86,
+                "globalOffsets": {
+                    "start": 369,
+                    "end": 418
+                },
+                "text": "the verb should follow the subject in a sentence.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Es wird einmal pro tag gegeben werden, aber vergess nicht bitte mit dir abholen w\u00e4hrend deine Spaziergang, damit er dir sich gew\u00f6hnen kann.<br><b>Target:</b> Es wird ihm einmal pro Tag etwas gegeben werden, aber vergiss bitte nicht, ihn abzuholen w\u00e4hrend deines Spaziergangs, damit er sich an dich gew\u00f6hnen kann.<br><br><b>Explanation:</b><br>The word 'ihm' is inserted because the dative pronoun is necessary to indicate the indirect object.<br><b>Error type</b>: pronoun<br>The word 'tag' is replaced by 'Tag' because nouns are always capitalized in German.<br><b>Error type</b>: capitalization<br>The word 'etwas' is inserted to indicate that something is being given to him.<br><b>Error type</b>: missing word<br>The word 'vergess' is replaced by 'vergiss' because the imperative form of 'vergessen' in the second person singular is 'vergiss'.<br><b>Error type</b>: conjugation<br>The word 'bitte' is inserted for politeness in the instruction.<br><b>Error type</b>: missing word<br>The word 'mit' is replaced by ',' because the preposition 'mit' is not necessary and should be replaced with a comma to separate the clauses.<br><b>Error type</b>: punctuation<br>The word 'dir' is deleted because it is not needed in this sentence and was replaced by 'ihn' in the correct sentence to indicate the direct object.<br><b>Error type</b>: pronoun<br>The word 'abholen' is replaced by 'ihn abzuholen' because the verb needs to be in its separable form 'abholen' and have the correct pronoun 'ihn' as the direct object.<br><b>Error type</b>: separable verb and pronoun<br>The word 'deine' is replaced by 'deines' because the possessive pronoun should agree with the gender and case of the word 'Spaziergang', which is masculine and genitive.<br><b>Error type</b>: possessive pronoun and case<br>The word 'Spaziergang' is replaced by 'Spaziergangs' to agree with the genitive case of the noun.<br><b>Error type</b>: case<br>The word 'an' is inserted because the verb 'gew\u00f6hnen' requires the preposition 'an'.<br><b>Error type</b>: preposition<br>The word 'dir' is replaced by 'dich' because the verb 'gew\u00f6hnen' requires the accusative pronoun 'dich' as the object.<br><b>Error type</b>: pronoun and case",
+        "author": "merlin_1091_0000160",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Mit diesem Bericht m\u00f6chte ich die Wohnungsmarkt in Stadt X beschreiben, da ich die Situation sehr gut kenne.<br><b>Target:</b> Mit diesem Bericht m\u00f6chte ich den Wohnungsmarkt in Stadt X beschreiben, da ich die Situation sehr gut kenne.<br><br><b>Explanation:</b><br>The word 'die' is replaced by 'den' because the preposition 'in' requires the accusative case when referring to the object of the action, which is 'Wohnungsmarkt' here.<br><b>Error type</b>: case",
+        "author": "merlin_1031_0003076",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> du kommst zu mir besuchen, ich freue auch dich.<br><b>Target:</b> Du kommst mich besuchen, ich freue mich auch auf dich.<br><br><b>Explanation:</b><br>The word 'du' is replaced by 'Du' because in German, sentences should start with a capital letter.<br><b>Error type</b>: capitalization<br>The word 'zu mir' is replaced by 'mich' because the verb 'besuchen' requires the accusative object 'mich'.<br><b>Error type</b>: accusative object<br>The word 'mich' is inserted after 'freue' because the reflexive verb 'freuen' requires the reflexive pronoun 'mich'.<br><b>Error type</b>: reflexive pronoun<br>The word 'auf' is inserted before 'dich' because the verb 'freuen' requires the preposition 'auf' when expressing excitement about someone or something.<br><b>Error type</b>: preposition",
+        "author": "merlin_1061_0120887",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Da Sie sehr viel in Ihrer Anzeige versprachen, habe ich hohe Erwartungen an meine Stelle, Bedauerlicherweise was entsprach war in keinerlei Hinsicht seinen Erwartungen und Ihren Versprechungen.<br><b>Target:</b> Da Sie sehr viel in Ihrer Anzeige versprachen, habe ich hohe Erwartungen an meine Stelle, bedauerlicherweise, was war, entsprach in keinerlei Hinsicht seinen Erwartungen und Ihren Versprechungen.<br><br><b>Explanation:</b><br>The word 'Bedauerlicherweise' is replaced by 'bedauerlicherweise' because it should not be capitalized in the middle of a sentence.<br><b>Error type</b>: capitalization<br>A comma is inserted after 'Stelle' to separate the two clauses.<br><b>Error type</b>: punctuation<br>The word 'war' is relocated to after the comma to improve the sentence structure.<br><b>Error type</b>: word order<br>A comma is inserted after 'bedauerlicherweise' to indicate a pause for clarity.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1023_0108649",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> F\u00fcr mich pers\u00f6nlich ist Deutsch zu lernen sehr wichtig noch aus dem Grund, dass es Muttersprache von meinem Sohn ist.<br><b>Target:</b> F\u00fcr mich pers\u00f6nlich ist Deutsch zu lernen noch aus dem Grund sehr wichtig, dass es die Muttersprache von meinem Sohn ist.<br><br><b>Explanation:</b><br>The phrase 'sehr wichtig' is relocated because the correct position of the adverb 'sehr' and adjective 'wichtig' is before the conjunction 'dass' to emphasize the importance of learning German.<br><b>Error type</b>: word order<br><br>The word 'die' is inserted because the noun 'Muttersprache' requires a determiner, and 'die' is the correct definite article for feminine nouns in the nominative case.<br><b>Error type</b>: determiner",
+        "author": "merlin_1031_0003181",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Es gibt keinen Grund, warum diese Menschen schlechter behandelt werden sollten, als diejenigen, die das Gl\u00fcck haben schon immer in Deutschland zu leben.<br><b>Target:</b> Es gibt keinen Grund, warum diese Menschen schlechter behandelt werden sollten, als diejenigen, die das Gl\u00fcck haben, schon immer in Deutschland zu leben.<br><br><b>Explanation:</b><br>The comma is inserted after 'haben' because it is necessary to separate the main clause \"die das Gl\u00fcck haben\" from the subordinate clause \"schon immer in Deutschland zu leben\".<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw009_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Daraufhin bekommt eine buchung f\u00fcr l\u00e4rme.<br><b>Target:</b> Daraufhin bekommt man eine Buchung f\u00fcr L\u00e4rm.<br><br><b>Explanation:</b><br>The word '' is inserted and replaced by 'man' because it is necessary to indicate the subject who receives the booking.<br><b>Error type</b>: missing subject<br>The word 'buchung' is replaced by 'Buchung' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization<br>The word 'l\u00e4rme' is replaced by 'L\u00e4rm' because 'L\u00e4rm' is the correct spelling for the German word for noise.<br><b>Error type</b>: spelling",
+        "author": "merlin_1031_0003099",
+        "cefr": "B2",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 0,
+                "endOffset": 45,
+                "globalOffsets": {
+                    "start": 117,
+                    "end": 162
+                },
+                "text": "The word '' is inserted and replaced by 'man'",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Meiner Meinung nach, ist es gut die eigene Taditionen zu forsetzen, damit die neue Generation wissen um was geht und identifizieren k\u00f6nnen und in der andere Seite es ist sehr wichtig an der Kultur des Heimatlandes orientieren und Integrieren sein.<br><b>Target:</b> Meiner Meinung nach ist es gut, die eigenen Traditionen fortzusetzen, damit die neue Generation wei\u00df, um was es geht und sich identifizieren kann und auf der anderen Seite ist es sehr wichtig, sich an der Kultur des Heimatlandes zu orientieren und integriert zu sein.<br><br><b>Explanation:</b><br>The word ',' is deleted because there should be no comma after 'nach'.<br><b>Error type</b>: punctuation<br>The word ',' is inserted because commas are used to separate clauses in German.<br><b>Error type</b>: punctuation<br>The word 'eigene' is replaced by 'eigenen' because the adjective should agree with the noun 'Traditionen', which requires the accusative plural form.<br><b>Error type</b>: adjective inflection<br>The word 'Taditionen' is replaced by 'Traditionen' because it is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'zu' is replaced by 'fortzusetzen' because the infinitive form of the verb should be used with 'zu'.<br><b>Error type</b>: infinitive<br>The word 'wissen' is replaced by 'wei\u00df' because the verb should be in the third person singular.<br><b>Error type</b>: verb conjugation<br>The word ',' is inserted because commas are used to separate clauses in German.<br><b>Error type</b>: punctuation<br>The word 'es' is inserted because it should be used before the verb \"geht\" to indicate the subject.<br><b>Error type</b>: subject<br>The word 'sich' is inserted before 'identifizieren' because the reflexive pronoun is required with the reflexive verb 'identifizieren'.<br><b>Error type</b>: reflexive pronoun<br>The word 'k\u00f6nnen' is replaced by 'kann' because the verb should be in the third person singular.<br><b>Error type</b>: verb conjugation<br>The word 'in' is replaced by 'auf' because 'auf der anderen Seite' is the correct expression.<br><b>Error type</b>: preposition<br>The word 'andere' is replaced by 'anderen' because 'auf der anderen Seite' is the correct expression.<br><b>Error type</b>: adjective inflection<br>The word 'ist' is inserted because it is required to link the subject 'es' with the rest of the sentence.<br><b>Error type</b>: verb conjugation<br>The word 'ist' is deleted because it is not needed in this part of the sentence.<br><b>Error type</b>: verb conjugation<br>The word ',' is inserted because commas are used to separate clauses in German.<br><b>Error type</b>: punctuation<br>The word 'sich' is inserted before 'orientieren' because the reflexive pronoun is required with the reflexive verb 'orientieren'.<br><b>Error type</b>: reflexive pronoun<br>The word 'zu' is inserted before 'orientieren' and 'integriert' because it is needed for the infinitive form of the verbs.<br><b>Error type</b>: infinitive<br>The word 'Integrieren' is replaced by 'integriert' because the adjective should be in the past participle form 'integriert'.<br><b>Error type</b>: adjective form<br>The word 'zu' is inserted before 'sein' because 'integriert zu sein' is the correct expression.<br><b>Error type</b>: infinitive",
+        "author": "merlin_1031_0003330",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Vielleicht sollte ich auch kein Pommes oder Schokolade essen.<br><b>Target:</b> Vielleicht sollte ich auch keine Pommes oder Schokolade essen.<br><br><b>Explanation:</b><br>The word 'kein' is replaced by 'keine' because 'Pommes' is a plural noun and 'keine' should agree with the noun's gender and number in the nominative case.<br><b>Error type</b>: gender and number",
+        "author": "merlin_1061_0120881",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Vielleicht ist die Verlockung zu gro\u00df, vielleicht machen Freunde Druck, oder vielleicht denken viel auch einfach nicht an die Folgen.<br><b>Target:</b> Vielleicht ist die Verlockung zu gro\u00df, vielleicht machen Freunde Druck, oder vielleicht denken viele auch einfach nicht an die Folgen.<br><br><b>Explanation:</b><br>The word 'viel' is replaced by 'viele' because 'viele' is the correct plural form of 'viel' when referring to a number of people.<br><b>Error type</b>: plural form",
+        "author": "falko_dhw020_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wenn man die Europa leben, natullen muss man Deutsch lernen.<br><b>Target:</b> Wenn man in Europa lebt, muss man nat\u00fcrlich Deutsch lernen.<br><br><b>Explanation:</b><br>The word 'die' is replaced by 'in' because 'in' is the correct preposition to express living in a location.<br><b>Error type</b>: preposition<br>The word 'leben' is replaced by 'lebt' because the third person singular conjugation of 'leben' is 'lebt'.<br><b>Error type</b>: verb conjugation<br>The word 'natullen' is deleted because it is not a valid German word.<br><b>Error type</b>: non-existent word<br>The word 'nat\u00fcrlich' is inserted because it is the correct German word to express 'of course' or 'naturally'.<br><b>Error type</b>: vocabulary",
+        "author": "merlin_1031_0003203",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich kann zwei Sprachen, zum Beispiel: deutsch und franz\u00f6sisch.<br><b>Target:</b> Ich kann zwei Sprachen, zum Beispiel: Deutsch und Franz\u00f6sisch.<br><br><b>Explanation:</b><br>The word 'deutsch' is replaced by 'Deutsch' because language names are capitalized in German.<br><b>Error type</b>: capitalization<br>The word 'franz\u00f6sisch' is replaced by 'Franz\u00f6sisch' because language names are capitalized in German.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1023_0108934",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich bin in park mit meine tante aber wir gehen zur Schwimmen F\u00fcr 5 Uhr.<br><b>Target:</b> Ich bin im Park mit meiner Tante, aber wir gehen zum Schwimmen um 5 Uhr.<br><br><b>Explanation:</b><br>The phrase 'in park' is replaced by 'im Park' because 'im' is the contraction of 'in' and 'dem', and 'Park' is a masculine noun requiring the dative case after the preposition 'in'.<br><b>Error type</b>: preposition and case<br><br>The word 'meine' is replaced by 'meiner' because 'Tante' is a feminine noun in the dative case and 'meiner' agrees with the gender and case.<br><b>Error type</b>: gender and case<br><br>The word 'tante' is replaced by 'Tante' because all German nouns must be capitalized.<br><b>Error type</b>: capitalization<br><br>A comma is inserted because it is used to separate two independent clauses in a sentence.<br><b>Error type</b>: punctuation<br><br>The word 'zur' is replaced by 'zum' because 'zum' is the contraction of 'zu' and 'dem', which is required for the masculine noun 'Schwimmen'.<br><b>Error type</b>: preposition and contraction<br><br>The word 'F\u00fcr' is replaced by 'um' because 'um' is the correct preposition to indicate a specific time in German.<br><b>Error type</b>: preposition",
+        "author": "merlin_1071_0024813",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wie kommen 16-j\u00e4hrige, und j\u00fcnger, an Waffen?<br><b>Target:</b> Wie kommen 16-J\u00e4hrige, und J\u00fcngere an Waffen?<br><br><b>Explanation:</b><br>The word '16-j\u00e4hrige' is replaced by '16-J\u00e4hrige' because in German, substantivized adjectives should be capitalized.<br><b>Error type</b>: capitalization<br>The word 'j\u00fcnger' is replaced by 'J\u00fcngere' because the comparative form of the adjective should be used as a noun and capitalized.<br><b>Error type</b>: capitalization and comparative<br>The comma is deleted because there is no need for it before the word 'an' in this sentence.<br><b>Error type</b>: punctuation",
+        "author": "falko_dew03_2007_09_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> W\u00e4hrend meiner T\u00e4tigkeit erwarb ich Computerkenntnisse wie MS-Office Packets, die ich in meinem Studium koninuierlich weiterentwickelt habe.<br><b>Target:</b> W\u00e4hrend meiner T\u00e4tigkeit erwarb ich Computerkenntnisse wie MS-Office-Paket, die ich in meinem Studium kontinuierlich weiterentwickelt habe.<br><br><b>Explanation:</b><br>The word 'MS-Office Packets' is replaced by 'MS-Office-Paket' because in German, compound nouns are usually connected with a hyphen and the correct term is 'Paket', not 'Packets'.<br><b>Error type</b>: compound noun and spelling<br>The word 'koninuierlich' is replaced by 'kontinuierlich' because 'kontinuierlich' is the correct spelling for expressing continuous progress.<br><b>Error type</b>: spelling",
+        "author": "merlin_1023_0103826",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> We gehts sie est?<br><b>Target:</b> Wie geht's ihr?<br><br><b>Explanation:</b><br>The word 'We' is replaced by 'Wie' because 'Wie' is the correct spelling for asking \"how\".<br><b>Error type</b>: spelling<br>The word 'gehts' is replaced by \"geht's\" because the apostrophe is needed to indicate the contraction of 'geht es'.<br><b>Error type</b>: punctuation<br>The word 'sie' is replaced by 'ihr' because 'ihr' is used to address someone informally (you) in this context.<br><b>Error type</b>: pronoun<br>The word 'est' is deleted because it is not needed in the sentence.<br><b>Error type</b>: unnecessary word",
+        "author": "merlin_1071_0024775",
+        "cefr": "A1",
+        "label": [
+            {
+                "start": "/text()[7]",
+                "end": "/text()[7]",
+                "startOffset": 43,
+                "endOffset": 110,
+                "globalOffsets": {
+                    "start": 359,
+                    "end": 426
+                },
+                "text": " 'ihr' is used to address someone informally (you) in this context.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ],
+        "comments": "not correct explanation, it is addressing \"her\", how is she doing, not informal plural you "
+    },
+    {
+        "text": "<b>Source:</b> Ich bin Maria, komme aus Spanien und wohne in Deutschland seit funfzehn Jahen.<br><b>Target:</b> Ich bin Maria, komme aus Spanien und wohne in Deutschland seit f\u00fcnfzehn Jahren.<br><br><b>Explanation:</b><br>The word 'funfzehn' is replaced by 'f\u00fcnfzehn' because 'f\u00fcnfzehn' is the correct spelling for fifteen in German.<br><b>Error type</b>: spelling<br>The word 'Jahen' is replaced by 'Jahren' because 'Jahren' is the correct plural dative form of 'Jahr' (year), which agrees with the preposition 'seit'.<br><b>Error type</b>: case",
+        "author": "merlin_1031_0003245",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Z.B. die Englischen Kultur ist sehr dominant und, wenn man alein mit seiner Kultur ist, ist unm\u00f6glich oder sehr schwer die Traditionen seines Heimatlands fortzusetzen.<br><b>Target:</b> Z.B. die englische Kultur ist sehr dominant und, wenn man allein mit seiner Kultur ist, es ist unm\u00f6glich oder sehr schwer, die Traditionen seines Heimatlands fortzusetzen.<br><br><b>Explanation:</b><br>The word 'Englischen' is replaced by 'englische' because the correct form of the adjective in this context is 'englische'.<br><b>Error type</b>: adjective inflection<br>The word 'alein' is replaced by 'allein' because 'allein' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'es' is inserted because it is needed as the subject in the subordinate clause to make the sentence grammatically correct.<br><b>Error type</b>: subject insertion<br>A comma is inserted after 'schwer' to separate the subordinate clause from the main clause and improve sentence structure.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003261",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> ich bleibe noch ein monat bei meinen mutter w\u00fcnhst du dir etwas aus Nigeria leben.<br><b>Target:</b> Ich bleibe noch einen Monat bei meiner Mutter. W\u00fcnschst du dir etwas aus Nigeria zum Leben?<br><br><b>Explanation:</b><br>The word 'ich' is replaced by 'Ich' because sentences should start with a capital letter.<br><b>Error type</b>: capitalization<br>The word 'ein' is replaced by 'einen' because 'Monat' is masculine and requires accusative case.<br><b>Error type</b>: case<br>The word 'monat' is replaced by 'Monat' because nouns should be capitalized in German.<br><b>Error type</b>: capitalization<br>The word 'meinen' is replaced by 'meiner' to match the gender and case of the noun 'Mutter'.<br><b>Error type</b>: gender and case<br>The word 'mutter' is replaced by 'Mutter' because nouns should be capitalized in German.<br><b>Error type</b>: capitalization<br>A period is inserted to separate the two sentences.<br><b>Error type</b>: punctuation<br>The word 'w\u00fcnhst' is replaced by 'W\u00fcnschst' because 'W\u00fcnschst' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'leben' is replaced by 'Leben' because nouns should be capitalized in German.<br><b>Error type</b>: capitalization<br>The period is replaced by a question mark because the second sentence is a question.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1061_1202911",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[2]",
+                "end": "/text()[2]",
+                "startOffset": 82,
+                "endOffset": 85,
+                "globalOffsets": {
+                    "start": 180,
+                    "end": 183
+                },
+                "text": "zum",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> wie lieben das baby.<br><b>Target:</b> Wie liebt das Baby?<br><br><b>Explanation:</b><br>The word 'wie' is replaced by 'Wie' because sentences in German start with a capital letter.<br><b>Error type</b>: capitalization<br>The word 'lieben' is replaced by 'liebt' because the verb should be conjugated in the third person singular for the subject 'das Baby'.<br><b>Error type</b>: verb conjugation<br>The word 'baby' is replaced by 'Baby' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization<br>The period is replaced by a question mark because the sentence is a question.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1071_0242092",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Meine Gastfamilie und ich verstand uns \u00fcberhaupt nicht: ich musste nicht f\u00fcnf Stunden, sondern zehn Stunden pro Tag arbeiten, weil die Eltern nie zu Haus waren.<br><b>Target:</b> Meine Gastfamilie und ich verstanden uns \u00fcberhaupt nicht: Ich musste nicht f\u00fcnf Stunden, sondern zehn Stunden pro Tag arbeiten, weil die Eltern nie zu Haus waren.<br><br><b>Explanation:</b><br>The word 'verstand' is replaced by 'verstanden' because the subject 'Meine Gastfamilie und ich' is plural, so the verb should be in its plural form in the past tense.<br><b>Error type</b>: subject-verb agreement<br>The word 'ich' is replaced by 'Ich' because it is the beginning of a new clause and should be capitalized.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1023_0108641",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich spreche flie\u00dfend Englisch und habe gute Kenntnisse in Deutsch<br><b>Target:</b> Ich spreche flie\u00dfend Englisch und habe gute Kenntnisse in Deutsch.<br><br><b>Explanation:</b><br>The '.' is inserted because it is necessary to end a sentence with a punctuation mark.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1023_0101852",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> In der Stadt kann man verschiedene Gelegenheiten haben, um eine Wohnung zu finden: ein Haus oder besser gesagt ein Einfamilienhaus, eine Wohnung in einem Kondominium, auch in Kleinen Strukturen (insgesamt f\u00fcnf oder sechs Wohnungen), eine Villa.<br><b>Target:</b> In der Stadt kann man verschiedene Gelegenheiten haben, um eine Wohnung zu finden: ein Haus oder besser gesagt ein Einfamilienhaus, eine Wohnung in einem Kondominium, auch in kleinen Strukturen (insgesamt f\u00fcnf oder sechs Wohnungen), eine Villa.<br><br><b>Explanation:</b><br>The word 'Kleinen' is replaced by 'kleinen' because adjectives should be in lowercase, unless they are at the beginning of a sentence.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1031_0001703",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Der Chef von die Familie war ganz streng mit mir.<br><b>Target:</b> Der Chef von der Familie war ganz streng mit mir.<br><br><b>Explanation:</b><br>The word 'die' is replaced by 'der' because the preposition 'von' requires the dative case of the noun 'Familie', which is feminine.<br><b>Error type</b>: case",
+        "author": "merlin_1023_0108814",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Anderseits liegt die Integration jeder Mensch an sie selbst.<br><b>Target:</b> Anderseits liegt die Integration bei jedem Menschen an ihm selbst.<br><br><b>Explanation:</b><br>The word 'bei' is inserted because it is the correct preposition to use with the verb 'liegen' in this context.<br><b>Error type</b>: preposition<br>The word 'jeder' is replaced by 'jedem' because the correct dative form of the indefinite pronoun 'jeder' is required.<br><b>Error type</b>: pronoun inflection<br>The word 'Mensch' is replaced by 'Menschen' because the plural form is needed to agree with the pronoun 'jedem'.<br><b>Error type</b>: plural<br>The word 'sie' is replaced by 'ihm' because the pronoun should agree in gender and case with the noun 'Menschen', which is masculine and dative.<br><b>Error type</b>: pronoun agreement",
+        "author": "merlin_1031_0002199",
+        "cefr": "B2",
+        "label": [
+            {
+                "start": "/text()[7]",
+                "end": "/text()[7]",
+                "startOffset": 52,
+                "endOffset": 112,
+                "globalOffsets": {
+                    "start": 496,
+                    "end": 556
+                },
+                "text": "the plural form is needed to agree with the pronoun 'jedem'.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            },
+            {
+                "start": "/text()[8]",
+                "end": "/text()[8]",
+                "startOffset": 2,
+                "endOffset": 8,
+                "globalOffsets": {
+                    "start": 569,
+                    "end": 575
+                },
+                "text": "plural",
+                "labels": [
+                    "Wrong error type"
+                ]
+            }
+        ],
+        "comments": "\"bei jedem Menschen\" is not plural, it is DAT case singular"
+    },
+    {
+        "text": "<b>Source:</b> Ich erwarte von Euch diese Situation zu l\u00f6sen, oder f\u00fcr mich eine neue Familie zu finden.<br><b>Target:</b> Ich erwarte von Euch, diese Situation zu l\u00f6sen, oder f\u00fcr mich eine neue Familie zu finden.<br><br><b>Explanation:</b><br>The comma is inserted after 'Euch' because it separates the main clause from the infinitive clause.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1023_0109591",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Warum nicht mit mir.<br><b>Target:</b> Warum nicht mit mir?<br><br><b>Explanation:</b><br>The period '.' is replaced by a question mark '?' because the sentence is a question.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1091_0000253",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Aber was ihr in betracht ziehen musst, ist di elebensbedinungen in der schweiz.<br><b>Target:</b> Aber was ihr in Betracht ziehen m\u00fcsst, sind die Lebensbedingungen in der Schweiz.<br><br><b>Explanation:</b><br>The word 'betracht' is replaced by 'Betracht' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization<br>The word 'musst' is replaced by 'm\u00fcsst' because it is the correct conjugation for the second person plural form of 'm\u00fcssen'.<br><b>Error type</b>: conjugation<br>The word 'ist' is replaced by 'sind' because the subject 'Lebensbedingungen' is plural, so the verb should also be plural.<br><b>Error type</b>: subject-verb agreement<br>The word 'di' is replaced by 'die' because 'die' is the correct spelling for the definite article in this context.<br><b>Error type</b>: spelling<br>The word 'elebensbedinungen' is replaced by 'Lebensbedingungen' because 'Lebensbedingungen' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'schweiz' is replaced by 'Schweiz' because proper nouns, like country names, should be capitalized in German.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1031_0003355",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Deutsche Sprache ist die Sprache des Goethes er hat Faust auf Deutsch geschrieben.<br><b>Target:</b> Vor allem ist die deutsche Sprache die Sprache Goethes, er hat Faust auf Deutsch geschrieben.<br><br><b>Explanation:</b><br>The word '' is replaced by 'Vor allem' because it adds emphasis to the sentence, showing that the German language is primarily associated with Goethe.<br><b>Error type</b>: emphasis<br>The word 'Deutsche' is replaced by 'deutsche' because it should be in lowercase when used as an adjective.<br><b>Error type</b>: capitalization<br>The word 'Sprache' is relocated to emphasize the importance of the German language in the context of Goethe.<br><b>Error type</b>: word order<br>The word 'des' is replaced by 'die' because 'die' is the correct article for the plural noun 'Sprache' in the nominative case.<br><b>Error type</b>: article<br>The word ',' is inserted to separate the two independent clauses and provide a clearer structure to the sentence.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003246",
+        "cefr": "B2",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 0,
+                "endOffset": 38,
+                "globalOffsets": {
+                    "start": 207,
+                    "end": 245
+                },
+                "text": "The word '' is replaced by 'Vor allem'",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            },
+            {
+                "start": "/text()[7]",
+                "end": "/text()[7]",
+                "startOffset": 0,
+                "endOffset": 108,
+                "globalOffsets": {
+                    "start": 513,
+                    "end": 621
+                },
+                "text": "The word 'Sprache' is relocated to emphasize the importance of the German language in the context of Goethe.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ],
+        "comments": "word order with the Genetiv case "
+    },
+    {
+        "text": "<b>Source:</b> Ein sehr aktuelles Beispiel ist die hohe Zahl der Studenten in Spanien, die Deutschlernen mit die Erwartung eine Arbeitsstelle in Deutschland zu finden, verbinden.<br><b>Target:</b> Ein sehr aktuelles Beispiel ist die hohe Zahl der Studenten in Spanien, die Deutschlernen mit der Erwartung, eine Arbeitsstelle in Deutschland zu finden, verbinden.<br><br><b>Explanation:</b><br>The word 'die' is replaced by 'der' because the noun 'Erwartung' is feminine and requires the genitive case of the definite article 'der' after the preposition 'mit'.<br><b>Error type</b>: case<br>A comma is inserted after 'Erwartung' to separate the subordinate clause and to indicate the appropriate pause required in the sentence structure.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003146",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Jeder Mensch besitzt ein F\u00fchrungszeugniss, indem dies dann eingetragen wird.<br><b>Target:</b> Jeder Mensch besitzt ein F\u00fchrungszeugnis, in dem dies dann eingetragen wird.<br><br><b>Explanation:</b><br>The word 'F\u00fchrungszeugniss' is replaced by 'F\u00fchrungszeugnis' because 'F\u00fchrungszeugnis' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'indem' is replaced by 'in dem' because 'in dem' is the correct preposition to express \"in which\" for a location or context, especially with a neuter noun like 'F\u00fchrungszeugnis'.<br><b>Error type</b>: preposition",
+        "author": "falko_dhw038_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> wir Treffen uns. im zu hause.<br><b>Target:</b> Wir treffen uns zu Hause.<br><br><b>Explanation:</b><br>The word 'wir' is replaced by 'Wir' because sentences should always start with a capital letter.<br><b>Error type</b>: capitalization<br>The word 'Treffen' is replaced by 'treffen' because verbs should not be capitalized unless they are at the beginning of a sentence.<br><b>Error type</b>: capitalization<br>The word 'zu' is inserted because 'zu Hause' is the correct expression for 'at home'.<br><b>Error type</b>: expression<br>The word 'hause' is replaced by 'Hause' because 'Hause' is the correct spelling in the expression 'zu Hause'.<br><b>Error type</b>: spelling<br>The period is deleted because it should not appear in the middle of the sentence.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1071_0024810",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 18,
+                "endOffset": 20,
+                "globalOffsets": {
+                    "start": 25,
+                    "end": 27
+                },
+                "text": "im",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> ich finde dass bissen schwerig, weil ich viel Stunde arbeiten muss. und meine Kolege bissen bl\u00f6d.<br><b>Target:</b> Ich finde das ein bisschen schwierig, weil ich viele Stunden arbeiten muss und mein Kollege ein bisschen bl\u00f6d ist.<br><br><b>Explanation:</b><br>The word 'ich' is replaced by 'Ich' because the first word of a sentence should be capitalized.<br><b>Error type</b>: capitalization<br>The word 'dass' is replaced by 'das' because the correct conjunction here is 'das'.<br><b>Error type</b>: conjunction<br>The word 'ein' is inserted because it's needed before an adjective like 'bisschen'.<br><b>Error type</b>: determiner<br>The word 'bissen' is replaced by 'bisschen' because 'bisschen' is the correct spelling for \"a little.\"<br><b>Error type</b>: spelling<br>The word 'schwerig' is replaced by 'schwierig' because 'schwierig' is the correct spelling for \"difficult.\"<br><b>Error type</b>: spelling<br>The word 'viel' is replaced by 'viele' because the noun 'Stunden' is plural and requires the plural form of the adjective.<br><b>Error type</b>: adjective inflection<br>The word 'Stunde' is replaced by 'Stunden' because the noun should be in plural form.<br><b>Error type</b>: plural<br>The '.' is deleted because there is no need for a period before the word 'und'.<br><b>Error type</b>: punctuation<br>The word 'meine' is replaced by 'mein' because 'Kollege' is masculine and should have the masculine determiner \"mein.\"<br><b>Error type</b>: gender<br>The word 'Kolege' is replaced by 'Kollege' because 'Kollege' is the correct spelling for \"colleague.\"<br><b>Error type</b>: spelling<br>The word 'ein' is inserted because it's needed before an adjective like 'bisschen.'<br><b>Error type</b>: determiner<br>The word 'bissen' is replaced by 'bisschen' because 'bisschen' is the correct spelling for \"a little.\"<br><b>Error type</b>: spelling<br>The word 'ist' is inserted because the verb 'to be' was missing and is needed for proper sentence structure.<br><b>Error type</b>: verb",
+        "author": "merlin_1061_0120483",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Aber ich m\u00f6chte die Miete und nebengusten nicht zu teuer sein bis 600\u20ac.<br><b>Target:</b> Aber ich m\u00f6chte die Miete und die Nebenkosten nicht zu teuer, bis 600 \u20ac.<br><br><b>Explanation:</b><br>The word 'die' is inserted because it is needed as a determiner for the noun 'Nebenkosten'.<br><b>Error type</b>: determiner<br><br>The word \"nebengusten\" is replaced by \"Nebenkosten\" because \"Nebenkosten\" is the correct spelling for 'utilities' in German.<br><b>Error type</b>: spelling<br><br>The word \"sein\" is deleted because it is not necessary for the sentence construction and makes the sentence grammatically incorrect.<br><b>Error type</b>: unnecessary word<br><br>A comma is inserted to separate the two clauses, improving sentence structure and clarity.<br><b>Error type</b>: punctuation<br><br>The word \"600\u20ac\" is replaced by \"600 \u20ac\" because there should be a space between the numeral and the currency symbol in German.<br><b>Error type</b>: spacing and formatting<br><br>A full stop is inserted at the end of the sentence to indicate its completion.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1091_0000125",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[13]",
+                "end": "/text()[14]",
+                "startOffset": 0,
+                "endOffset": 13,
+                "globalOffsets": {
+                    "start": 879,
+                    "end": 981
+                },
+                "text": "A full stop is inserted at the end of the sentence to indicate its completion.\\nError type: punctuation",
+                "labels": [
+                    "Hallucinated error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Bis 30.04 ich muss in neue Wohnung umladen, weil am 01.05 meine neue Arbeit beginn.<br><b>Target:</b> Bis 30.04. muss ich in die neue Wohnung umladen, weil am 01.05. meine neue Arbeit beginnt.<br><br><b>Explanation:</b><br>The '.' is inserted because it is used to separate the day and month in a German date format.<br><b>Error type</b>: punctuation<br>The word 'muss' is inserted because it is the correct conjugation of 'm\u00fcssen' for the pronoun 'ich'.<br><b>Error type</b>: verb conjugation<br>The word 'ich' is inserted because it is the pronoun that corresponds to the subject performing the action of 'm\u00fcssen'.<br><b>Error type</b>: subject pronoun<br>The word 'die' is inserted because 'neue Wohnung' requires a determiner and uses accusative case.<br><b>Error type</b>: determiner<br>The word 'beginn' is replaced by 'beginnt' because it is the correct conjugation of 'beginnen' for the subject 'meine neue Arbeit'.<br><b>Error type</b>: verb conjugation",
+        "author": "merlin_1071_0024757",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[7]",
+                "end": "/text()[7]",
+                "startOffset": 0,
+                "endOffset": 119,
+                "globalOffsets": {
+                    "start": 453,
+                    "end": 572
+                },
+                "text": "The word 'ich' is inserted because it is the pronoun that corresponds to the subject performing the action of 'm\u00fcssen'.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            },
+            {
+                "start": "/text()[8]",
+                "end": "/text()[8]",
+                "startOffset": 2,
+                "endOffset": 17,
+                "globalOffsets": {
+                    "start": 585,
+                    "end": 600
+                },
+                "text": "subject pronoun",
+                "labels": [
+                    "Wrong error type"
+                ]
+            },
+            {
+                "start": "/text()[2]",
+                "end": "/text()[2]",
+                "startOffset": 63,
+                "endOffset": 64,
+                "globalOffsets": {
+                    "start": 162,
+                    "end": 163
+                },
+                "text": ".",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ],
+        "comments": "here is a relocation of ich, not insertion, and the error type is a word order "
+    },
+    {
+        "text": "<b>Source:</b> Eine Wohnung in Stadt X zu kaufen ist noch teuer.<br><b>Target:</b> Eine Wohnung in Stadt X zu kaufen ist noch teuerer.<br><br><b>Explanation:</b><br>The word 'teuer' is replaced by 'teuerer' because 'teuerer' is the comparative form of 'teuer', indicating a higher degree of expensiveness.<br><b>Error type</b>: comparative",
+        "author": "merlin_1031_0003076",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ist das Ihren besten super-guten Service?<br><b>Target:</b> Ist das Ihr bestes super-gutes Service?<br><br><b>Explanation:</b><br>The word 'Ihren' is replaced by 'Ihr' because it should agree with the gender and case of the word Service, which is neuter and nominative.<br><b>Error type</b>: gender and case<br>The word 'besten' is replaced by 'bestes' because it should agree with the gender and case of the word Service, which is neuter and nominative.<br><b>Error type</b>: gender and case<br>The word 'super-guten' is replaced by 'super-gutes' because it should agree with the gender and case of the word Service, which is neuter and nominative.<br><b>Error type</b>: gender and case",
+        "author": "merlin_1023_0108305",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich w\u00fcnsche dir und in deiner Familie gesund und Viel Gl\u00fcck.<br><b>Target:</b> Ich w\u00fcnsche dir und deiner Familie Gesundheit und viel Gl\u00fcck.<br><br><b>Explanation:</b><br>The word 'in' is deleted because it is not needed in this context and the correct way to express the wishes is by connecting 'dir' and 'deiner Familie' directly.<br><b>Error type</b>: preposition<br>The word 'gesund' is replaced by 'Gesundheit' because 'Gesundheit' is the noun form for 'health' and it is a proper term for wishing someone well.<br><b>Error type</b>: word choice<br>The word 'Viel' is replaced by 'viel' because it should be in lowercase as it is an adverb modifying 'Gl\u00fcck,' not a noun requiring capitalization.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1071_0024871",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Und Ich bringe das zu Haus.<br><b>Target:</b> Und ich bringe das nach Haus.<br><br><b>Explanation:</b><br>The word 'Ich' is replaced by 'ich' because the pronoun should be lowercase when not used at the beginning of a sentence.<br><b>Error type</b>: capitalization<br>The word 'zu' is replaced by 'nach' because the expression \"nach Hause\" is the correct way to say 'to home' in German.<br><b>Error type</b>: preposition",
+        "author": "merlin_1091_0000265",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> F\u00fcr die Zukunft k\u00f6nnte diese L\u00f6sung bedeuten, dass das Land ein Politik der Multikulturalismus entwickeln muss.<br><b>Target:</b> F\u00fcr die Zukunft k\u00f6nnte diese L\u00f6sung bedeuten, dass das Land eine Politik des Multikulturalismus entwickeln muss.<br><br><b>Explanation:</b><br>The word 'ein' is replaced by 'eine' because the noun 'Politik' is feminine and requires the appropriate article in the nominative case.<br><b>Error type</b>: gender and case<br>The word 'der' is replaced by 'des' because 'Multikulturalismus' is masculine and requires the genitive case after 'Politik'.<br><b>Error type</b>: case",
+        "author": "merlin_1031_0002043",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Doch obwohl die Gefahr sehr gro\u00df ist verhaftet und abgeurteilt zu werden, schreckt das viele Personen verschiedener Altersgruppen nicht ab \"rechtswidrig aktiv\" zu werden.<br><b>Target:</b> Doch obwohl die Gefahr sehr gro\u00df ist, verhaftet und abgeurteilt zu werden, schreckt das viele Personen verschiedener Altersgruppen nicht ab, \"rechtswidrig aktiv\" zu werden.<br><br><b>Explanation:</b><br>The comma (,) is inserted after 'gro\u00df ist' and 'nicht ab' to indicate a pause separating the main clauses and improve readability.<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw028_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Aber ich denke, man soll diese Schweirigkeiten durch Lernen von Kultur des Gastlandes k\u00e4mpfen.<br><b>Target:</b> Aber ich denke, man soll diese Schwierigkeiten durch Lernen von der Kultur des Gastlandes bek\u00e4mpfen.<br><br><b>Explanation:</b><br>The word 'Schweirigkeiten' is replaced by 'Schwierigkeiten' because 'Schwierigkeiten' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'der' is inserted because the preposition 'von' requires the dative case of a noun and 'Kultur' is feminine.<br><b>Error type</b>: case<br>The word 'k\u00e4mpfen' is replaced by 'bek\u00e4mpfen' because 'bek\u00e4mpfen' means to fight against something, which is more suitable in this context.<br><b>Error type</b>: verb choice",
+        "author": "merlin_1031_0002011",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Es ist sehr warm mit nicht so viel regen.<br><b>Target:</b> Es ist sehr warm mit nicht so viel Regen.<br><br><b>Explanation:</b><br>The word 'regen' is replaced by 'Regen' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1061_0120487",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> F\u00fcr manche verbrechen ist es sicherlich richtig zu sagen, dass sie sich ausgezahlt haben, wenn man nicht erwischt wurde.<br><b>Target:</b> F\u00fcr manche Verbrechen ist es sicherlich richtig zu sagen, dass sie sich ausgezahlt haben, wenn man nicht erwischt wurde.<br><br><b>Explanation:</b><br>The word 'verbrechen' is replaced by 'Verbrechen' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization",
+        "author": "falko_dhw022_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Das waren unverg\u00e4sliche Momente.<br><b>Target:</b> Das waren unvergessliche Momente.<br><br><b>Explanation:</b><br>The word 'unverg\u00e4sliche' is replaced by 'unvergessliche' because 'unvergessliche' is the correct spelling.<br><b>Error type</b>: spelling",
+        "author": "merlin_1031_0003337",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich verf\u00fcge Deutschkenntnisse im Wort und Schrift B2-Niveau - ist das gen\u00fcgend?<br><b>Target:</b> Ich verf\u00fcge \u00fcber Deutschkenntnisse in Wort und Schrift auf B2-Niveau - ist das gen\u00fcgend?<br><br><b>Explanation:</b><br>The word '\u00fcber' is inserted because the verb 'verf\u00fcgen' requires the preposition '\u00fcber' when expressing possession or having a skill.<br><b>Error type</b>: preposition<br>The word 'im' is replaced by 'in' because the correct phrase is 'in Wort und Schrift' to express written and spoken language skills.<br><b>Error type</b>: preposition<br>The word 'auf' is inserted because the preposition 'auf' is used with language levels to indicate proficiency.<br><b>Error type</b>: preposition",
+        "author": "merlin_1023_0109519",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Sie ist eine kleine Stadt, ungef\u00e4hr 35.000 Einbewohner.<br><b>Target:</b> Sie ist eine kleine Stadt, hat ungef\u00e4hr 35.000 Einbewohner.<br><br><b>Explanation:</b><br>The word 'hat' is inserted because it is needed to form a complete clause, indicating that the small town has approximately 35,000 residents.<br><b>Error type</b>: missing verb",
+        "author": "merlin_1031_0001703",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Warum ist dann die Nachfrage um Deutschsprache zu lernen so gro\u00df?<br><b>Target:</b> Warum ist dann die Nachfrage, die deutsche Sprache zu lernen, so gro\u00df?<br><br><b>Explanation:</b><br>The word 'um' is deleted because it is unnecessary in this sentence and the structure works without it.<br><b>Error type</b>: unnecessary word<br>The word 'Deutschsprache' is replaced by 'deutsche Sprache' because this is the correct way to express 'the German language.'<br><b>Error type</b>: word choice<br>An additional comma is inserted to set off the phrase 'die deutsche Sprache zu lernen' as a subordinate clause.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003130",
+        "cefr": "C1",
+        "label": [
+            {
+                "start": "/text()[2]",
+                "end": "/text()[2]",
+                "startOffset": 31,
+                "endOffset": 34,
+                "globalOffsets": {
+                    "start": 112,
+                    "end": 115
+                },
+                "text": "die",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Ist beide gesund?<br><b>Target:</b> Sind beide gesund?<br><br><b>Explanation:</b><br>The word 'Ist' is replaced by 'Sind' because the subject 'beide' (both) is plural and requires the plural form of the verb 'sein' (to be).<br><b>Error type</b>: subject-verb agreement",
+        "author": "merlin_1071_0243622",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Seit anfang 2011 sind die Kaufpresse deutlich gefallen.<br><b>Target:</b> Seit Anfang 2011 ist die Kaufpresse deutlich gefallen.<br><br><b>Explanation:</b><br>The word 'anfang' is replaced by 'Anfang' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization<br>The word 'sind' is replaced by 'ist' because 'Kaufpresse' is singular, and the verb should agree in number.<br><b>Error type</b>: subject-verb agreement",
+        "author": "merlin_1031_0003392",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> M\u00f6chte ich aber zuerst ein weitere Information haben- ausf\u00fcrliches Info wird mir helfen<br><b>Target:</b> Ich m\u00f6chte aber zuerst eine weitere Information haben - ausf\u00fchrliche Info wird mir helfen.<br><br><b>Explanation:</b><br>The word 'ich' is relocated after 'm\u00f6chte' because the subject should come after the modal verb in a main clause.<br><b>Error type</b>: word order<br>The word 'M\u00f6chte' is replaced by 'm\u00f6chte' because verbs in the middle of a sentence should be in lowercase.<br><b>Error type</b>: capitalization<br>The word 'ein' is replaced by 'eine' because it agrees with the gender of \"Information\" (feminine) and takes the singular, indefinite article.<br><b>Error type</b>: gender and case<br>Spaces are inserted around the hyphen to follow proper punctuation and spacing rules.<br><b>Error type</b>: punctuation<br>The word 'ausf\u00fcrliches' is replaced by 'ausf\u00fchrliche' because 'ausf\u00fchrliche' is the correct spelling and agrees with the gender of \"Info\" (feminine).<br><b>Error type</b>: spelling and gender<br>A period is inserted at the end of the sentence to complete the sentence and apply proper punctuation.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1023_0109524",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Das Problem shteht oft dann, dass die verschiedene Minderheiten im bestimmten Viertel einer Gro\u00dfstadt leben, sie treffen sich nur mit den da Lebenden, und sie m\u00fcssen ihre Gegend nicht verlassen um etwas zu erledigen.<br><b>Target:</b> Dann steht oft das Problem, dass die verschiedenen Minderheiten in einem bestimmten Viertel einer Gro\u00dfstadt leben, sie treffen sich nur mit den da Lebenden, und sie m\u00fcssen ihre Gegend nicht verlassen, um etwas zu erledigen.<br><br><b>Explanation:</b><br>The word 'Dann' is inserted because it serves as a conjunction and should be placed at the beginning of the sentence.<br><b>Error type</b>: conjunction<br>The word 'Das' is deleted because it is not needed when 'Dann' is inserted.<br><b>Error type</b>: conjunction<br>The word 'oft' is relocated after 'Dann' because this placement better reflects the intended meaning.<br><b>Error type</b>: word order<br>The word 'das' is inserted before 'Problem' to show that it is a specific problem being referred to.<br><b>Error type</b>: determiner<br>The word 'verschiedene' is replaced by 'verschiedenen' because it should agree with the plural noun 'Minderheiten'.<br><b>Error type</b>: adjective inflection<br>The word 'im' is replaced by 'in einem' because 'in einem' is the correct preposition for showing position in a location.<br><b>Error type</b>: preposition<br>The comma ',' is inserted before 'um' because a comma is required before a subordinate clause related to purpose or condition.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003239",
+        "cefr": "C1",
+        "label": [
+            {
+                "start": "/text()[5]",
+                "end": "/text()[6]",
+                "startOffset": 0,
+                "endOffset": 13,
+                "globalOffsets": {
+                    "start": 613,
+                    "end": 712
+                },
+                "text": "The word 'Das' is deleted because it is not needed when 'Dann' is inserted.\nError type: conjunction",
+                "labels": [
+                    "Hallucinated error"
+                ]
+            },
+            {
+                "start": "/text()[7]",
+                "end": "/text()[8]",
+                "startOffset": 0,
+                "endOffset": 12,
+                "globalOffsets": {
+                    "start": 713,
+                    "end": 837
+                },
+                "text": "The word 'oft' is relocated after 'Dann' because this placement better reflects the intended meaning.\nError type: word order",
+                "labels": [
+                    "Hallucinated error"
+                ]
+            },
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 1,
+                "endOffset": 28,
+                "globalOffsets": {
+                    "start": 8,
+                    "end": 35
+                },
+                "text": "Das Problem shteht oft dann",
+                "labels": [
+                    "Missing error"
+                ]
+            },
+            {
+                "start": "/text()[9]",
+                "end": "/text()[10]",
+                "startOffset": 0,
+                "endOffset": 12,
+                "globalOffsets": {
+                    "start": 838,
+                    "end": 961
+                },
+                "text": "The word 'das' is inserted before 'Problem' to show that it is a specific problem being referred to.\nError type: determiner",
+                "labels": [
+                    "Hallucinated error"
+                ]
+            }
+        ],
+        "comments": "I would say it was the words relocation, not insertion and deletion \n\n"
+    },
+    {
+        "text": "<b>Source:</b> Die Luft ist frich.<br><b>Target:</b> Die Luft ist frisch.<br><br><b>Explanation:</b><br>The word 'frich' is replaced by 'frisch' because 'frisch' is the correct spelling.<br><b>Error type</b>: spelling",
+        "author": "merlin_1031_0003161",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Aber ich habe noch einigen Fragen dazu.<br><b>Target:</b> Aber ich habe noch einige Fragen dazu.<br><br><b>Explanation:</b><br>The word 'einigen' is replaced by 'einige' because the adjective should have a weak inflection to agree with the plural noun 'Fragen' in the accusative case.<br><b>Error type</b>: adjective inflection",
+        "author": "merlin_1023_0109717",
+        "cefr": "B2",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 51,
+                "endOffset": 157,
+                "globalOffsets": {
+                    "start": 160,
+                    "end": 266
+                },
+                "text": "the adjective should have a weak inflection to agree with the plural noun 'Fragen' in the accusative case.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ],
+        "comments": "it is a strong one, not a weak"
+    },
+    {
+        "text": "<b>Source:</b> Sagen Sie bitte name des Babyi ?<br><b>Target:</b> Sagen Sie bitte den Namen des Babys.<br><br><b>Explanation:</b><br>The word 'name' is replaced by 'Namen' because it should be in the accusative case as it is the object.<br><b>Error type</b>: case<br><br>The word 'Babyi' is replaced by 'Babys' because 'Babyi' is not a correct word in German.<br><b>Error type</b>: spelling<br><br>The word 'den' is inserted because the masculine noun 'Namen' requires the accusative article 'den'.<br><b>Error type</b>: determiner<br><br>The word '.' is inserted because it is necessary to end a sentence with a period.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1071_0248317",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Die Einwanderung h\u00e4lt die Gesellschaft immer wieder einen Spiegel vor.<br><b>Target:</b> Die Einwanderung h\u00e4lt der Gesellschaft immer wieder einen Spiegel vor.<br><br><b>Explanation:</b><br>The word 'die' is replaced by 'der' because it should agree with the gender and case of the word 'Gesellschaft', which is feminine and dative.<br><b>Error type</b>: gender and case",
+        "author": "merlin_1031_0003088",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Auch Kinder die oft mit Computerspielen zu tun haben, identifizieren sich mit diesen Gewaltspielen und werden sp\u00e4ter Kriminell und lassen sich von diesen Tatsachen leiten.<br><b>Target:</b> Auch Kinder, die oft mit Computerspielen zu tun haben, identifizieren sich mit diesen Gewaltspielen und werden sp\u00e4ter kriminell und lassen sich von diesen Tatsachen leiten.<br><br><b>Explanation:</b><br>The comma is inserted because it is necessary to separate the relative clause \"die oft mit Computerspielen zu tun haben\" from the main clause.<br><b>Error type</b>: punctuation<br>The word 'Kriminell' is replaced by 'kriminell' because adjectives should not be capitalized unless they begin a sentence or are used as nouns.<br><b>Error type</b>: capitalization",
+        "author": "falko_dew20_2007_09_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich warte auf deine antwort.<br><b>Target:</b> Ich warte auf deine Antwort.<br><br><b>Explanation:</b><br>The word 'antwort' is replaced by 'Antwort' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1091_0000247",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Um weiterhin gut leben zu k\u00f6nnen stehlen sie weiter.<br><b>Target:</b> Um weiterhin gut leben zu k\u00f6nnen, stehlen sie weiter.<br><br><b>Explanation:</b><br>The comma is inserted after \"k\u00f6nnen\" because it separates the dependent clause from the main clause, providing clarity and improving readability.<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw018_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich werfe Meinen Schl\u00fcssel ich Ihren brifkasten.<br><b>Target:</b> Ich werfe meinen Schl\u00fcssel in Ihren Briefkasten.<br><br><b>Explanation:</b><br>The word 'Meinen' is replaced by 'meinen' because German adjectives are not capitalized within a sentence.<br><b>Error type</b>: capitalization<br>The word 'ich' is replaced by 'in' because the correct preposition for placing an object into another object is 'in'.<br><b>Error type</b>: preposition<br>The word 'brifkasten' is replaced by 'Briefkasten' because 'Briefkasten' is the correct spelling for the German word meaning 'mailbox'.<br><b>Error type</b>: spelling",
+        "author": "merlin_1091_0000063",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich wohne jetzt in Stadt X aber n\u00e4chten Monat m\u00f6chte ich nach Stadt Z.<br><b>Target:</b> Ich wohne jetzt in Stadt X, aber n\u00e4chsten Monat m\u00f6chte ich nach Stadt Z.<br><br><b>Explanation:</b><br>The word ',' is inserted because it is necessary to separate two independent clauses in the sentence.<br><b>Error type</b>: punctuation<br>The word 'n\u00e4chten' is replaced by 'n\u00e4chsten' because German uses accusative case for time expressions, and the correct form is 'n\u00e4chsten' in this context.<br><b>Error type</b>: case",
+        "author": "merlin_1091_0000203",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Diese \"Emanzen\" neigen einfach dazu alles zu \u00fcbertreiben und r\u00fccken damit s\u00e4mtliche anderen Frauen, die einfach mal ihre Meinung sagen, ins schlechte Licht.<br><b>Target:</b> Diese \"Emanzen\" neigen einfach dazu, alles zu \u00fcbertreiben und r\u00fccken damit s\u00e4mtliche anderen Frauen, die einfach mal ihre Meinung sagen, ins schlechte Licht.<br><br><b>Explanation:</b><br>The comma is inserted after \"dazu\" because it separates the main clause from the dependent clause, improving the sentence structure and readability.<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw019_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Diese Menschen sind ganz anders, als die richtige Ungarische.<br><b>Target:</b> Diese Menschen sind ganz anders als die richtigen ungarischen.<br><br><b>Explanation:</b><br>The comma is deleted because no comma is needed before 'als' when making a comparison.<br><b>Error type</b>: punctuation<br>The word 'richtige' is replaced by 'richtigen' because the adjective should agree with the case, gender, and number of the noun it is modifying (in this case, plural and accusative).<br><b>Error type</b>: adjective inflection<br>The word 'Ungarische' is replaced by 'ungarischen' because the first letter of adjectives following an article should be in lowercase and the adjective should agree with the case, gender, and number of the noun it is modifying.<br><b>Error type</b>: capitalization and adjective inflection",
+        "author": "merlin_1031_0003212",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> dir und deine Famillia alles gute.<br><b>Target:</b> Ich w\u00fcnsche dir und deiner Familie alles Gute.<br><br><b>Explanation:</b><br>The word '' is inserted before 'Ich w\u00fcnsche' because it is required to complete the sentence with a proper verb and structure.<br><b>Error type</b>: verb and structure<br>The word 'deine' is replaced by 'deiner' because the possessive pronoun needs to agree with the gender and case of the word 'Familie', which is feminine and dative.<br><b>Error type</b>: gender and case<br>The word 'Famillia' is replaced by 'Familie' because 'Familie' is the correct spelling in German.<br><b>Error type</b>: spelling<br>The word 'gute' is replaced by 'Gute' because nouns and noun phrases in the context of wishes are capitalized in German.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1061_0120375",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 0,
+                "endOffset": 44,
+                "globalOffsets": {
+                    "start": 112,
+                    "end": 156
+                },
+                "text": "The word '' is inserted before 'Ich w\u00fcnsche'",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Wenn die Wohnung sich in der Mitte des mehrstockigen Hauses befindet, w\u00e4re die f\u00fcr Sie auch optimale Wohnung, weil Sie die W\u00e4rme sparen k\u00f6nnten.<br><b>Target:</b> Wenn die Wohnung sich in der Mitte des mehrst\u00f6ckigen Hauses befindet, w\u00e4re die f\u00fcr Sie auch eine optimale Wohnung, weil Sie die W\u00e4rme sparen k\u00f6nnten.<br><br><b>Explanation:</b><br>The word 'mehrstockigen' is replaced by 'mehrst\u00f6ckigen' because 'mehrst\u00f6ckigen' is the correct spelling of the word for a multi-story building.<br><b>Error type</b>: spelling<br>The word 'eine' is inserted because it is necessary to include an indefinite article before the adjective 'optimale' for better clarity and proper sentence structure.<br><b>Error type</b>: determiner",
+        "author": "merlin_1031_0003390",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich bin flexible, so dass verschieden Arbeitzeit m\u00f6glich ist.<br><b>Target:</b> Ich bin flexibel, so dass verschiedene Arbeitzeit m\u00f6glich ist.<br><br><b>Explanation:</b><br>The word 'flexible' is replaced by 'flexibel' because 'flexibel' is the correct spelling for the German adjective.<br><b>Error type</b>: spelling<br>The word 'verschieden' is replaced by 'verschiedene' because it should agree with the gender and case of the word Arbeitzeit, which is feminine and nominative.<br><b>Error type</b>: gender and case",
+        "author": "merlin_1023_0103839",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> ruf mich sofort an.<br><b>Target:</b> Ruf mich sofort an.<br><br><b>Explanation:</b><br>The word 'ruf' is replaced by 'Ruf' because sentences in German should start with a capital letter.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1071_0248334",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Doch als Erwachsenener ist dies in psychologischer Hinsicht weitaus schwieriger, denn wer fr\u00fcher noch als \"cool\" galt, wenn er Kaugummies klaute, gilt jetzt nur noch als armselig und irgendwann merkt man, dass man seinen Lebensstandard nicht halten kann, denn ohne eigenes Einkommen, kann man nicht \u00fcber die Runden kommen, da man einfach nicht alles stehlen kann.<br><b>Target:</b> Doch als Erwachsener ist dies in psychologischer Hinsicht weitaus schwieriger, denn wer fr\u00fcher noch als \"cool\" galt, wenn er Kaugummis klaute, gilt jetzt nur noch als armselig und irgendwann merkt man, dass man seinen Lebensstandard nicht halten kann, denn ohne eigenes Einkommen kann man nicht \u00fcber die Runden kommen, da man einfach nicht alles stehlen kann.<br><br><b>Explanation:</b><br>The word 'Erwachsenener' is replaced by 'Erwachsener' because 'Erwachsener' is the correct spelling for the nominative form of 'Erwachsenener'.<br><b>Error type</b>: spelling<br>The word 'Kaugummies' is replaced by 'Kaugummis' because 'Kaugummis' is the correct plural form of 'Kaugummi' in German.<br><b>Error type</b>: plural<br>The comma is deleted because it is unnecessary to separate two parts of a subordinate clause.<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw018_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ein altes Haus bracht vielleicht eine Renovierung.<br><b>Target:</b> Ein altes Haus braucht vielleicht eine Renovierung.<br><br><b>Explanation:</b><br>The word 'bracht' is replaced by 'braucht' because 'braucht' is the correct conjugation of the verb 'brauchen' in the present tense, while 'bracht' is the simple past form of 'bringen'.<br><b>Error type</b>: verb tense",
+        "author": "merlin_1031_0001703",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> danch ich m\u00f6che gerne arbeite und wohnen auch.<br><b>Target:</b> Danach m\u00f6chte ich gerne arbeiten und auch wohnen.<br><br><b>Explanation:</b><br>The word 'danch' is replaced by 'Danach' because 'Danach' is the correct spelling for expressing 'after that' in German.<br><b>Error type</b>: spelling<br>The word 'm\u00f6chte' is inserted because it is the correct modal verb form to express desire.<br><b>Error type</b>: modal verb<br>The word 'm\u00f6che' is deleted because it is not the correct form of the modal verb and was replaced by 'm\u00f6chte'.<br><b>Error type</b>: modal verb<br>The word 'arbeite' is replaced by 'arbeiten' because it should be in the infinitive form after a modal verb.<br><b>Error type</b>: infinitive<br>The word 'auch' is relocated because it should be placed after 'und' to correctly express 'and also.'<br><b>Error type</b>: word order",
+        "author": "merlin_1071_0024808",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 7,
+                "endOffset": 16,
+                "globalOffsets": {
+                    "start": 14,
+                    "end": 23
+                },
+                "text": "ich m\u00f6che",
+                "labels": [
+                    "Missing error"
+                ]
+            },
+            {
+                "start": "/text()[5]",
+                "end": "/text()[8]",
+                "startOffset": 1,
+                "endOffset": 12,
+                "globalOffsets": {
+                    "start": 270,
+                    "end": 516
+                },
+                "text": "he word 'm\u00f6chte' is inserted because it is the correct modal verb form to express desire.\nError type: modal verb\nThe word 'm\u00f6che' is deleted because it is not the correct form of the modal verb and was replaced by 'm\u00f6chte'.\nError type: modal verb",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ],
+        "comments": "I consider it to be a word order error type, so word relocation + spelling"
+    },
+    {
+        "text": "<b>Source:</b> W\u00fcnsche ich Sie angenehme und gl\u00fcckliche Reise.<br><b>Target:</b> Ich w\u00fcnsche Ihnen eine angenehme und gl\u00fcckliche Reise.<br><br><b>Explanation:</b><br>The word 'W\u00fcnsche' is replaced by 'Ich w\u00fcnsche' because the subject should come before the verb in a typical German sentence.<br><b>Error type</b>: word order<br>The word 'ich' is replaced by 'Ihnen' because 'Ihnen' is the correct dative pronoun for formal address.<br><b>Error type</b>: pronoun<br>The word 'eine' is inserted because the adjective 'angenehme' needs an indefinite article in the sentence.<br><b>Error type</b>: article<br>The word 'Sie' is deleted because it should not be present in the sentence; 'Ihnen' already serves as the pronoun.<br><b>Error type</b>: redundant word",
+        "author": "merlin_1091_0000072",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[5]",
+                "end": "/text()[6]",
+                "startOffset": 0,
+                "endOffset": 9,
+                "globalOffsets": {
+                    "start": 282,
+                    "end": 405
+                },
+                "text": "The word 'ich' is replaced by 'Ihnen' because 'Ihnen' is the correct dative pronoun for formal address.\nError type: pronoun",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            },
+            {
+                "start": "/text()[9]",
+                "end": "/text()[10]",
+                "startOffset": 0,
+                "endOffset": 16,
+                "globalOffsets": {
+                    "start": 533,
+                    "end": 674
+                },
+                "text": "The word 'Sie' is deleted because it should not be present in the sentence; 'Ihnen' already serves as the pronoun.\nError type: redundant word",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Leider k\u00f6nnen Sie aber nicht Fahren<br><b>Target:</b> Leider k\u00f6nnen Sie aber nicht fahren.<br><br><b>Explanation:</b><br>The word 'Fahren' is replaced by 'fahren' because verbs in German should not be capitalized unless they are at the beginning of a sentence.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1091_0000014",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Es gibt einfach zu viel Ligenschaften jeder Art, die zu Verf\u00fcgung stehen.<br><b>Target:</b> Es gibt einfach zu viele Ligenschaften jeder Art, die zur Verf\u00fcgung stehen.<br><br><b>Explanation:</b><br>The word 'viel' is replaced by 'viele' because 'viele' agrees with the plural form of the noun 'Ligenschaften'.<br><b>Error type</b>: agreement<br>The word 'zu' is replaced by 'zur' because 'zur Verf\u00fcgung stehen' is the correct phrase, where 'zur' is a contraction of 'zu' and 'der' in the dative case.<br><b>Error type</b>: preposition and case",
+        "author": "merlin_1031_0003098",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich warte auf antworte!<br><b>Target:</b> Ich warte auf Antwort!<br><br><b>Explanation:</b><br>The word 'antworte' is replaced by 'Antwort' because 'Antwort' is the correct noun form for 'answer'.<br><b>Error type</b>: word form",
+        "author": "merlin_1071_0248348",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above.",
+        "comments": "suggest: capitalization also"
+    },
+    {
+        "text": "<b>Source:</b> Ich gebe dir ihr essen und hause.<br><b>Target:</b> Ich gebe dir ihr Essen und ihr Haus.<br><br><b>Explanation:</b><br>The word 'essen' is replaced by 'Essen' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization<br>The word 'ihr' is inserted because 'ihr' is needed to indicate possession for the word 'Haus'.<br><b>Error type</b>: possessive pronoun<br>The word 'hause' is replaced by 'Haus' because 'Haus' is the correct spelling for the noun meaning 'house'.<br><b>Error type</b>: spelling",
+        "author": "merlin_1091_0000230",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Oft werden auch die unterdr\u00fcckten Jugenlichen zu vielen Sachen gezwungen.<br><b>Target:</b> Oft werden auch die unterdr\u00fcckten Jugendlichen zu vielen Sachen gezwungen.<br><br><b>Explanation:</b><br>The word 'Jugenlichen' is replaced by 'Jugendlichen' because 'Jugendlichen' is the correct spelling.<br><b>Error type</b>: spelling",
+        "author": "falko_dew20_2007_09_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Nat\u00fcrlich, muss man Arbeitslose unterst\u00fctzen aber man muss sie auch animieren zur\u00fcck in ihre Beruf zu gehen oder etwas Neues anfangen zu wollen.<br><b>Target:</b> Nat\u00fcrlich muss man Arbeitslose unterst\u00fctzen, aber man muss sie auch animieren, zur\u00fcck in ihre Berufe zu gehen oder etwas Neues anfangen zu wollen.<br><br><b>Explanation:</b><br>The word ',' is deleted and two ',' are inserted because commas are needed to separate independent clauses and set off non-restrictive clauses.<br><b>Error type</b>: punctuation<br>The word 'Beruf' is replaced by 'Berufe' because the plural form 'Berufe' is needed to refer to multiple jobs.<br><b>Error type</b>: plural",
+        "author": "falko_dhw037_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Man sollte achten, dass man nicht zu viel bezahlt.<br><b>Target:</b> Man sollte darauf achten, dass man nicht zu viel bezahlt.<br><br><b>Explanation:</b><br>The word 'darauf' is inserted because the verb 'achten' requires a reflexive pronoun in combination with 'da-' to indicate the object of attention.<br><b>Error type</b>: missing pronoun",
+        "author": "merlin_1031_0002006",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Uns geht auch ganz gut.<br><b>Target:</b> Uns geht es auch ganz gut.<br><br><b>Explanation:</b><br>The word 'es' is inserted because it serves as a placeholder subject in impersonal expressions, making the sentence grammatically correct.<br><b>Error type</b>: missing subject",
+        "author": "merlin_1061_0120312",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Das ist nat\u00fcrlich kein gro\u00dfer Berg. trotzdem findet man dort die M\u00f6glichkeit ein traumhaftes Haus im Gr\u00fcn zu mieten bzw. zu kaufen, das auch \u00fcber einen wundersch\u00f6nen Garten verf\u00fcgt und das sich besonder f\u00fcr Familien geeignet.<br><b>Target:</b> Das ist nat\u00fcrlich kein gro\u00dfer Berg, trotzdem findet man dort die M\u00f6glichkeit, ein traumhaftes Haus im Gr\u00fcnen zu mieten bzw. zu kaufen, das auch \u00fcber einen wundersch\u00f6nen Garten verf\u00fcgt und das sich besonders f\u00fcr Familien eignet.<br><br><b>Explanation:</b><br>The word '.' is replaced by ',' because a comma is needed to connect two main clauses.<br><b>Error type</b>: punctuation<br>The word ',' is inserted because a comma is needed to separate introductory phrases from the main clause.<br><b>Error type</b>: punctuation<br>The word 'Gr\u00fcn' is replaced by 'Gr\u00fcnen' because 'im Gr\u00fcnen' is the correct expression for living in a green area.<br><b>Error type</b>: expression<br>The word 'besonder' is replaced by 'besonders' because the adverb form 'besonders' is needed to modify \"f\u00fcr Familien.\"<br><b>Error type</b>: adverb<br>The word 'geeignet' is replaced by 'eignet' because the verb form 'eignet sich' is needed to agree with the subject \"das\" (meaning \"the house\").<br><b>Error type</b>: verb agreement",
+        "author": "merlin_1031_0003063",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Daf\u00fcr habe ich Tag f\u00fcr Tag Geld gesparen.<br><b>Target:</b> Daf\u00fcr habe ich Tag f\u00fcr Tag Geld gespart.<br><br><b>Explanation:</b><br>The word 'gesparen' is replaced by 'gespart' because 'gespart' is the correct past participle form of the verb 'sparen'.<br><b>Error type</b>: verb form",
+        "author": "merlin_1023_0109880",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Mein Bus will am 07,01,2012 fahren.<br><b>Target:</b> Mein Bus will am 07.01.2012 fahren.<br><br><b>Explanation:</b><br>The word '07,01,2012' is replaced by '07.01.2012' because in German dates, periods are used to separate the day, month, and year rather than commas.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1091_0000020",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Sie bringen ein Touch und eine Bikini mit.<br><b>Target:</b> Sie bringen ein Tuch und einen Bikini mit.<br><br><b>Explanation:</b><br>The word 'Touch' is replaced by 'Tuch' because 'Tuch' is the correct German word for a cloth or towel.<br><b>Error type</b>: spelling<br>The word 'eine' is replaced by 'einen' because it should agree with the gender and case of the word 'Bikini', which is masculine and accusative.<br><b>Error type</b>: gender and case",
+        "author": "merlin_1071_0248348",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich muss in drei Wohe aufziehen<br><b>Target:</b> Ich muss in drei Woche aufziehen.<br><br><b>Explanation:</b><br>The word 'Wohe' is replaced by 'Woche' because 'Woche' is the correct spelling of the word for 'week' in German.<br><b>Error type</b>: spelling",
+        "author": "merlin_1071_0024678",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Das kann ich \u00fcberhaupt nicht nachvollziehen, weil das kein Respekt von dem Gastland ist.<br><b>Target:</b> Das kann ich \u00fcberhaupt nicht nachvollziehen, weil das kein Respekt vor dem Gastland ist.<br><br><b>Explanation:</b><br>The word 'von' is replaced by 'vor' because the correct preposition to use with 'Respekt' in this context is 'vor' in order to express respect towards something.<br><b>Error type</b>: preposition",
+        "author": "merlin_1031_0002092",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Nehmen wir das Beispiel, dass mein 17-j\u00e4hriger Bruder in ein international organisiertes Benden-Raub-Gesch\u00e4ft verwicklt ist.<br><b>Target:</b> Nehmen wir das Beispiel, dass mein 17-j\u00e4hriger Bruder in ein international organisiertes Banden-Raub-Gesch\u00e4ft verwickelt ist.<br><br><b>Explanation:</b><br>The word 'Benden' is replaced by 'Banden' because 'Banden' is the correct spelling for the plural of 'Bande' which means 'gang'.<br><b>Error type</b>: spelling<br>The word 'verwicklt' is replaced by 'verwickelt' because 'verwickelt' is the correct past participle of the verb 'verwickeln' which means 'to involve'.<br><b>Error type</b>: conjugation",
+        "author": "falko_dhw015_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ohne geegnite Sprachkenntnisse z.B. in Deutsch, oder Fachkenntnisse finden Sie keinen Arbeitsplatz, und sie erheben nur di Zahl der Arbeitslosen, und belasten durch ihre Stlaatlichen finanziellen Unterst\u00fctzung das Staat.<br><b>Target:</b> Ohne geeignete Sprachkenntnisse, z.B. in Deutsch, oder Fachkenntnisse finden sie keinen Arbeitsplatz, und sie erheben nur die Zahl der Arbeitslosen, und belasten durch ihre staatliche finanzielle Unterst\u00fctzung den Staat.<br><br><b>Explanation:</b><br>The word 'geegnite' is replaced by 'geeignete' because 'geeignete' is the correct spelling for suitable.<br><b>Error type</b>: spelling<br>A comma is inserted after 'Sprachkenntnisse' to separate the two list elements ('Sprachkenntnisse' and 'Fachkenntnisse') properly.<br><b>Error type</b>: punctuation<br>The word 'Sie' is replaced by 'sie' because the lowercase 'sie' refers to a group of people while 'Sie' (capitalized) is a formal pronoun for you.<br><b>Error type</b>: capitalization<br>The word 'di' is replaced by 'die' because 'die' is the correct spelling for the definite article the.<br><b>Error type</b>: spelling<br>The word 'Stlaatlichen' is replaced by 'staatliche' because 'staatliche' is the correct spelling and adjective inflection for state-related.<br><b>Error type</b>: spelling and inflection<br>The word 'finanziellen' is replaced by 'finanzielle' because 'finanzielle' is the correct adjective form for financial in this context.<br><b>Error type</b>: adjective inflection<br>The word 'das' is replaced by 'den' because the preposition 'durch' requires the accusative case of the noun 'Staat.' In this case, it should be 'den Staat.'<br><b>Error type</b>: case",
+        "author": "merlin_1031_0003239",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich mochte in Dubai mit Flueg Air Qatar fahren.<br><b>Target:</b> Ich m\u00f6chte mit dem Flug Air Qatar nach Dubai fahren.<br><br><b>Explanation:</b><br>The word 'mochte' is replaced by 'm\u00f6chte' because 'm\u00f6chte' is the correct spelling of the verb for 'would like' in German.<br><b>Error type</b>: spelling<br>The word 'Dubai' is relocated after 'nach' to follow the correct word order for indicating a destination.<br><b>Error type</b>: word order<br>The word 'dem' is inserted before 'Flug' to provide the correct determiner that agrees with the dative case used for the preposition 'mit'.<br><b>Error type</b>: determiner<br>The word 'Flueg' is replaced by 'Flug' because 'Flug' is the correct spelling of the word for 'flight' in German.<br><b>Error type</b>: spelling<br>The word 'nach' is inserted before 'Dubai' because the preposition 'nach' is used to indicate a destination or direction.<br><b>Error type</b>: preposition",
+        "author": "merlin_1091_0000270",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 12,
+                "endOffset": 14,
+                "globalOffsets": {
+                    "start": 19,
+                    "end": 21
+                },
+                "text": "in",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> jens und familie.<br><b>Target:</b> Jens und Familie.<br><br><b>Explanation:</b><br>The word 'jens' is replaced by 'Jens' because proper nouns should be capitalized in German.<br><b>Error type</b>: capitalization<br>The word 'familie' is replaced by 'Familie' because nouns should be capitalized in German.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1071_0024841",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Viele Deutsche Lieder m\u00fcssen gelernt werden und die ersten Pl\u00e4tze in Charts erobern.<br><b>Target:</b> Viele deutsche Lieder m\u00fcssen gelernt werden und die ersten Pl\u00e4tze in Charts erobern.<br><br><b>Explanation:</b><br>The word 'Deutsche' is replaced by 'deutsche' because adjectives should be in lowercase form when describing nouns in German.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1031_0003179",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich bin der Meinung, dass man auf diese Fragen gar nicht lange nachdenken muss nat\u00fcrlich ist es besser, ein unbeschwertes Leben zu f\u00fcrhren, denn es ist zwecklos sich gegen das Gesetz zu streuben, denn alles dagegen auflehnen n\u00fctzt nichts, die Gesetze stehen fest, man wird sie nicht \u00e4ndern, ganz im Gegenteil, wird man sie evt. noch versch\u00e4rfen wenn es zu viele Menschen gibt die kriminell sind.<br><b>Target:</b> Ich bin der Meinung, dass man \u00fcber diese Fragen gar nicht lange nachdenken muss, nat\u00fcrlich ist es besser, ein unbeschwertes Leben zu f\u00fchren, denn es ist zwecklos, sich gegen das Gesetz zu streuben, denn alles dagegen Auflehnen n\u00fctzt nichts, die Gesetze stehen fest, man wird sie nicht \u00e4ndern, ganz im Gegenteil, wird man sie evtl. noch versch\u00e4rfen, wenn es zu viele Menschen gibt, die kriminell sind.<br><br><b>Explanation:</b><br>The word 'auf' is replaced by '\u00fcber' because '\u00fcber' is the correct preposition to use when talking about thinking over a topic.<br><b>Error type</b>: preposition<br>A comma is inserted after 'muss' because it separates two related but independent thoughts and provides clarity.<br><b>Error type</b>: punctuation<br>The word 'f\u00fcrhren' is replaced by 'f\u00fchren' because 'f\u00fchren' is the correct spelling of the verb in this context.<br><b>Error type</b>: spelling<br>A comma is inserted after 'zwecklos' because it separates two clauses and improves sentence structure.<br><b>Error type</b>: punctuation<br>The word 'auflehnen' is replaced by 'Auflehnen' because the capitalized form signifies the correct noun form of the verb 'auflehnen'.<br><b>Error type</b>: capitalization<br>The word 'evt.' is replaced by 'evtl.' because 'evtl.' is the correct abbreviation for the word 'eventuell'.<br><b>Error type</b>: abbreviation<br>A comma is inserted after 'versch\u00e4rfen' because it separates two clauses and improves the sentence structure.<br><b>Error type</b>: punctuation<br>A comma is inserted after 'gibt' because it separates two clauses and provides clarity.<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw008_2007_06_L1v2.3_ManuallyFixed.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> In den letzten zehn Jahren erh\u00f6hten sich die Wohnungs- und Hauspreisen und fast alle m\u00fcssen einen Kredit aufnehmen, ihre Tr\u00e4ume erf\u00fcllen zu k\u00f6nnen.<br><b>Target:</b> In den letzten zehn Jahren erh\u00f6hten sich die Wohnungs - und Hauspreise und fast alle m\u00fcssen einen Kredit aufnehmen, um ihre Tr\u00e4ume erf\u00fcllen zu k\u00f6nnen.<br><br><b>Explanation:</b><br>The word 'Wohnungs-' is replaced by 'Wohnungs -' because there should be a space between 'Wohnungs' and the hyphen.<br><b>Error type</b>: spacing<br>The word 'Hauspreisen' is replaced by 'Hauspreise' because it should be in the nominative case, which is plural without the '-n' ending.<br><b>Error type</b>: case<br>The word 'um' is inserted because it is needed to form the correct structure of the sentence, expressing the purpose of taking a loan.<br><b>Error type</b>: conjunction",
+        "author": "merlin_1031_0003013",
+        "cefr": "C1",
+        "label": [
+            {
+                "start": "/text()[6]",
+                "end": "/text()[6]",
+                "startOffset": 2,
+                "endOffset": 6,
+                "globalOffsets": {
+                    "start": 614,
+                    "end": 618
+                },
+                "text": "case",
+                "labels": [
+                    "Wrong error type"
+                ]
+            }
+        ],
+        "comments": "plural form error type "
+    },
+    {
+        "text": "<b>Source:</b> Ich glaube, dass es sinnvoll und unbedingt wichtig, auch im Ausland die Traditionen Heimatlands fortzusetzen.<br><b>Target:</b> Ich glaube, dass es sinnvoll und unbedingt wichtig ist, auch im Ausland die Traditionen des Heimatlands fortzusetzen.<br><br><b>Explanation:</b><br>The word 'ist' is inserted because a conjugated verb is needed to complete the sentence, connecting the adjective 'sinnvoll' and 'unbedingt wichtig' to the subject 'es'.<br><b>Error type</b>: verb<br><br>The word 'des' is inserted because the possessive genitive form is needed to show that the traditions belong to the Heimatland.<br><b>Error type</b>: possessive/genitive",
+        "author": "merlin_1031_0003224",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wichtig ist, das sie eine Zuhause finden.<br><b>Target:</b> Wichtig ist, dass sie ein Zuhause finden.<br><br><b>Explanation:</b><br>The word 'das' is replaced by 'dass' because 'dass' is the correct conjunction for introducing a subordinate clause.<br><b>Error type</b>: conjunction<br>The word 'eine' is replaced by 'ein' because 'Zuhause' is a neuter noun and requires the neuter indefinite article in the nominative case.<br><b>Error type</b>: gender and case",
+        "author": "merlin_1031_0002006",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Die Videopiraterie ist eine Straftat gegen die mit aller h\u00e4rte vorgegangen wird, und mit Gef\u00e4nisstrafen von bis zu f\u00fcnf Jahren bestrafft wird.<br><b>Target:</b> Die Videopiraterie ist eine Straftat, gegen die mit aller H\u00e4rte vorgegangen wird, und die mit Gef\u00e4ngnisstrafen von bis zu f\u00fcnf Jahren bestraft wird.<br><br><b>Explanation:</b><br>The word ',' is inserted because a comma should be used to separate clauses in a compound sentence.<br><b>Error type</b>: punctuation<br>The word 'h\u00e4rte' is replaced by 'H\u00e4rte' because nouns in German must be capitalized.<br><b>Error type</b>: capitalization<br>The word 'die' is inserted because it is necessary to refer back to \"Straftat\" and make the relative clause clear.<br><b>Error type</b>: relative pronoun<br>The word 'Gef\u00e4nisstrafen' is replaced by 'Gef\u00e4ngnisstrafen' because 'Gef\u00e4ngnisstrafen' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'bestrafft' is replaced by 'bestraft' because 'bestraft' is the correct spelling.<br><b>Error type</b>: spelling",
+        "author": "falko_dhw025_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Sie ist gut in Mathematik und auch Kunst begabt aber sie interesiert sich \u00fcber Hilfsorganisationen f\u00fcr armen Kinder.<br><b>Target:</b> Sie ist gut in Mathematik und auch f\u00fcr Kunst begabt, aber sie interessiert sich f\u00fcr Hilfsorganisationen f\u00fcr arme Kinder.<br><br><b>Explanation:</b><br>The word 'f\u00fcr' is inserted because the preposition is needed to show the relation of 'begabt' to the subject in the sentence.<br><b>Error type</b>: preposition<br>The comma is inserted to separate the two independent clauses and provide a clear structure.<br><b>Error type</b>: punctuation<br>The word 'interesiert' is replaced by 'interessiert' because 'interessiert' is the correct spelling of the verb in the present tense.<br><b>Error type</b>: spelling<br>The word '\u00fcber' is replaced by 'f\u00fcr' because the verb 'interessieren' is used with the preposition 'f\u00fcr' to indicate the object of interest.<br><b>Error type</b>: preposition<br>The word 'armen' is replaced by 'arme' because the adjective should agree with the plural noun 'Kinder' and the adjective only needs weak inflection due to the existence of \"f\u00fcr\".<br><b>Error type</b>: adjective inflection",
+        "author": "merlin_1061_0120320",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Jetzt suche ich nach M\u00f6glichkeiten bei einer deutschen Firma zu arbeiten, um meine Deutschkenntnisse zu vertiefen und mehr berufliche Erfahrung zu sammeln.<br><b>Target:</b> Jetzt suche ich nach M\u00f6glichkeiten, bei einer deutschen Firma zu arbeiten, um meine Deutschkenntnisse zu vertiefen und mehr berufliche Erfahrung zu sammeln.<br><br><b>Explanation:</b><br>The comma is inserted after 'M\u00f6glichkeiten' because it is necessary to separate clauses in a sentence for better clarity.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1023_0103844",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Und wie gehts dir und deine Frau?<br><b>Target:</b> Und wie geht\u00b4s dir und deiner Frau?<br><br><b>Explanation:</b><br>The word 'deine' is replaced by 'deiner' because it should agree with the gender and case of the word Frau, which is feminine and dative.<br><b>Error type</b>: gender and case",
+        "author": "merlin_1071_0024835",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[2]",
+                "end": "/text()[2]",
+                "startOffset": 12,
+                "endOffset": 15,
+                "globalOffsets": {
+                    "start": 61,
+                    "end": 64
+                },
+                "text": "t\u00b4s",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Damals musste ich in Dresdengalerie Englisch sprechen.<br><b>Target:</b> Damals musste ich in der Dresdengalerie Englisch sprechen.<br><br><b>Explanation:</b><br>The word 'der' is inserted because it provides the correct definite article for the noun 'Dresdengalerie' in the dative case, which is required after the preposition 'in' when talking about being within a location.<br><b>Error type</b>: determiner",
+        "author": "merlin_1031_0003029",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wie Sie aus meinen Bewerbungsunterlagen entnehmen k\u00f6nnen, habe ich die Handelsschule/XY erfolgreich abgeschlossen.<br><b>Target:</b> Wie Sie aus meinen Bewerbungsunterlagen entnehmen k\u00f6nnen, habe ich die Handelsschule XY erfolgreich abgeschlossen.<br><br><b>Explanation:</b><br>The '/' is deleted because it is unnecessary and incorrect to use a slash between the name of the school and its abbreviation.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1023_0101909",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Kann ich dir anrufen?<br><b>Target:</b> Kann ich dich anrufen?<br><br><b>Explanation:</b><br>The word 'dir' is replaced by 'dich' because the verb 'anrufen' requires the accusative case for its object.<br><b>Error type</b>: case",
+        "author": "merlin_1071_0024712",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Die Abh\u00e4nigkeit kann jedoch meistens nicht lange finanziert werden, also werden die selber zu sogenannten \"Dealern\" die Drogen verkaufen.<br><b>Target:</b> Die Abh\u00e4ngigkeit kann jedoch meistens nicht lange finanziert werden, also werden die selber zu sogenannten \"Dealern\", die Drogen verkaufen.<br><br><b>Explanation:</b><br>The word 'Abh\u00e4nigkeit' is replaced by 'Abh\u00e4ngigkeit' because 'Abh\u00e4ngigkeit' is the correct spelling.<br><b>Error type</b>: spelling<br>The comma is inserted before 'die Drogen verkaufen' to separate the clauses and provide better readability.<br><b>Error type</b>: punctuation",
+        "author": "falko_dew29_2007_09_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wie oder wann ist man kriminel?<br><b>Target:</b> Wie oder wann ist man kriminell?<br><br><b>Explanation:</b><br>The word 'kriminel' is replaced by 'kriminell' because 'kriminell' is the correct spelling.<br><b>Error type</b>: spelling",
+        "author": "falko_dhw025_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wenn man Deutsch spricht, kann man mit fast 80 Millionen B\u00fcrger in Europa einfacher kommunizieren.<br><b>Target:</b> Wenn man Deutsch spricht, kann man mit fast 80 Millionen B\u00fcrgern in Europa einfacher kommunizieren.<br><br><b>Explanation:</b><br>The word 'B\u00fcrger' is replaced by 'B\u00fcrgern' because the dative case is used after the preposition 'mit'.<br><b>Error type</b>: case",
+        "author": "merlin_1031_0003146",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Liebe daniela wie gehetdir.<br><b>Target:</b> Liebe Daniela, wie geht es dir?<br><br><b>Explanation:</b><br>The word 'daniela' is replaced by 'Daniela' because proper nouns are capitalized in German.<br><b>Error type</b>: capitalization<br>A comma is inserted after 'Daniela' because it is common to separate the salutation from the main sentence with a comma.<br><b>Error type</b>: punctuation<br>The word 'gehetdir' is replaced by 'geht es' because it should be separated and the verb 'gehen' needs the dummy subject 'es'.<br><b>Error type</b>: word separation<br>The period is replaced by a question mark because the sentence is a question.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1071_0248350",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[2]",
+                "end": "/text()[2]",
+                "startOffset": 28,
+                "endOffset": 31,
+                "globalOffsets": {
+                    "start": 71,
+                    "end": 74
+                },
+                "text": "dir",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Obwohl wir nicht so gro\u00dfe Haus haben, k\u00f6nnen wir fur dir und deine Familia Schlafzimmer vorbereiten.<br><b>Target:</b> Obwohl wir nicht so ein gro\u00dfes Haus haben, k\u00f6nnen wir f\u00fcr dich und deine Familie ein Schlafzimmer vorbereiten.<br><br><b>Explanation:</b><br>The word 'ein' is inserted because there should be an indefinite article before the adjective 'gro\u00dfes'.<br><b>Error type</b>: determiner<br>The word 'gro\u00dfe' is replaced by 'gro\u00dfes' because the adjective should agree with the neutral gender of the word 'Haus'.<br><b>Error type</b>: adjective agreement<br>The word 'fur' is replaced by 'f\u00fcr' because 'f\u00fcr' is the correct spelling of the preposition meaning 'for'.<br><b>Error type</b>: spelling<br>The word 'dir' is replaced by 'dich' because the correct accusative form of the pronoun is 'dich' when used with the preposition 'f\u00fcr'.<br><b>Error type</b>: pronoun form<br>The word 'Familia' is replaced by 'Familie' because 'Familie' is the correct spelling for the word 'family' in German.<br><b>Error type</b>: spelling<br>The word 'ein' is inserted because there should be an indefinite article before the noun 'Schlafzimmer' to indicate 'a bedroom'.<br><b>Error type</b>: determiner",
+        "author": "merlin_1061_0120423",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Aber st\u00fctzen diese auf eigenen Erfahrungen?<br><b>Target:</b> Aber st\u00fctzen sich diese auf eigene Erfahrungen?<br><br><b>Explanation:</b><br>The word 'sich' is inserted because the verb 'st\u00fctzen' requires the reflexive pronoun 'sich' when used in the sense of relying on something.<br><b>Error type</b>: reflexive pronoun<br>The word 'eigenen' is replaced by 'eigene' because the adjective should agree with the plural noun 'Erfahrungen' in gender, number, and case.<br><b>Error type</b>: adjective agreement",
+        "author": "merlin_1031_0003088",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Sie k\u00f6nnen selber bestimmen was sie tun, m\u00f6chten oder finden.<br><b>Target:</b> Sie k\u00f6nnen selber bestimmen, was sie tun, m\u00f6chten oder finden.<br><br><b>Explanation:</b><br>The comma is inserted after 'bestimmen' because it separates the main clause from the subordinate clause introduced by 'was'.<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw005_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich m\u00f6chte du Kommst am 15. m\u00e4rz gehen<br><b>Target:</b> Ich m\u00f6chte, dass du am 15. M\u00e4rz kommst.<br><br><b>Explanation:</b><br>The word ',' is inserted because a comma is required to separate the main clause and the subordinate clause.<br><b>Error type</b>: punctuation<br>The word 'dass' is inserted because a conjunction is needed to introduce the subordinate clause.<br><b>Error type</b>: conjunction<br>The word 'Kommst' is deleted because the correct verb form 'kommst' will be inserted later in the sentence.<br><b>Error type</b>: verb form<br>The word 'm\u00e4rz' is replaced by 'M\u00e4rz' because months are capitalized in German.<br><b>Error type</b>: capitalization<br>The word 'gehen' is replaced by 'kommst' because the verb 'kommen' is more appropriate in this context, meaning 'to come' instead of 'to go'.<br><b>Error type</b>: verb choice<br>The word '.' is inserted because it marks the end of the sentence.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1091_0000241",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich habe das schon selber erlebt deswegen bringe ich das hier mit ein.<br><b>Target:</b> Ich habe das schon selber erlebt, deswegen bringe ich das hier mit ein.<br><br><b>Explanation:</b><br>The comma is inserted because it separates two main clauses, making the sentence easier to read and understand.<br><b>Error type</b>: punctuation",
+        "author": "falko_dew08_2007_09_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Es ist ein Weg der sich zu einem Kreis bildet und man nicht mehr heraus kommt.<br><b>Target:</b> Es ist ein Weg, der sich zu einem Kreis bildet und man nicht mehr heraus kommt.<br><br><b>Explanation:</b><br>The comma is inserted because it separates the main and relative clauses, providing clarity and following proper punctuation rules.<br><b>Error type</b>: punctuation",
+        "author": "falko_dew19_2007_09_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Du w\u00e4rst auch sehr nett, wenn ich dir die t\u00e4gliche aufgabe meinen Hund lassen kann.<br><b>Target:</b> Du w\u00e4rst auch sehr nett, wenn ich dir die t\u00e4gliche Aufgabe meines Hundes lassen kann.<br><br><b>Explanation:</b><br>The word 'aufgabe' is replaced by 'Aufgabe' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization<br>The word 'meinen' is replaced by 'meines' because the correct genitive form of the possessive article for a masculine noun is 'meines'.<br><b>Error type</b>: possessive article<br>The word 'Hund' is replaced by 'Hundes' to indicate the genitive case, showing possession of the daily task.<br><b>Error type</b>: case",
+        "author": "merlin_1091_0000160",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Obwohl in Stadt X schwerig ist, eine freie Wohnung zu bekommen, gibt es trotzdem viele M\u00f6glichkeiten wie man es sie bekommt.<br><b>Target:</b> Obwohl es in Stadt X schwerig ist, eine freie Wohnung zu bekommen, gibt es trotzdem viele M\u00f6glichkeiten wie man sie bekommt.<br><br><b>Explanation:</b><br>The word 'es' is relocated because it should be placed before 'in Stadt X' to form the correct sentence structure for expressing a circumstance.<br><b>Error type</b>: word order",
+        "author": "merlin_1031_0003133",
+        "cefr": "C1",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 0,
+                "endOffset": 26,
+                "globalOffsets": {
+                    "start": 280,
+                    "end": 306
+                },
+                "text": "The word 'es' is relocated",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            },
+            {
+                "start": "/text()[4]",
+                "end": "/text()[4]",
+                "startOffset": 2,
+                "endOffset": 12,
+                "globalOffsets": {
+                    "start": 437,
+                    "end": 447
+                },
+                "text": "word order",
+                "labels": [
+                    "Wrong error type"
+                ]
+            },
+            {
+                "start": "/text()[2]",
+                "end": "/text()[2]",
+                "startOffset": 8,
+                "endOffset": 10,
+                "globalOffsets": {
+                    "start": 148,
+                    "end": 150
+                },
+                "text": "es",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ],
+        "comments": "inserted, not relocated"
+    },
+    {
+        "text": "<b>Source:</b> am Samstag um 10 Uhr?<br><b>Target:</b> Am Samstag um 10 Uhr?<br><br><b>Explanation:</b><br>The word 'am' is replaced by 'Am' because sentences should start with a capital letter.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1071_0024759",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Sie sind sehr unfreundliche und sehr streng.<br><b>Target:</b> Sie sind sehr unfreundlich und sehr streng.<br><br><b>Explanation:</b><br>The word 'unfreundliche' is replaced by 'unfreundlich' because the adjective 'unfreundlich' should match in gender, case, and number with the plural subject 'Sie', which also requires no declension here.<br><b>Error type</b>: adjective declension",
+        "author": "merlin_1023_0108992",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Da muss mit der Hund jeden Morgens um 07\u00b0\u00b0 Uhr trausen gehen, cca 30 minute, dann um 15\u00b0\u00b0 uhr wieder und danach um 21\u00b0\u00b0uhr letzte mal.<br><b>Target:</b> Da musst du mit dem Hund jeden Morgen um 07\u00b0\u00b0 Uhr drau\u00dfen gehen, ca. 30 Minuten, dann um 15\u00b0\u00b0 Uhr wieder und danach um 21\u00b0\u00b0 Uhr das letzte Mal.<br><br><b>Explanation:</b><br>The word 'muss' is replaced by 'musst du' because the second person singular 'du' should be used for addressing the reader.<br><b>Error type</b>: subject and verb agreement<br>The word 'der' is replaced by 'dem' because the preposition 'mit' requires the dative case.<br><b>Error type</b>: case<br>The word 'Morgens' is replaced by 'Morgen' because it is more commonly used for 'morning' in this context.<br><b>Error type</b>: usage<br>The word 'trausen' is replaced by 'drau\u00dfen' because 'drau\u00dfen' is the correct spelling for 'outside'.<br><b>Error type</b>: spelling<br>The word 'cca' is replaced by 'ca.' because 'ca.' is the abbreviation for 'circa,' meaning 'approximately.'<br><b>Error type</b>: abbreviation<br>The word 'minute' is replaced by 'Minuten' because the plural form of 'minute' should be used to match the number '30.'<br><b>Error type</b>: plural<br>The word 'uhr' is replaced by 'Uhr' because all instances of 'uhr' should have the first letter capitalized.<br><b>Error type</b>: capitalization<br>The word 'das' is inserted before 'letzte Mal' because a determiner is needed before the noun phrase.<br><b>Error type</b>: determiner<br>The word 'uhr' is replaced by 'Uhr' because all instances of 'uhr' should have the first letter capitalized.<br><b>Error type</b>: capitalization<br>The word 'mal' is replaced by 'Mal' because the first letter of the noun 'Mal' should be capitalized.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1091_0000157",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Es ist eine M\u00f6glichkeit um seinen Sorgen und N\u00f6ten vor\u00fcbergehend aus den Weg zu gehen, zu vergessen und zu verdr\u00e4ngen, doch die Folgen sind meist viel schwerwiegender, als das Ausgangsproblem und somit zerst\u00f6rt man sich oft sein eigenes Leben.<br><b>Target:</b> Es ist eine M\u00f6glichkeit, um seinen Sorgen und N\u00f6ten vor\u00fcbergehend aus dem Weg zu gehen, zu vergessen und zu verdr\u00e4ngen, doch die Folgen sind meist viel schwerwiegender als das Ausgangsproblem und somit zerst\u00f6rt man sich oft sein eigenes Leben.<br><br><b>Explanation:</b><br>The word ',' is inserted after 'M\u00f6glichkeit' because a comma is needed to separate the main clause from the subordinate clause.<br><b>Error type</b>: punctuation<br>The word 'den' is replaced by 'dem' because the preposition 'aus' requires the dative case when referring to getting out of the way.<br><b>Error type</b>: case<br>The word ',' is deleted after 'schwerwiegender' because no comma is needed to separate the two adjectives within the same clause.<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw009_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Der Kontakt mit den Filosophien z.B. Kannt, Schopenhauer pr\u00e4gt sich in unseren Herzen und bringt uns genug Motivation und Wille um dies zu bew\u00e4ltigen.<br><b>Target:</b> Der Kontakt mit den Filosophien, z.B. Kant, Schopenhauer, pr\u00e4gt sich in unsere Herzen und bringt uns genug Motivation und Willen, um dies zu bew\u00e4ltigen.<br><br><b>Explanation:</b><br>The word ',' is inserted because it separates the introductory phrase \"z.B.\" and sets off the list of philosophers.<br><b>Error type</b>: punctuation<br>The word 'Kannt' is replaced by 'Kant' because 'Kant' is the correct spelling of the philosopher's name.<br><b>Error type</b>: spelling<br>The word ',' is inserted because it separates the elements in the list of philosophers.<br><b>Error type</b>: punctuation<br>The word 'unseren' is replaced by 'unsere' because 'Herzen' is plural and requires the plural possessive determiner 'unsere'.<br><b>Error type</b>: agreement<br>The word 'Wille' is replaced by 'Willen' because it should be in plural form to match the context of the sentence.<br><b>Error type</b>: plural<br>The word ',' is inserted because it sets off a dependent clause making the sentence structure clearer.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003130",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Der Wohnungsmarkt in Stadt X ist im moment von Angeboten \u00fcbergefl\u00fcsst.<br><b>Target:</b> Der Wohnungsmarkt in Stadt X ist im Moment von Angeboten \u00fcbergefl\u00fcsst.<br><br><b>Explanation:</b><br>The word 'moment' is replaced by 'Moment' because in German, nouns are always capitalized.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1031_0003098",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich will zum Geburstag eine sch\u00f6ne Katze schenke.<br><b>Target:</b> Ich will zum Geburtstag eine sch\u00f6ne Katze schenken.<br><br><b>Explanation:</b><br>The word 'Geburstag' is replaced by 'Geburtstag' because 'Geburtstag' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'schenke' is replaced by 'schenken' because the infinitive form of the verb is needed in this sentence.<br><b>Error type</b>: infinitive",
+        "author": "merlin_1061_0120324",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wir, die in Europa wohnen , k\u00f6nnen einige Traditionen \u00fcber den Orient erfahren, ohne verreisen zu m\u00fcssen.<br><b>Target:</b> Wir, die in Europa wohnen, k\u00f6nnen durch einige Traditionen etwas \u00fcber den Orient erfahren, ohne verreisen zu m\u00fcssen.<br><br><b>Explanation:</b><br>The word 'durch' is inserted because it provides the correct preposition to express learning or experiencing something through traditions.<br><b>Error type</b>: preposition<br>The word 'etwas' is inserted to indicate that a certain amount of information is being learned or experienced.<br><b>Error type</b>: determiner",
+        "author": "merlin_1031_0002092",
+        "cefr": "C1",
+        "label": [
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 26,
+                "endOffset": 28,
+                "globalOffsets": {
+                    "start": 33,
+                    "end": 35
+                },
+                "text": " ,",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Wo die Motivation herkommt jden Tag aufzustehen und 8 Stunden f\u00fcr 1,75 \u00a4 zu arbeiten, kann ich mir nicht erkl\u00e4ren.<br><b>Target:</b> Wo die Motivation herkommt, jeden Tag aufzustehen und 8 Stunden f\u00fcr 1,75 Euro zu arbeiten, kann ich mir nicht erkl\u00e4ren.<br><br><b>Explanation:</b><br>The word ',' is inserted because it helps separate the dependent clause from the main clause, improving sentence clarity.<br><b>Error type</b>: punctuation<br>The word 'jden' is replaced by 'jeden' because 'jeden' is the correct spelling for 'every' in German.<br><b>Error type</b>: spelling<br>The symbol '\u00a4' is replaced by 'Euro' because 'Euro' is the correct term for the currency in the sentence.<br><b>Error type</b>: terminology",
+        "author": "falko_dhw037_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Gru\u00df die Ganze famillie von mir.<br><b>Target:</b> Bitte gr\u00fc\u00df die ganze Familie von mir.<br><br><b>Explanation:</b><br>The word '' is inserted before 'gr\u00fc\u00df' to create 'Bitte gr\u00fc\u00df' because it is polite to say \"Bitte\" before making a request.<br><b>Error type</b>: politeness<br>The word 'Gru\u00df' is replaced by 'gr\u00fc\u00df' because 'gr\u00fc\u00df' is the imperative form of the verb 'gr\u00fc\u00dfen'.<br><b>Error type</b>: verb form<br>The word 'Ganze' is replaced by 'ganze' because adjectives in this context should not be capitalized.<br><b>Error type</b>: capitalization<br>The word 'famillie' is replaced by 'Familie' because 'Familie' is the correct spelling.<br><b>Error type</b>: spelling",
+        "author": "merlin_1071_0024862",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 0,
+                "endOffset": 37,
+                "globalOffsets": {
+                    "start": 101,
+                    "end": 138
+                },
+                "text": "The word '' is inserted before 'gr\u00fc\u00df'",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> So k\u00f6nnte dann wahrscheinlich jemand mit einem sensiebleren Charakter schlechter damit umgehen, was er ein Verbrechen begangen hat als jemand mit eien st\u00e4rkeren Charakter der das gleiche getan hat.<br><b>Target:</b> So k\u00f6nnte dann wahrscheinlich jemand mit einem sensibleren Charakter schlechter damit umgehen, dass er ein Verbrechen begangen hat als jemand mit einem st\u00e4rkeren Charakter, der das Gleiche getan hat.<br><br><b>Explanation:</b><br>The word 'sensiebleren' is replaced by 'sensibleren' because 'sensibleren' is the correct spelling and grammar form.<br><b>Error type</b>: spelling and grammar<br><br>The word 'was' is replaced by 'dass' because 'dass' is the appropriate conjunction to introduce a subordinate clause in this context.<br><b>Error type</b>: conjunction<br><br>The word 'eien' is replaced by 'einem' because 'einem' is the correct dative form of the indefinite article for 'st\u00e4rkeren Charakter'.<br><b>Error type</b>: dative case<br><br>A comma is inserted after 'Charakter' because German punctuation rules require a comma before a relative clause that begins with 'der'.<br><b>Error type</b>: punctuation<br><br>The word 'gleiche' is replaced by 'Gleiche' because nouns created from adjectives must be capitalized in German.<br><b>Error type</b>: capitalization",
+        "author": "falko_dhw022_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Hallo Julia, Ich bin einmal.<br><b>Target:</b> Hallo Julia, ich bin einmal.<br><br><b>Explanation:</b><br>The word 'Ich' is replaced by 'ich' because it should be in lowercase when it occurs in the middle of a sentence.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1091_0000101",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Zusammenfassend kann man feststellen, dass dies wird eine schwierige aber gangbare L\u00f6sung.<br><b>Target:</b> Zusammenfassend kann man feststellen, dass dies eine schwierige aber gangbare L\u00f6sung wird.<br><br><b>Explanation:</b><br>The word 'wird' is relocated because the correct word order in a subordinate clause puts the verb at the end of the clause.<br><b>Error type</b>: word order",
+        "author": "merlin_1031_0002043",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ihre Baby m\u00e4dchen oder junge.<br><b>Target:</b> Ist ihr Baby ein M\u00e4dchen oder ein Junge?<br><br><b>Explanation:</b><br>The word '' is inserted because 'Ist' is necessary for forming a question.<br><b>Error type</b>: question formation<br>The word 'Ihre' is replaced by 'ihr' because it should agree with the gender and case of the word 'Baby', which is neutral and nominative.<br><b>Error type</b>: gender and case<br>The word 'm\u00e4dchen' is replaced by 'M\u00e4dchen' because nouns should be capitalized in German.<br><b>Error type</b>: capitalization<br>The word '' is inserted because 'ein' is necessary as an indefinite article before the nouns 'M\u00e4dchen' and 'Junge'.<br><b>Error type</b>: indefinite article<br>The word 'junge' is replaced by 'Junge' because nouns should be capitalized in German.<br><b>Error type</b>: capitalization<br>The word '.' is replaced by '?' because the sentence is a question and requires a question mark.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1071_0024837",
+        "cefr": "A1",
+        "label": [
+            {
+                "start": "/text()[9]",
+                "end": "/text()[9]",
+                "startOffset": 0,
+                "endOffset": 12,
+                "globalOffsets": {
+                    "start": 492,
+                    "end": 504
+                },
+                "text": "The word '' ",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Ich brauchen ca. 75 m\u00b2 Wohnung mit 2 Zimmer, Bad, Kuche, toilette und garage.<br><b>Target:</b> Ich brauche ca. 75 m\u00b2 \u2014 eine Wohnung mit 2 Zimmern, Bad, K\u00fcche, Toilette und Garage.<br><br><b>Explanation:</b><br>The word 'brauchen' is replaced by 'brauche' because the subject 'ich' requires the first person singular form of the verb 'brauchen'.<br><b>Error type</b>: verb conjugation<br>The word '\u2014' is inserted to improve the readability of the sentence and to separate the size of the apartment from its features.<br><b>Error type</b>: punctuation<br>The word 'eine' is inserted because it's needed to agree with the gender and number of the noun 'Wohnung', which is singular and feminine.<br><b>Error type</b>: determiner<br>The word 'Zimmer' is replaced by 'Zimmern' because in German, the dative case is needed for indicating the number of rooms in this context.<br><b>Error type</b>: case<br>The word 'Kuche' is replaced by 'K\u00fcche' because 'K\u00fcche' is the correct spelling for the word 'kitchen' in German.<br><b>Error type</b>: spelling<br>The word 'toilette' is replaced by 'Toilette' because in German, all nouns must be capitalized.<br><b>Error type</b>: capitalization<br>The word 'garage' is replaced by 'Garage' because in German, all nouns must be capitalized.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1071_0024758",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[9]",
+                "end": "/text()[9]",
+                "startOffset": 51,
+                "endOffset": 139,
+                "globalOffsets": {
+                    "start": 723,
+                    "end": 811
+                },
+                "text": "in German, the dative case is needed for indicating the number of rooms in this context.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ],
+        "comments": "it is because of the preposition \"mit\" that we need to use DAT case"
+    },
+    {
+        "text": "<b>Source:</b> Ich w\u00fcnche dir auch alles Gute!<br><b>Target:</b> Ich w\u00fcnsche dir auch alles Gute!<br><br><b>Explanation:</b><br>The word 'w\u00fcnche' is replaced by 'w\u00fcnsche' because 'w\u00fcnsche' is the correct spelling.<br><b>Error type</b>: spelling",
+        "author": "merlin_1061_0120483",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Du hatte toll gemach!<br><b>Target:</b> Du hast es toll gemacht!<br><br><b>Explanation:</b><br>The word 'hatte' is replaced by 'hast' because the verb 'haben' should be in the present tense (2nd person singular) to form the present perfect tense.<br><b>Error type</b>: tense<br>The word 'es' is inserted because it serves as the direct object of the sentence, making the meaning complete.<br><b>Error type</b>: direct object<br>The word 'gemach' is replaced by 'gemacht' because 'gemacht' is the correct past participle of the verb 'machen'.<br><b>Error type</b>: past participle",
+        "author": "merlin_1061_0120274",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich k\u00f6nnte von 1. Juni 2010 beginnen und bin bereit die ganze Sommerferienzeit Ihnen zur Verf\u00fcgung zu stehen.<br><b>Target:</b> Ich k\u00f6nnte ab 1. Juni 2010 beginnen und bin bereit, Ihnen die ganze Sommerferienzeit zur Verf\u00fcgung zu stehen.<br><br><b>Explanation:</b><br>The word 'von' is replaced by 'ab' because 'ab' is the correct preposition to indicate starting from a certain date.<br><b>Error type</b>: preposition<br>A comma is inserted after 'bereit' to separate the two main clauses, improving the sentence structure.<br><b>Error type</b>: punctuation<br>The word 'Ihnen' is relocated before 'die ganze Sommerferienzeit' to clarify that the speaker is making themselves available to 'Ihnen' during the entire summer vacation.<br><b>Error type</b>: word order",
+        "author": "merlin_1023_0103821",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Mein Name ist Maria, ich komme aus Ukraine, wohne seit ein Jahr in Stadt X.<br><b>Target:</b> Mein Name ist Maria, ich komme aus der Ukraine, wohne seit einem Jahr in Stadt X.<br><br><b>Explanation:</b><br>The word 'der' is inserted because the country name 'Ukraine' needs the definite article 'der' in the dative case after the preposition 'aus'.<br><b>Error type</b>: article<br>The word 'ein' is replaced by 'einem' because the preposition 'seit' requires the dative case for the time expression 'ein Jahr'.<br><b>Error type</b>: case",
+        "author": "merlin_1031_0003035",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Vorallem, wenn man ein Familie hat oder einen planen will und auch l\u00e4nger in Stadt X bleiben will.<br><b>Target:</b> Vor allem, wenn man eine Familie hat oder eine planen will und auch l\u00e4nger in Stadt X bleiben will.<br><br><b>Explanation:</b><br>The word 'Vorallem' is replaced by 'Vor allem' because 'Vor allem' is the correct spelling for the expression meaning \"above all\" or \"especially\".<br><b>Error type</b>: spelling<br>The word 'ein' is replaced by 'eine' because it should agree with the gender and case of the word \"Familie\", which is feminine and accusative.<br><b>Error type</b>: gender and case<br>The word 'einen' is replaced by 'eine' because it should agree with the gender and case of the implied word \"Familie\" in the context of \"planen\", which is feminine and accusative.<br><b>Error type</b>: gender and case",
+        "author": "merlin_1031_0002006",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Es gibt in solchen F\u00e4llen, glaube, ich keine allgemein g\u00fcltige L\u00f6sung, die moralisch und auch vor der Justiz absolut vertretbar ist.<br><b>Target:</b> Es gibt in solchen F\u00e4llen, glaube, keine allgemein g\u00fcltige L\u00f6sung, die moralisch und auch vor der Justiz absolut vertretbar ist.<br><br><b>Explanation:</b><br>The word 'ich' is deleted because it is unnecessary in this sentence and disrupts the flow of the sentence.<br><b>Error type</b>: word order",
+        "author": "falko_dhw015_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Dir m\u00f6chte ich n\u00e4chten monat nach Amsterdam fahren.<br><b>Target:</b> Ich m\u00f6chte n\u00e4chsten Monat nach Amsterdam fahren.<br><br><b>Explanation:</b><br>The word 'Dir' is replaced by 'Ich' because the subject of the sentence should be 'Ich' to express one's own desire to travel.<br><b>Error type</b>: pronoun<br>The word 'ich' is replaced by 'n\u00e4chsten' because the correct word order is 'n\u00e4chsten Monat' for 'next month'.<br><b>Error type</b>: word order<br>The word 'n\u00e4chten' is replaced by 'Monat' because 'n\u00e4chsten' should be followed by the noun 'Monat' to form the time expression 'n\u00e4chsten Monat'.<br><b>Error type</b>: word order",
+        "author": "merlin_1091_0000240",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[7]",
+                "end": "/text()[8]",
+                "startOffset": 0,
+                "endOffset": 12,
+                "globalOffsets": {
+                    "start": 411,
+                    "end": 579
+                },
+                "text": "The word 'n\u00e4chten' is replaced by 'Monat' because 'n\u00e4chsten' should be followed by the noun 'Monat' to form the time expression 'n\u00e4chsten Monat'.\\nError type: word order",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Dort wird die Miete noch vern\u00fcnftig und auch, dank der \u00d6ffenverkehrsmitteln, nicht zu weit von dem Stadtzentrum, wo unsere Unternehmen liegt.<br><b>Target:</b> Dort wird die Miete noch vern\u00fcnftig und es ist auch, dank der \u00f6ffentlichen Verkehrsmittel, nicht zu weit von dem Stadtzentrum, wo unsere Unternehmen liegen.<br><br><b>Explanation:</b><br>The word 'es ist' is inserted to create a complete and coherent clause.<br><b>Error type</b>: syntax<br>The word '\u00d6ffenverkehrsmitteln' is replaced by '\u00f6ffentlichen Verkehrsmittel' because '\u00f6ffentlichen Verkehrsmittel' is the correct term for public transport.<br><b>Error type</b>: compound noun and spelling<br>The word 'liegt' is replaced by 'liegen' because the subject 'Unternehmen' is plural, so the verb needs to be in its plural form as well.<br><b>Error type</b>: subject-verb agreement",
+        "author": "merlin_1031_0003136",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> F\u00fcr Wohnungen mit 80 m\u00b2 bezahlt man \u20ac 50.000,00 oder \u20ac 60.000,00 f\u00fcr innere Renovierungen (neue Fenster, T\u00fcren, Boden, etc.)<br><b>Target:</b> F\u00fcr Wohnungen mit 80 m\u00b2 bezahlt man \u20ac 50.000,00 oder \u20ac 60.000,00 f\u00fcr innere Renovierungen (neue Fenster, T\u00fcren, Boden etc.).<br><br><b>Explanation:</b><br>The comma is deleted before 'etc.' because in German, there is no comma before 'etc.' when listing items.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0001703",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich warte auf ihre Antwort, und bin bereit ab mitte Mai nach Deutschland abreiten.<br><b>Target:</b> Ich warte auf ihre Antwort und bin bereit, ab Mitte Mai in Deutschland zu arbeiten.<br><br><b>Explanation:</b><br>The comma is deleted after 'Antwort' and inserted after 'bereit' because it separates the main clauses correctly.<br><b>Error type</b>: punctuation<br><br>The word 'mitte' is replaced by 'Mitte' because the noun in this context should be capitalized.<br><b>Error type</b>: capitalization<br><br>The word 'nach' is replaced by 'in' because 'in' is the correct preposition to indicate working within a country.<br><b>Error type</b>: preposition<br><br>The word 'abreiten' is replaced by 'zu arbeiten' because 'zu arbeiten' is the correct infinitive form to be used after 'bereit'.<br><b>Error type</b>: infinitive",
+        "author": "merlin_1023_0001422",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich hatte auch eine Gelegenheit, um 2 Schulungen \u00fcber die neusten Datenverabeitungstechniken teilzunehmen.<br><b>Target:</b> Ich hatte auch eine Gelegenheit, an 2 Schulungen \u00fcber die neusten Datenverarbeitungstechniken teilzunehmen.<br><br><b>Explanation:</b><br>The word 'um' is replaced by 'an' because the verb 'teilnehmen' requires the preposition 'an' when showing participation in an event.<br><b>Error type</b>: preposition<br>The word 'Datenverabeitungstechniken' is replaced by 'Datenverarbeitungstechniken' because 'Datenverarbeitungstechniken' is the correct spelling.<br><b>Error type</b>: spelling",
+        "author": "merlin_1023_0103824",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Die Gefahr steht darin, dass sie ihre ganzes leben lang isoliert leben.<br><b>Target:</b> Die Gefahr steht darin, dass sie ihr ganzes Leben lang isoliert leben.<br><br><b>Explanation:</b><br>The word 'ihre' is replaced by 'ihr' because it should agree with the gender and case of the word Leben, which is neuter and accusative.<br><b>Error type</b>: gender and case<br>The word 'leben' is replaced by 'Leben' because nouns in German must be capitalized.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1031_0003239",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich m\u00f6chte in dem Zug nach Stadt Y am wochende Fahren.<br><b>Target:</b> Ich m\u00f6chte am Wochenende in dem Zug nach Stadt Y fahren.<br><br><b>Explanation:</b><br>The phrase 'am Wochenende' is inserted because it is the correct way to express 'on the weekend' in German and provides the appropriate time information.<br><b>Error type</b>: word order",
+        "author": "merlin_1091_0000255",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 12,
+                "endOffset": 47,
+                "globalOffsets": {
+                    "start": 19,
+                    "end": 54
+                },
+                "text": "in dem Zug nach Stadt Y am wochende",
+                "labels": [
+                    "Missing error"
+                ]
+            },
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 48,
+                "endOffset": 49,
+                "globalOffsets": {
+                    "start": 55,
+                    "end": 56
+                },
+                "text": "F",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Ich kann mir nicht vorstellen, dass jemand gerne und auch ein zweites mal ins Gef\u00e4ngnis m\u00f6chte.<br><b>Target:</b> Ich kann mir nicht vorstellen, dass jemand gerne und auch ein zweites Mal ins Gef\u00e4ngnis m\u00f6chte.<br><br><b>Explanation:</b><br>The word 'mal' is replaced by 'Mal' because 'Mal' is a noun in this context and should be capitalized.<br><b>Error type</b>: capitalization",
+        "author": "falko_dhw038_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Das ist die beliebste M\u00f6glichkeit f\u00fcr Familie, und f\u00fcr Einzelpersonen, die ein bisschen Geld sparen wollen.<br><b>Target:</b> Das ist die beliebteste M\u00f6glichkeit f\u00fcr Familien und f\u00fcr Einzelpersonen, die ein bisschen Geld sparen wollen.<br><br><b>Explanation:</b><br>The word 'beliebste' is replaced by 'beliebteste' because 'beliebteste' is the correct superlative form of the adjective 'beliebt'.<br><b>Error type</b>: spelling<br>The word 'Familie' is replaced by 'Familien' because the plural form 'Familien' is needed to describe multiple families.<br><b>Error type</b>: plural<br>The comma is deleted because it is not necessary to separate two items in a list.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003076",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Es ist m\u00f6glich, wenn ich gesund werde, im April besuche ich dich.<br><b>Target:</b> Es ist m\u00f6glich, wenn ich gesund werde, dass ich dich im April besuche.<br><br><b>Explanation:</b><br>The word 'dass' is inserted because it is needed to introduce a subordinate clause in this sentence construction.<br><b>Error type</b>: conjunction<br><br>The word 'ich' is inserted after 'dass' because the subject of the subordinate clause should follow the conjunction 'dass'.<br><b>Error type</b>: word order<br><br>The word 'dich' is relocated after 'ich' to maintain the correct word order in the subordinate clause.<br><b>Error type</b>: word order",
+        "author": "merlin_1061_0120307",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Die letzte ist Freizeitaktivit\u00e4ten.<br><b>Target:</b> Die Letzte sind Freizeitaktivit\u00e4ten.<br><br><b>Explanation:</b><br>The word 'letzte' is replaced by 'Letzte' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization<br>The word 'ist' is replaced by 'sind' because 'Freizeitaktivit\u00e4ten' is plural and requires the plural form of the verb 'sein'.<br><b>Error type</b>: subject-verb agreement",
+        "author": "merlin_1023_0107787",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above.",
+        "comments": "there is a mistake in a target. it should be either die letzten sind or die letzte ist"
+    },
+    {
+        "text": "<b>Source:</b> Hilfst bitte, Ich suche neue Wohnung.<br><b>Target:</b> Hilfst du mir bitte, ich suche eine neue Wohnung.<br><br><b>Explanation:</b><br>The word 'du' is inserted because the verb 'hilfst' requires a subject in the form of a personal pronoun.<br><b>Error type</b>: subject omission<br>The word 'mir' is inserted because the verb 'helfen' requires a dative object to indicate who receives the help.<br><b>Error type</b>: dative object omission<br>The word 'Ich' is replaced by 'ich' because a lowercase 'ich' should be used after a comma separating two independent clauses.<br><b>Error type</b>: capitalization<br>The word 'eine' is inserted because the noun 'Wohnung' requires an indefinite article in this context.<br><b>Error type</b>: article omission",
+        "author": "merlin_1071_0024784",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> K\u00f6nnst du bitte mir ein gr\u00f6\u00dfe Wohnug besche. am 2. Juni.<br><b>Target:</b> Kannst du mir bitte eine gro\u00dfe Wohnung besche, am 2. Juni?<br><br><b>Explanation:</b><br>The word 'K\u00f6nnst' is replaced by 'Kannst' because 'Kannst' is the correct conjugation of the verb 'k\u00f6nnen' for the second person singular.<br><b>Error type</b>: conjugation<br>The word 'ein' is replaced by 'eine' because it should agree with the gender and case of the word 'Wohnung', which is feminine and accusative.<br><b>Error type</b>: gender and case<br>The word 'gr\u00f6\u00dfe' is replaced by 'gro\u00dfe' because 'gro\u00dfe' is the correct adjective form for the feminine accusative case.<br><b>Error type</b>: adjective inflection<br>The word 'Wohnug' is replaced by 'Wohnung' because 'Wohnung' is the correct spelling.<br><b>Error type</b>: spelling<br>The period after 'besche' is replaced by a comma because it separates the main clause and the additional information (date) which is not a complete sentence.<br><b>Error type</b>: punctuation<br>The period after 'Juni' is replaced by a question mark because the sentence is a question.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1071_0024683",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above.",
+        "comments": "'besche' in the target does not make any sense "
+    },
+    {
+        "text": "<b>Source:</b> Dir ist Vater geworden.<br><b>Target:</b> Du bist Vater geworden.<br><br><b>Explanation:</b><br>The word 'Dir' is replaced by 'Du' because 'Du' is the correct subject pronoun for the second person singular in this sentence.<br><b>Error type</b>: pronoun<br>The word 'ist' is replaced by 'bist' because the verb 'werden' must agree with the subject pronoun 'Du' in the present tense.<br><b>Error type</b>: verb conjugation",
+        "author": "merlin_1071_0242022",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> OK, Ich warte dein anrufen.<br><b>Target:</b> Ok, ich warte auf deinen Anruf.<br><br><b>Explanation:</b><br>The word 'OK' is replaced by 'Ok' because 'Ok' is a more common spelling in informal German. <br><b>Error type</b>: spelling<br>The word 'Ich' is replaced by 'ich' because capitalization is not necessary in this context.<br><b>Error type</b>: capitalization<br>The word 'auf' is inserted because the verb 'warten' requires the preposition 'auf'.<br><b>Error type</b>: preposition<br>The word 'dein' is replaced by 'deinen' because it should agree with the gender and case of the noun 'Anruf', which is masculine and accusative.<br><b>Error type</b>: gender and case<br>The word 'anrufen' is replaced by 'Anruf' because 'anrufen' is a verb, but a noun is needed in this context ('Anruf' means 'call' as a noun).<br><b>Error type</b>: word form",
+        "author": "merlin_1091_0000230",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[9]",
+                "end": "/text()[9]",
+                "startOffset": 48,
+                "endOffset": 144,
+                "globalOffsets": {
+                    "start": 482,
+                    "end": 578
+                },
+                "text": "it should agree with the gender and case of the noun 'Anruf', which is masculine and accusative.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ],
+        "comments": "the explanation is incorrect because it should agree with the warten auf + AKK structure and the AKK case of the noun Anruf"
+    },
+    {
+        "text": "<b>Source:</b> Obwohl wir nicht so gro\u00dfe Haus haben, k\u00f6nnen wir fur dir und deine Familia Schlafzimmer vorbereiten.<br><b>Target:</b> Obwohl wir nicht so ein gro\u00dfes Haus haben, k\u00f6nnen wir f\u00fcr dich und deine Familie ein Schlafzimmer vorbereiten.<br><br><b>Explanation:</b><br>The word 'ein' is inserted because there should be an indefinite article before the adjective 'gro\u00dfes'.<br><b>Error type</b>: determiner<br>The word 'gro\u00dfe' is replaced by 'gro\u00dfes' because the adjective should agree with the neutral gender of the word 'Haus'.<br><b>Error type</b>: adjective agreement<br>The word 'fur' is replaced by 'f\u00fcr' because 'f\u00fcr' is the correct spelling of the preposition meaning 'for'.<br><b>Error type</b>: spelling<br>The word 'dir' is replaced by 'dich' because the correct accusative form of the pronoun is 'dich' when used with the preposition 'f\u00fcr'.<br><b>Error type</b>: pronoun form<br>The word 'Familia' is replaced by 'Familie' because 'Familie' is the correct spelling for the word 'family' in German.<br><b>Error type</b>: spelling<br>The word 'ein' is inserted because there should be an indefinite article before the noun 'Schlafzimmer' to indicate 'a bedroom'.<br><b>Error type</b>: determiner",
+        "author": "merlin_1061_0120423",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Es bedeutet das wir mit die einheimischen Bekannten ihre Feste feien k\u00f6nnen, um uns kulturell zu einander n\u00e4her zu bringen.<br><b>Target:</b> Es bedeutet, dass wir mit den einheimischen Bekannten ihre Feste feiern k\u00f6nnen, um uns kulturell zueinander n\u00e4her zu bringen.<br><br><b>Explanation:</b><br>The word ',' is inserted because there should be a comma before a subordinate clause.<br><b>Error type</b>: punctuation<br>The word 'das' is replaced by 'dass' because 'dass' is the correct conjunction to introduce a subordinate clause.<br><b>Error type</b>: conjunction<br>The word 'die' is replaced by 'den' because the preposition 'mit' requires the dative case for plural nouns.<br><b>Error type</b>: case<br>The word 'feien' is replaced by 'feiern' because 'feiern' is the correct spelling of the verb.<br><b>Error type</b>: spelling<br>The words 'zu einander' are replaced by 'zueinander' because 'zueinander' is the correct form for expressing \"to each other\" or \"toward one another.\"<br><b>Error type</b>: compound word",
+        "author": "merlin_1031_0003217",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Sch\u00f6n Tag noch.<br><b>Target:</b> Sch\u00f6nen Tag noch.<br><br><b>Explanation:</b><br>The word 'Sch\u00f6n' is replaced by 'Sch\u00f6nen' because the adjective should agree with the gender and case of the noun Tag, which is masculine and accusative.<br><b>Error type</b>: adjective inflection",
+        "author": "merlin_1071_0248339",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> und werde direk zu dir f\u00fcr das Abholen, w\u00e4re es dir passen wenn wir den Abends zusammen Essen?<br><b>Target:</b> Und werde direkt zu dir kommen f\u00fcr das Abholen, w\u00fcrde es dir passen, wenn wir den Abend zusammen essen?<br><br><b>Explanation:</b><br>The word 'und' is replaced by 'Und' because sentences should start with a capital letter.<br><b>Error type</b>: capitalization<br>The word 'direk' is replaced by 'direkt' because 'direkt' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'kommen' is inserted because the verb 'kommen' is needed to indicate the action of going to someone.<br><b>Error type</b>: missing verb<br>The word 'w\u00e4re' is replaced by 'w\u00fcrde' because 'w\u00fcrde' is used in conditional sentences to express politeness.<br><b>Error type</b>: modal verb<br>A comma is inserted to separate clauses and improve sentence structure and readability.<br><b>Error type</b>: punctuation<br>The word 'Abends' is replaced by 'Abend' because the latter should be used to indicate 'the evening.'<br><b>Error type</b>: noun<br>The word 'Essen' is replaced by 'essen' because the verb 'essen' should be in lowercase, as it is not a proper noun.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1091_0000161",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[10]",
+                "end": "/text()[10]",
+                "startOffset": 2,
+                "endOffset": 12,
+                "globalOffsets": {
+                    "start": 708,
+                    "end": 718
+                },
+                "text": "modal verb",
+                "labels": [
+                    "Wrong error type"
+                ]
+            }
+        ],
+        "comments": "the error type is wrong, because these are not modal verbs"
+    },
+    {
+        "text": "<b>Source:</b> Ich mochte bis seine Haus gehen, kann ich am Freitag gehen?<br><b>Target:</b> Ich m\u00f6chte in sein Haus gehen, kann ich am Freitag gehen?<br><br><b>Explanation:</b><br>The word 'mochte' is replaced by 'm\u00f6chte' because 'm\u00f6chte' is the correct conjugation of the verb 'm\u00f6gen' in the first person singular.<br><b>Error type</b>: conjugation<br>The word 'bis' is replaced by 'in' because 'in' is the correct preposition to use when expressing going into a place.<br><b>Error type</b>: preposition<br>The word 'seine' is replaced by 'sein' because 'sein' is the correct possessive pronoun for a neutral noun like 'Haus'.<br><b>Error type</b>: gender and case",
+        "author": "merlin_1071_0024861",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Menschen ziehen um entweder aus beruflichen oder politische Gr\u00fcnden, oder ganz einfach, weil sie die Welt sehen m\u00f6chten, aus Abenteuerlust.<br><b>Target:</b> Menschen ziehen um, entweder aus beruflichen oder politischen Gr\u00fcnden, oder ganz einfach, weil sie die Welt sehen m\u00f6chten, aus Abenteuerlust.<br><br><b>Explanation:</b><br>The word ',' is inserted to provide clarity in the sentence structure and separate the list of reasons for moving.<br><b>Error type</b>: punctuation<br>The word 'politische' is replaced by 'politischen' because the adjective should agree with the gender and case of the word 'Gr\u00fcnden', which is plural and dative.<br><b>Error type</b>: adjective inflection",
+        "author": "merlin_1031_0003217",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Aber Du m\u00f6cht mit mir Schwimmbad gehen.<br><b>Target:</b> Aber Du m\u00f6chtest mit mir ins Schwimmbad gehen.<br><br><b>Explanation:</b><br>The word 'm\u00f6cht' is replaced by 'm\u00f6chtest' because 'm\u00f6chtest' is the correct conjugation of the verb 'm\u00f6gen' for the second person singular.<br><b>Error type</b>: conjugation<br>The word 'ins' is inserted because the preposition 'in' combined with accusative article 'das' is used to express going into a place, and 'Schwimmbad' requires the article 'das'.<br><b>Error type</b>: preposition and article",
+        "author": "merlin_1071_0024822",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Melde dich bitte bei mir bald.<br><b>Target:</b> Melde dich bitte bald bei mir.<br><br><b>Explanation:</b><br>The word 'bald' is relocated because it should be placed before 'bei mir' to emphasize the urgency of the request.<br><b>Error type</b>: word order",
+        "author": "merlin_1071_0248339",
+        "cefr": "A2",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 74,
+                "endOffset": 113,
+                "globalOffsets": {
+                    "start": 166,
+                    "end": 205
+                },
+                "text": "to emphasize the urgency of the request",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Sehr geeherte Damen-Herren.<br><b>Target:</b> Sehr geehrte Damen und Herren.<br><br><b>Explanation:</b><br>The word 'geeherte' is replaced by 'geehrte' because 'geehrte' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'Damen-Herren' is replaced by 'Damen und Herren' because the correct phrase is 'Damen und Herren' meaning 'ladies and gentlemen'.<br><b>Error type</b>: phrasing",
+        "author": "merlin_1091_0000078",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> und Sie haben nich problem.<br><b>Target:</b> Und Sie haben kein Problem.<br><br><b>Explanation:</b><br>The word 'und' is replaced by 'Und' because it should be capitalized at the beginning of a sentence.<br><b>Error type</b>: capitalization<br>The word 'nich' is replaced by 'kein' because 'kein' is the correct negation of a noun in this context.<br><b>Error type</b>: negation<br>The word 'problem' is replaced by 'Problem' because nouns are capitalized in German.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1091_0000101",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wir tr\u00e4gte 70 Jahr Kleidungen und genau so wir Alterdeuchelands.<br><b>Target:</b> Wir trugen 70er-Jahre-Kleidung und genauso wie Alt-Deutschland.<br><br><b>Explanation:</b><br>The word 'tr\u00e4gte' is replaced by 'trugen' because 'trugen' is the correct past tense form of the verb 'tragen'.<br><b>Error type</b>: conjugation<br>The word '70' is replaced by '70er' to indicate the decade (70s) in which the clothes were worn.<br><b>Error type</b>: word formation<br>The word 'Jahr' is replaced by 'Jahre' to indicate the plural 'years' in the compound noun.<br><b>Error type</b>: plural<br>The word 'Kleidungen' is replaced by 'Kleidung' because 'Kleidung' is the correct singular term for 'clothing'.<br><b>Error type</b>: vocabulary<br>The word 'genau' is replaced by 'genauso' because 'genauso' is the correct form to use when making comparisons, meaning 'just like'.<br><b>Error type</b>: vocabulary<br>The word 'so' is replaced by 'wie' because 'genauso wie' is the correct phrase for comparing two things.<br><b>Error type</b>: vocabulary<br>The word 'Alterdeuchelands' is replaced by 'Alt-Deutschland' because 'Alt-Deutschland' is the correct term for expressing 'Old Germany'.<br><b>Error type</b>: word formation",
+        "author": "merlin_1061_0120426",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Brauchst du etwas hilfe?<br><b>Target:</b> Brauchst du Hilfe?<br><br><b>Explanation:</b><br>The phrase 'etwas hilfe' is replaced by 'Hilfe' because 'etwas' is unnecessary when offering help in this context.<br><b>Error type</b>: redundancy",
+        "author": "merlin_1071_0024765",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above.",
+        "comments": "+ spelling"
+    },
+    {
+        "text": "<b>Source:</b> Im allgemeinen kann man also sagen, dass dies alles Dinge sind die man niemandem w\u00fcnscht nicht einmal seinem \u00e4rgsten Feind, doch wenn niemand sich eine solche Erfahrung w\u00fcnscht warum ist die Kriminalit\u00e4t dann so weit verbreitet???<br><b>Target:</b> Im Allgemeinen kann man also sagen, dass dies alles Dinge sind, die man niemandem w\u00fcnscht, nicht einmal seinem \u00e4rgsten Feind, doch wenn niemand sich eine solche Erfahrung w\u00fcnscht, warum ist die Kriminalit\u00e4t dann so weit verbreitet???<br><br><b>Explanation:</b><br>The word 'allgemeinen' is replaced by 'Allgemeinen' because it is an adverb and in German, adverbs derived from adjectives are capitalized when they are at the beginning of a sentence. <br><b>Error type</b>: capitalization<br>Commas are inserted because there are subordinate clauses introduced by \"dass\" and \"die\" which require commas to separate them from the main clause.<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw008_2007_06_L1v2.3_ManuallyFixed.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich rufe dich an?<br><b>Target:</b> Ich rufe dich an.<br><br><b>Explanation:</b><br>The symbol '?' is replaced by '.' because the sentence is a declarative statement, not a question.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1091_0000241",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich brauch 50 m\u00b2.<br><b>Target:</b> Ich brauche 50 m\u00b2.<br><br><b>Explanation:</b><br>The word 'brauch' is replaced by 'brauche' because 'brauche' is the correct conjugation of the verb 'brauchen' in the first person singular.<br><b>Error type</b>: verb conjugation",
+        "author": "merlin_1071_0024798",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Das Internet und Medien verbinden die Leute der ganzen Welt.<br><b>Target:</b> Das Internet und die Medien verbinden die Leute der ganzen Welt.<br><br><b>Explanation:</b><br>The word 'die' is inserted because the noun 'Medien' requires a determiner and 'die' is the correct definite article for plural nouns in the nominative case.<br><b>Error type</b>: determiner",
+        "author": "merlin_1031_0003146",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Die Gier die Menschen unmenschlich werden l\u00e4sst, hat viele in den Knast oder unter die Erde gebracht.<br><b>Target:</b> Die Gier, die Menschen unmenschlich werden l\u00e4sst, hat viele in den Knast oder unter die Erde gebracht.<br><br><b>Explanation:</b><br>The comma is inserted after 'Gier' because it provides a separation between the main clause and the relative clause that follows.<br><b>Error type</b>: punctuation",
+        "author": "falko_dhw016_2007_06_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> F\u00fcr das neue Jahr habe ich einige W\u00fcnschen.<br><b>Target:</b> F\u00fcr das neue Jahr habe ich einige W\u00fcnsche.<br><br><b>Explanation:</b><br>The word 'W\u00fcnschen' is replaced by 'W\u00fcnsche' because 'W\u00fcnsche' is the correct plural form of the noun 'Wunsch'.<br><b>Error type</b>: plural form",
+        "author": "merlin_1061_0120485",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich wollte am 6 m\u00e4rz nach Stadt X fahren, aber es geht Leider nicht, weil ich in der Zeit viel zu tun habe.<br><b>Target:</b> Ich wollte am 6. M\u00e4rz nach Stadt X fahren, aber es geht leider nicht, weil ich in der Zeit viel zu tun habe.<br><br><b>Explanation:</b><br>The phrase '6 m\u00e4rz' is replaced by '6. M\u00e4rz' because in German, the ordinal numbers are followed by a period, and the names of the months are capitalized.<br><b>Error type</b>: formatting and capitalization<br>The word 'Leider' is replaced by 'leider' because in German, adjectives and adverbs are not capitalized unless they are at the beginning of a sentence. <br><b>Error type</b>: capitalization",
+        "author": "merlin_1091_0000261",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Vielleicht wurde die sp\u00e4tere Reinigunsfachkraft in ihrem Elternhaus vernachl\u00e4ssigt, lebt sie seit ihrer Kindheit in einem Milieu, in dem ihr jede Chance auf eine h\u00f6here Bildung verwehrt bleibt.<br><b>Target:</b> Vielleicht wurde die sp\u00e4tere Reinigungsfachkraft in ihrem Elternhaus vernachl\u00e4ssigt, lebt sie seit ihrer Kindheit in einem Milieu, in dem ihr jede Chance auf eine h\u00f6here Bildung verwehrt bleibt.<br><br><b>Explanation:</b><br>The word 'Reinigunsfachkraft' is replaced by 'Reinigungsfachkraft' because 'Reinigungsfachkraft' is the correct spelling.<br><b>Error type</b>: spelling",
+        "author": "falko_dcs013_2007_10_L1v2.3.xlsx",
+        "cefr": "C2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich Kann Miete bezalen 600 - 700 \u20ac<br><b>Target:</b> Ich kann 600 - 700 \u20ac Miete bezahlen.<br><br><b>Explanation:</b><br>The word 'Kann' is replaced by 'kann' because the first letter of a verb should be in lowercase unless it's at the beginning of a sentence.<br><b>Error type</b>: capitalization<br>The word 'Miete' is relocated because the word order should be \"amount noun verb\" (600 - 700 \u20ac Miete bezahlen).<br><b>Error type</b>: word order<br>A period is inserted at the end of the sentence to indicate its completion.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1091_0000035",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich brauche eine gro\u00dfe Wagen f\u00fcr die M\u00f6bel.<br><b>Target:</b> Ich brauche einen gro\u00dfen Wagen f\u00fcr die M\u00f6bel.<br><br><b>Explanation:</b><br>The word 'eine' is replaced by 'einen' because the noun 'Wagen' is masculine and requires the accusative case.<br><b>Error type</b>: gender and case<br>The word 'gro\u00dfe' is replaced by 'gro\u00dfen' because the adjective must agree with the gender and case of the noun 'Wagen'.<br><b>Error type</b>: adjective inflection",
+        "author": "merlin_1071_0024682",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Wann kanst du bekommen?<br><b>Target:</b> Wann kannst du bekommen?<br><br><b>Explanation:</b><br>The word 'kanst' is replaced by 'kannst' because 'kannst' is the correct second person singular form of the verb 'k\u00f6nnen'.<br><b>Error type</b>: conjugation",
+        "author": "merlin_1071_0024813",
+        "cefr": "A1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Welche genaue Rechte und Pflichten haben die Au-pair-m\u00e4dschen und, ob es auch dazu geh\u00f6rt die Aufr\u00e4umungs des Haus?<br><b>Target:</b> Welche genauen Rechte und Pflichten haben die Au-pair-M\u00e4dchen, und ob auch die Aufr\u00e4umung des Hauses dazugeh\u00f6rt.<br><br><b>Explanation:</b><br>The word 'genaue' is replaced by 'genauen' because the plural form of the noun 'Rechte und Pflichten' requires a plural adjective ending in -en.<br><b>Error type</b>: adjective inflection<br>The word 'Au-pair-m\u00e4dschen' is replaced by 'Au-pair-M\u00e4dchen' because of the correct spelling and capitalization.<br><b>Error type</b>: spelling<br>The comma is inserted to separate two independent clauses.<br><b>Error type</b>: punctuation<br>The word 'es' is deleted because it is not necessary for the sentence structure.<br><b>Error type</b>: structure<br>The word 'dazu geh\u00f6rt' is deleted because the correct phrase to use is 'dazugeh\u00f6rt'.<br><b>Error type</b>: word choice<br>The word 'Aufr\u00e4umungs' is replaced by 'Aufr\u00e4umung' because 'Aufr\u00e4umung' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'Haus' is replaced by 'Hauses' because the genitive case is required after 'des'.<br><b>Error type</b>: case<br>The period is inserted to mark the end of the sentence.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1023_0109671",
+        "cefr": "B2",
+        "label": [
+            {
+                "start": "/text()[2]",
+                "end": "/text()[2]",
+                "startOffset": 102,
+                "endOffset": 113,
+                "globalOffsets": {
+                    "start": 233,
+                    "end": 244
+                },
+                "text": "dazugeh\u00f6rt.",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ],
+        "comments": "word order error type as well"
+    },
+    {
+        "text": "<b>Source:</b> Sie denken daran, wenn Sie zum Beispiel seit zehn Jahren in Deutschland leben, sind sie deutschen.<br><b>Target:</b> Sie denken daran, wenn Sie zum Beispiel seit zehn Jahren in Deutschland leben, sind sie Deutsche.<br><br><b>Explanation:</b><br>The word 'deutschen' is replaced by 'Deutsche' because 'Deutsche' is the correct term for German people in this context.<br><b>Error type</b>: noun form",
+        "author": "merlin_1031_0003212",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich w\u00fcnche euch einen sch\u00f6nes zeit, und mir sch\u00f6nes Ferien.<br><b>Target:</b> Ich w\u00fcnsche euch eine sch\u00f6ne Zeit und mir sch\u00f6ne Ferien.<br><br><b>Explanation:</b><br>The word 'w\u00fcnche' is replaced by 'w\u00fcnsche' because 'w\u00fcnsche' is the correct spelling of the verb \"w\u00fcnschen\".<br><b>Error type</b>: spelling<br>The word 'einen' is replaced by 'eine' because \"Zeit\" is a feminine noun and its accusative form requires 'eine'.<br><b>Error type</b>: gender and case<br>The word 'sch\u00f6nes' is replaced by 'sch\u00f6ne' because the adjective should agree with the gender and case of the noun 'Zeit' it is modifying.<br><b>Error type</b>: adjective agreement<br>The word 'zeit' is replaced by 'Zeit' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1061_0120404",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Diese zu besch\u00fctzen beginnt, wenn wir unsere Br\u00e4uche Pflegen und bewahren.<br><b>Target:</b> Diese zu besch\u00fctzen beginnt, wenn wir unsere Br\u00e4uche pflegen und bewahren.<br><br><b>Explanation:</b><br>The word 'Pflegen' is replaced by 'pflegen' because verbs in the middle of a sentence should be in lowercase.<br><b>Error type</b>: capitalization",
+        "author": "merlin_1031_0003409",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Ich brauche eine gro\u00dfe wohnung, ca 100m\u00b2 mit Balkon, und kuche.<br><b>Target:</b> Ich brauche eine gro\u00dfe Wohnung, ca. 100 m\u00b2, mit Balkon und K\u00fcche.<br><br><b>Explanation:</b><br>The word 'wohnung' is replaced by 'Wohnung' because nouns in German are always capitalized.<br><b>Error type</b>: capitalization<br>The word 'ca' is replaced by 'ca.' because abbreviations in German usually end with a period.<br><b>Error type</b>: abbreviation<br>The comma is deleted because a comma is not necessary before \"und\" in a simple list.<br><b>Error type</b>: punctuation<br>The word 'kuche' is replaced by 'K\u00fcche' because the correct spelling is 'K\u00fcche' and nouns in German are always capitalized.<br><b>Error type</b>: spelling and capitalization",
+        "author": "merlin_1071_0024703",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Nichtsdestotrotz lohnt es sich meiner Meinung nach Deutsch zu lernen.<br><b>Target:</b> Nichtsdestotrotz lohnt es sich meiner Meinung nach, Deutsch zu lernen.<br><br><b>Explanation:</b><br>The comma is inserted after 'nach' because in German, commas are used to separate subordinate clauses or infinitive constructions from the main clause.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003415",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Mein Traum ist ein Kaninchen zu haben.<br><b>Target:</b> Mein Traum ist, ein Kaninchen zu haben.<br><br><b>Explanation:</b><br>The comma is inserted because it is used to indicate a dependent clause introduced by the infinitive \"zu\".<br><b>Error type</b>: punctuation",
+        "author": "merlin_1061_0120376",
+        "cefr": "B1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Leider die Eltern kummern sie sich nicht auf die Kinder.<br><b>Target:</b> Die Eltern k\u00fcmmern sich leider nicht um die Kinder.<br><br><b>Explanation:</b><br>The word 'Leider' is deleted because it should be placed after the subject in a sentence.<br><b>Error type</b>: word order<br>The word 'die' is replaced by 'Die' because it is the beginning of the sentence and should be capitalized.<br><b>Error type</b>: capitalization<br>The word 'kummern' is replaced by 'k\u00fcmmern' because the correct spelling in German is with an umlaut (\u00fc).<br><b>Error type</b>: spelling<br>The word 'leider' is inserted because it should be placed after the subject for a more natural sentence structure.<br><b>Error type</b>: word order<br>The word 'auf' is replaced by 'um' because the correct preposition to use with \"sich k\u00fcmmern\" is \"um\".<br><b>Error type</b>: preposition",
+        "author": "merlin_1023_0109267",
+        "cefr": "B1",
+        "label": [
+            {
+                "start": "/text()[3]",
+                "end": "/text()[3]",
+                "startOffset": 37,
+                "endOffset": 89,
+                "globalOffsets": {
+                    "start": 176,
+                    "end": 228
+                },
+                "text": "it should be placed after the subject in a sentence.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            },
+            {
+                "start": "/text()[9]",
+                "end": "/text()[9]",
+                "startOffset": 38,
+                "endOffset": 114,
+                "globalOffsets": {
+                    "start": 551,
+                    "end": 627
+                },
+                "text": "it should be placed after the subject for a more natural sentence structure.",
+                "labels": [
+                    "Wrong error explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Ich habe ein par Fragen zu Ihnen.<br><b>Target:</b> Ich habe ein paar Fragen zu Ihnen.<br><br><b>Explanation:</b><br>The word 'par' is replaced by 'paar' because 'paar' is the correct spelling for expressing a small number or quantity in German.<br><b>Error type</b>: spelling",
+        "author": "merlin_1091_0000204",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Weltweit gesehen, muss Deutsch andere Sprachen wie beispielsweise Englisch, Franz\u00f6sisch und Spanisch vor sich dulden.<br><b>Target:</b> Weltweit gesehen muss Deutsch andere Sprachen wie beispielsweise Englisch, Franz\u00f6sisch und Spanisch vor sich dulden.<br><br><b>Explanation:</b><br>The comma is deleted because it is not necessary in this sentence, as there is no need to separate dependent and independent clauses here.<br><b>Error type</b>: punctuation",
+        "author": "merlin_1031_0003415",
+        "cefr": "C1",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Es besteht aus vielen komplizierte grammatischen Strukturen und Regiln, genauso wie wir, Deutsche, selbst.<br><b>Target:</b> Es besteht aus vielen komplizierten grammatischen Strukturen und Regeln, genauso wie wir Deutschen selbst.<br><br><b>Explanation:</b><br>The word 'komplizierte' is replaced by 'komplizierten' because the adjective needs to agree with the plural noun 'Strukturen' and have a dative plural adjective ending since it follows the preposition 'aus'.<br><b>Error type</b>: adjective inflection<br><br>The word 'Regiln' is replaced by 'Regeln' because 'Regeln' is the correct spelling for the plural form of 'Regel'.<br><b>Error type</b>: spelling<br><br>The word 'Deutsche' is replaced by 'Deutschen' because in the context of this sentence, the correct form is the plural noun 'Deutschen' which refers to the German people.<br><b>Error type</b>: noun form",
+        "author": "merlin_1031_0003179",
+        "cefr": "B2",
+        "label": [
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 88,
+                "endOffset": 89,
+                "globalOffsets": {
+                    "start": 95,
+                    "end": 96
+                },
+                "text": ",",
+                "labels": [
+                    "Missing error"
+                ]
+            },
+            {
+                "start": "/text()[1]",
+                "end": "/text()[1]",
+                "startOffset": 98,
+                "endOffset": 99,
+                "globalOffsets": {
+                    "start": 105,
+                    "end": 106
+                },
+                "text": ",",
+                "labels": [
+                    "Missing error"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<b>Source:</b> Sehr geeherte Damen-Herren.<br><b>Target:</b> Sehr geehrte Damen und Herren.<br><br><b>Explanation:</b><br>The word 'geeherte' is replaced by 'geehrte' because 'geehrte' is the correct spelling.<br><b>Error type</b>: spelling<br>The word 'Damen-Herren' is replaced by 'Damen und Herren' because the correct phrase is 'Damen und Herren' meaning 'ladies and gentlemen'.<br><b>Error type</b>: phrasing",
+        "author": "merlin_1091_0000078",
+        "cefr": "A2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Sie sind sehr unfreundliche und sehr streng.<br><b>Target:</b> Sie sind sehr unfreundlich und sehr streng.<br><br><b>Explanation:</b><br>The word 'unfreundliche' is replaced by 'unfreundlich' because the adjective 'unfreundlich' should match in gender, case, and number with the plural subject 'Sie', which also requires no declension here.<br><b>Error type</b>: adjective declension",
+        "author": "merlin_1023_0108992",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    },
+    {
+        "text": "<b>Source:</b> Das bringt auch weniger Missverst\u00e4ndniss.<br><b>Target:</b> Das bringt auch weniger Missverst\u00e4ndnisse.<br><br><b>Explanation:</b><br>The word 'Missverst\u00e4ndniss' is replaced by 'Missverst\u00e4ndnisse' because 'Missverst\u00e4ndnisse' is the correct plural form of 'Missverst\u00e4ndnis'.<br><b>Error type</b>: plural",
+        "author": "merlin_1031_0003029",
+        "cefr": "B2",
+        "all_correct": "There is no error in the explanation(s) above."
+    }
+]
