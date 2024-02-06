@@ -1,0 +1,1424 @@
+[
+  {
+    "text": "<b>Source:<\/b> We clean the dirty ditch, sweep rubbish then we bury rubbish.<br><b>Target:<\/b> We clean the dirty ditches, sweep rubbish up, then we bury rubbish.<br><br><b>Explanation:<\/b><br>The word 'ditch' is replaced by 'ditches' to reflect the plural form, indicating that there may be more than one ditch being cleaned.<br>Error type: noun number<br>The word 'up' is inserted after 'rubbish' to form a phrasal verb 'sweep up', which means to clean or clear away the rubbish.<br>Error type: collocation<br>A comma is inserted after 'up' because commas are used to separate different segments of a compound sentence for clarity.<br>Error type: punctuation",
+    "edits": "['replace', 'ditch', 'ditches']<br>['insert', '', 'up']<br>['insert', '', ',']",
+    "id": 11927,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5037,
+    "created_at": "2024-02-02T03:03:15.306395Z",
+    "updated_at": "2024-02-02T03:03:15.306439Z",
+    "lead_time": 745.981
+  },
+  {
+    "text": "<b>Source:<\/b> Michael and Kate was so happy, until one day that Michael said to him dream to be a super hero, Kate get so nervous saying that it was ridiculous and just a kid dream and that Michael was only dreaming but that would never happen and that super hero don't exist.<br><b>Target:<\/b> Michael and Kate were so happy, until one day Michael told her about of being a super hero. Kate got so agitated, that it was ridiculous and just a kid's dream and that Michael was only dreaming and that would never happen and that super heroes didn't exist.<br><br><b>Explanation:<\/b><br>The word 'was' is replaced by 'were' because when the subject is compound (Michael and Kate), the verb needs to be in the plural form.<br>Error type: person and number<br>The word 'that' is deleted because it is not needed here as 'one day' does not need to be followed by 'that'.<br>Error type: unnecessary word<br>The phrase 'said to' is replaced with 'told her about of' because the verb 'tell' is used when communicating information or facts to someone, and it's more accurate to use 'her' (Kate) instead of 'him'.<br>Error type: word choice<br>A period is inserted before 'Kate' to separate two independent clauses and to enhance readability.<br>Error type: punctuation<br>The word 'get' is replaced with 'got' to match the past tense used throughout the narration.<br>Error type: tense<br>The word 'nervous' is replaced with 'agitated' because the context indicates that Kate's response was more than just nervousness; she was upset or agitated.<br>Error type: word choice<br>The word 'saying' is deleted because it repeats the action of 'told' and is not necessary in this structure.<br>Error type: word redundancy<br>An \"'s\" is inserted after 'kid' to show possession - that the dream belongs to a kid.<br>Error type: possessive form<br>The word 'but' is replaced with 'and' to maintain the parallel structure and coherence in the chain of thoughts expressed by Kate.<br>Error type: conjunction<br>The word 'hero' is replaced with 'heroes' because 'super heroes' is the plural form which is needed to convey the general idea rather than a single 'super hero'.<br>Error type: plural form<br>The contraction 'don't' is replaced with 'didn't' to match the past tense used throughout the story.<br>Error type: tense",
+    "edits": "['replace', 'was', 'were']<br>['delete', 'that', '']<br>['replace', 'said to', 'told her about of']<br>['insert', '', '.']<br>['replace', 'get', 'got']<br>['replace', 'nervous', 'agitated']<br>['delete', 'saying', '']<br>['insert', '', \"'s\"]<br>['replace', 'but', 'and']<br>['replace', 'hero', 'heroes']<br>['replace', \"don't\", \"didn't\"]",
+    "id": 11928,
+    "label": [
+      {
+        "start": "\/text()[5]",
+        "startOffset": 35,
+        "end": "\/text()[5]",
+        "endOffset": 108,
+        "globalOffsets": {
+          "start": 752,
+          "end": 825
+        },
+        "text": "it is not needed here as 'one day' does not need to be followed by 'that'",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      },
+      {
+        "start": "\/text()[9]",
+        "startOffset": 0,
+        "end": "\/text()[9]",
+        "endOffset": 34,
+        "globalOffsets": {
+          "start": 1083,
+          "end": 1117
+        },
+        "text": "A period is inserted before 'Kate'",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      },
+      {
+        "start": "\/text()[2]",
+        "startOffset": 113,
+        "end": "\/text()[2]",
+        "endOffset": 114,
+        "globalOffsets": {
+          "start": 391,
+          "end": 392
+        },
+        "text": ",",
+        "labels": [
+          "Missing error"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5038,
+    "created_at": "2024-02-02T03:13:23.155315Z",
+    "updated_at": "2024-02-02T03:13:23.155381Z",
+    "lead_time": 603.841
+  },
+  {
+    "text": "<b>Source:<\/b> Also watch videos of some best player like Sachin, Rahul, Sir Don breadman, Hayden, Wasim Akaram, Brett Lee etc.<br><b>Target:<\/b> Also, watch videos of some of the best players, like Sachin, Rahul, Sir Don breadman, Hayden, Wasim Akaram, Brett Lee, etc.<br><br><b>Explanation:<\/b><br>A comma is inserted after \"Also\" to separate the introductory word from the rest of the sentence.<br>Error type: punctuation<br>The phrase 'of the' is inserted before 'best players' to indicate that we're talking about a specific group of people who are the best players.<br>Error type: determiner<br>The term 'player' is replaced by 'players' because 'some' is used to refer to an unspecified amount or number of people or things, so the noun it modifies should be plural.<br>Error type: noun number<br>A comma is inserted before 'etc.' to separate items in the list and conform with the serial comma rule, which states that a comma should be placed before conjunctions and disjunctions in a list.<br>Error type: punctuation",
+    "edits": "['insert', '', ',']<br>['insert', '', 'of the']<br>['replace', 'player', 'players']<br>['insert', '', ',']",
+    "id": 11929,
+    "label": [
+      {
+        "start": "\/text()[2]",
+        "startOffset": 47,
+        "end": "\/text()[2]",
+        "endOffset": 49,
+        "globalOffsets": {
+          "start": 175,
+          "end": 177
+        },
+        "text": ", ",
+        "labels": [
+          "Missing error"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5039,
+    "created_at": "2024-02-02T03:16:21.195480Z",
+    "updated_at": "2024-02-02T03:16:21.195524Z",
+    "lead_time": 173.399
+  },
+  {
+    "text": "<b>Source:<\/b> Recently I saw the thriller of mokingjay part 2.<br><b>Target:<\/b> Recently I saw the thriller of Mokingjay part 2.<br><br><b>Explanation:<\/b><br>The word 'mokingjay' is replaced by 'Mokingjay' because it is a proper noun (a title of a book or a film) and should be capitalized in English.<br>Error type: capitalization",
+    "edits": "['replace', 'mokingjay', 'Mokingjay']",
+    "id": 11930,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5040,
+    "created_at": "2024-02-02T03:16:36.005778Z",
+    "updated_at": "2024-02-02T03:16:36.005828Z",
+    "lead_time": 11.578
+  },
+  {
+    "text": "<b>Source:<\/b> I am sure that I will look after children very well.<br><b>Target:<\/b> I am sure that I will look after the children very well.<br><br><b>Explanation:<\/b><br>The word 'the' is inserted before 'children' because 'the' is used to refer to specific children that the speaker and the listener know about. Without 'the', the sentence suggests the speaker will look after any children which may not be the intended meaning.<br>Error type: determiner",
+    "edits": "['insert', '', 'the']",
+    "id": 11931,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5041,
+    "created_at": "2024-02-02T03:16:48.274312Z",
+    "updated_at": "2024-02-02T03:16:48.274352Z",
+    "lead_time": 9.441
+  },
+  {
+    "text": "<b>Source:<\/b> I Planned many interesting activities for views to make competition alive.<br><b>Target:<\/b> I planned many interesting activities for views to make competitions come alive.<br><br><b>Explanation:<\/b><br>The word 'Planned' is replaced by 'planned' because in the middle of a sentence, the words should start with a lowercase letter unless it's a proper noun or at the start of a direct quote.<br>Error type: capitalization<br>The word 'competition' is replaced by 'competitions' because the noun 'competitions' in plural form indicates multiple instances of competition, which is more appropriate in the context of planning many activities.<br>Error type: number<br>The word 'come' is inserted before 'alive' because 'come alive' is an idiomatic expression that means 'become exciting or full of activity', which fits in the context.<br>Error type: missing word",
+    "edits": "['replace', 'Planned', 'planned']<br>['replace', 'competition', 'competitions']<br>['insert', '', 'come']",
+    "id": 11932,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5042,
+    "created_at": "2024-02-02T03:20:28.736730Z",
+    "updated_at": "2024-02-02T03:20:28.736775Z",
+    "lead_time": 40.678
+  },
+  {
+    "text": "<b>Source:<\/b> Technology, is something that is very important, something without which we can not live.<br><b>Target:<\/b> Technology is something that is very important, something without which we can not live.<br><br><b>Explanation:<\/b><br>The first comma after 'Technology' is deleted because there is no need for a comma after the subject of a sentence.<br>Error type: punctuation",
+    "edits": "['delete', ',', '']",
+    "id": 11933,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5043,
+    "created_at": "2024-02-02T03:21:49.841468Z",
+    "updated_at": "2024-02-02T03:21:49.841496Z",
+    "lead_time": 77.871
+  },
+  {
+    "text": "<b>Source:<\/b> When I was a child, I had a lot friends and they were very important for me.<br><b>Target:<\/b> When I was a child, I had a lot friends and they were very important to me.<br><br><b>Explanation:<\/b><br>The word 'for' is replaced by 'to' because the adjective 'important' typically co-occurs with the preposition 'to', not 'for', when it comes to showing relevance or significance to someone. So we say 'important to me' not 'important for me'.<br>Error type: preposition usage",
+    "edits": "['replace', 'for', 'to']",
+    "id": 11934,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5044,
+    "created_at": "2024-02-02T03:22:41.092347Z",
+    "updated_at": "2024-02-02T03:22:41.092394Z",
+    "lead_time": 43.322
+  },
+  {
+    "text": "<b>Source:<\/b> One of them I'm keen on playing basketball the best. I always spend more time on playing it.<br><b>Target:<\/b> I'm keen on playing basketball the most. I always spend more time on playing it.<br><br><b>Explanation:<\/b><br>The phrase 'One of them' is deleted because it doesn't contribute to the meaning of the sentence and interrupts the clarity, making it confusing. <br>Error type: redundancy<br>The word 'best' is replaced by 'most' because when talking about preference for a single item or activity, 'most' is typically used rather than 'best'. 'Best' implies a comparison with other items or activities, which is not clearly indicated in the sentence.<br>Error type: word choice",
+    "edits": "['delete', 'One of them', '']<br>['replace', 'best', 'most']",
+    "id": 11935,
+    "label": [
+      {
+        "start": "\/text()[5]",
+        "startOffset": 51,
+        "end": "\/text()[5]",
+        "endOffset": 259,
+        "globalOffsets": {
+          "start": 425,
+          "end": 633
+        },
+        "text": "talking about preference for a single item or activity, 'most' is typically used rather than 'best'. 'Best' implies a comparison with other items or activities, which is not clearly indicated in the sentence.",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      }
+    ],
+    "comments": "\"the most\" is used to talk about quantity and \"the best\" is usually used to talk about quality.",
+    "annotator": 1,
+    "annotation_id": 5045,
+    "created_at": "2024-02-02T03:30:33.138257Z",
+    "updated_at": "2024-02-02T03:30:56.563021Z",
+    "lead_time": 79.692
+  },
+  {
+    "text": "<b>Source:<\/b> Let me watch your house.<br><b>Target:<\/b> Let me see your house.<br><br><b>Explanation:<\/b><br>The word 'watch' is replaced by 'see' because 'watch' implies observing something over a period of time, often for protective purposes, while 'see' suggests a brief or one-time observation, which is more suitable in this context when someone requests to view another's house.<br>Error type: word choice",
+    "edits": "['replace', 'watch', 'see']",
+    "id": 11936,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5046,
+    "created_at": "2024-02-02T03:31:17.604873Z",
+    "updated_at": "2024-02-02T03:31:17.604912Z",
+    "lead_time": 17.262
+  },
+  {
+    "text": "<b>Source:<\/b> If she wasn't awake, why she couldn't remember anything after that?<br><b>Target:<\/b> If she wasn't awake, why couldn't she remembert anything after that?<br><br><b>Explanation:<\/b><br>The word 'couldn't' is relocated from after 'she' to before 'she' because in English, the word order of a direct question should be verb-subject. In this case, the auxiliary verb 'couldn't' should come before the subject 'she'.<br>Error type: word order",
+    "edits": "['relocate', \"couldn't\", \"couldn't\"]",
+    "id": 11937,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5047,
+    "created_at": "2024-02-02T03:31:39.126038Z",
+    "updated_at": "2024-02-02T03:31:39.126089Z",
+    "lead_time": 18.679
+  },
+  {
+    "text": "<b>Source:<\/b> He doesn't have much time to prove their plan and he could not wait to let it happen.<br><b>Target:<\/b> He didn't have much time to prove their plan and he could not wait to make it happen.<br><br><b>Explanation:<\/b><br>The word 'does' is replaced by 'did' because the sentence is referring to a past event, therefore the verb should be in the past form.<br>Error type: tense<br><br>The word 'let' is replaced by 'make' because the phrase 'make it happen' is more appropriate, it implies that he is taking action to ensure the event occurs, while 'let it happen' implies that the event is happening on its own and he is merely allowing it.<br>Error type: word choice",
+    "edits": "['replace', 'does', 'did']<br>['replace', 'let', 'make']",
+    "id": 11938,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5048,
+    "created_at": "2024-02-02T03:32:03.501869Z",
+    "updated_at": "2024-02-02T03:32:03.501915Z",
+    "lead_time": 21.239
+  },
+  {
+    "text": "<b>Source:<\/b> Then they can sell them and get income of it.<br><b>Target:<\/b> Then they can sell them and get income from it.<br><br><b>Explanation:<\/b><br>The preposition 'of' is replaced with 'from' because 'income from' is the correct collocation when referring to the earnings obtained from a particular source or activity.<br>Error type: collocation",
+    "edits": "['replace', 'of', 'from']",
+    "id": 11939,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5049,
+    "created_at": "2024-02-02T03:32:35.145890Z",
+    "updated_at": "2024-02-02T03:32:35.145953Z",
+    "lead_time": 27.959
+  },
+  {
+    "text": "<b>Source:<\/b> I like NewZealand because there are many islands.<br><b>Target:<\/b> I like New Zealand because there are many islands.<br><br><b>Explanation:<\/b><br>The word 'NewZealand' is replaced by 'New Zealand' because the correct spelling of the country's name includes a space between 'New' and 'Zealand'.<br>Error type: spelling",
+    "edits": "['replace', 'NewZealand', 'New Zealand']",
+    "id": 11940,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5050,
+    "created_at": "2024-02-02T03:33:15.755540Z",
+    "updated_at": "2024-02-02T03:33:15.755604Z",
+    "lead_time": 37.45
+  },
+  {
+    "text": "<b>Source:<\/b> Just your wage paid too much lower than I expected, I want a little higher wages, payment of 300 yuan more than the existing wage basis.<br><b>Target:<\/b> It's just that your wage paid is much lower than I expected. I want a little higher wages, payment of 300 yuan more than the existing wage basis.<br><br><b>Explanation:<\/b><br>The word 'Just' is replaced with \"It's just\" to introduce a fact or argument in a more emphatic way.<br>Error type: word choice<br>A comma is replaced with a period to properly end the first sentence before starting a new one, enhancing clarity and readability.<br>Error type: punctuation<br>The word 'too' is replaced with 'is' to construct a more grammatically accurate sentence. 'Is' correctly links the subject 'your wage' with the complement 'much lower than I expected'.<br>Error type: verb form<br>The word 'It' and 's' are inserted at the beginning of the sentence to form a correct contraction 'It's' for 'It is', to indicate that what follows is an explanation. <br>Error type: contraction<br>The word 'that' is inserted to introduce the clause that is the object of the verb 'is' in this sentence, helping enhance its clarity.<br>Error type: clause introduction",
+    "edits": "['insert', '', 'It']<br>['insert', '', 's']<br>['insert', '', 'that']<br>['replace', 'too', 'is']<br>['replace', 'Just', \"It's just\"]<br>['replace', ',', '.']",
+    "id": 11941,
+    "label": [
+      {
+        "start": "\/text()[3]",
+        "startOffset": 0,
+        "end": "\/text()[3]",
+        "endOffset": 100,
+        "globalOffsets": {
+          "start": 313,
+          "end": 413
+        },
+        "text": "The word 'Just' is replaced with \"It's just\" to introduce a fact or argument in a more emphatic way.",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      }
+    ],
+    "comments": "the same error is explained twice and the second one is correct. Hence, I marked the first one as incorrect.",
+    "annotator": 1,
+    "annotation_id": 5051,
+    "created_at": "2024-02-02T03:35:41.074677Z",
+    "updated_at": "2024-02-02T03:36:02.691308Z",
+    "lead_time": 162.106
+  },
+  {
+    "text": "<b>Source:<\/b> The Computing Technology has been advancing very much this last years, making the old computers almost useless, getting better and making the difference between old and new computers grow even more with every new discoverement.<br><b>Target:<\/b> Computing Technology has been advancing a great deal in recent years, making the old computers almost useless, getting better, and making the difference between old and new computers grow even more with every new invention.<br><br><b>Explanation:<\/b><br>The word 'The' is deleted because it is unnecessary to use 'The' before the broad general term 'Computing Technology', unless it's referring to a specific technology or a known entity.<br>Error type: unnecessary word<br>The phrase 'very much' is replaced by 'a great deal' as it's a more preferred way of expressing a significant amount or degree in formal English when referring to a technological advancement.<br>Error type: collocation<br>The phrase 'this last years' is replaced with 'in recent years'. 'In recent years' is a more accurate way to refer to the period of the last few years. Also, \"this last years\" is grammatically incorrect because \"this\" is singular while \"years\" is plural.<br>Error type: word choice<br>A comma is inserted before 'and' to indicate a list of actions that are happening due to Computed Technology advancement. In English, it's common to use commas to separate items in a list of three or more. <br>Error type: punctuation<br>The word 'discoverement' is replaced by 'invention' because 'discoverement' is not a standard English word, and the correct word to use in this context is 'invention', which refers to a useful new device or process.<br>Error type: spelling and word choice",
+    "edits": "['delete', 'The', '']<br>['replace', 'very much', 'a great deal']<br>['replace', 'this last years', 'in recent years']<br>['insert', '', ',']<br>['replace', 'discoverement', 'invention']",
+    "id": 11942,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5052,
+    "created_at": "2024-02-02T03:37:02.419154Z",
+    "updated_at": "2024-02-02T03:37:02.419203Z",
+    "lead_time": 56.354
+  },
+  {
+    "text": "<b>Source:<\/b> Ten or eleven years at school make them tired, in spite of pupils don't notice it.<br><b>Target:<\/b> Ten or eleven years at school makes them tired, although pupils don't notice it.<br><br><b>Explanation:<\/b><br>The word 'make' is replaced by 'makes' because the subject 'ten or eleven years at school' is considered a singular period of time, thus the verb should be in the singular form 'makes'.<br>Error type: subject-verb agreement<br>The phrase 'in spite of' is replaced by 'although'. 'In spite of' is usually used before a noun\/noun phrase or the -ing form of a verb. When introducing a clause, we should use 'although' instead of 'in spite of'.<br>Error type: conjunction",
+    "edits": "['replace', 'make', 'makes']<br>['replace', 'in spite of', 'although']",
+    "id": 11943,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5053,
+    "created_at": "2024-02-02T03:37:45.420154Z",
+    "updated_at": "2024-02-02T03:37:45.420204Z",
+    "lead_time": 26.47
+  },
+  {
+    "text": "<b>Source:<\/b> They just have to calm talk about it.<br><b>Target:<\/b> They just have to calmly talk about it.<br><br><b>Explanation:<\/b><br>The word 'calm' is replaced by 'calmly' because an adverb, rather than an adjective, is needed to modify the verb 'talk'. 'Calm' is an adjective, while 'calmly' is the adverb form.<br>Error type: word form",
+    "edits": "['replace', 'calm', 'calmly']",
+    "id": 11944,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5054,
+    "created_at": "2024-02-02T03:38:09.052625Z",
+    "updated_at": "2024-02-02T03:38:09.052667Z",
+    "lead_time": 12.353
+  },
+  {
+    "text": "<b>Source:<\/b> I took the sun a very long time and then I go to a cafe and and I drank a refreshment.<br><b>Target:<\/b> I sunbathed for a very long time and then I went to a cafe and I drank a drink.<br><br><b>Explanation:<\/b><br>The phrase 'took the sun' is replaced by 'sunbathed' because 'sunbathed' is the correct verb for the action of lying in the sun.<br>Error type: word choice<br>The word 'for' is inserted after 'sunbathed' and before 'a very long time' to correctly express the duration of an activity.<br>Error type: preposition<br>The word 'go' is replaced by 'went' to match the past tense context established by 'sunbathed'.<br>Error type: verb tense<br>The word 'refreshment' is replaced by 'drink' as it is more common to refer to what one consumes in a cafe as a 'drink'.<br>Error type: word choice",
+    "edits": "['replace', 'took', 'sunbathed']<br>['insert', '', 'for']<br>['replace', 'go', 'went']<br>['replace', 'refreshment', 'drink']",
+    "id": 11945,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5055,
+    "created_at": "2024-02-02T03:38:46.709488Z",
+    "updated_at": "2024-02-02T03:38:46.709534Z",
+    "lead_time": 32.523
+  },
+  {
+    "text": "<b>Source:<\/b> On the other hand, I had taken care of my brothers and cousins for many hours when they were very young.<br><b>Target:<\/b> On the other hand, I took care of my brothers and cousins for many hours when they were very young.<br><br><b>Explanation:<\/b><br>The phrase 'had taken' was replaced by 'took' because the past perfect (had taken) is usually used when there are two past events and one happened before the other. Here, there's no such context and the past simple (took) is more appropriate to indicate an action completed in the past.<br>Error type: tense",
+    "edits": "['replace', 'had taken', 'took']",
+    "id": 11946,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5056,
+    "created_at": "2024-02-02T03:39:32.086488Z",
+    "updated_at": "2024-02-02T03:39:32.086543Z",
+    "lead_time": 42.182
+  },
+  {
+    "text": "<b>Source:<\/b> It's not just a hobby, it's more than this.<br><b>Target:<\/b> It's not just a hobby; it's more than that.<br><br><b>Explanation:<\/b><br>The comma is replaced with a semicolon because both parts of the sentence are closely related independent clauses, and a semicolon is used to connect related thoughts in a clearer and more professional way.<br>Error type: punctuation<br>The word 'this' is replaced by 'that' because 'that' is used to refer to something previously mentioned or easily identified, while 'this' is used to identify a specific person or thing close at hand or being indicated or experienced.<br>Error type: word choice",
+    "edits": "['replace', ',', ';']<br>['replace', 'this', 'that']",
+    "id": 11947,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5057,
+    "created_at": "2024-02-02T03:40:01.152218Z",
+    "updated_at": "2024-02-02T03:40:01.152267Z",
+    "lead_time": 25.429
+  },
+  {
+    "text": "<b>Source:<\/b> Firstly, I would like to know how long the course lasts, and if it is possible the date exactly, because I need to book my flights.<br><b>Target:<\/b> Firstly, I would like to know how long the course lasts, and if possible, the exact date because I need to book my flights.<br><br><b>Explanation:<\/b><br>The phrase 'it is' is deleted because it is not necessary in the context. After removing 'it is', the sentence still makes sense and is more concise.<br>Error type: unnecessary words<br>A comma is inserted after 'if possible' to separate the phrases and make the sentence more readable.<br>Error type: punctuation<br>The word 'exact' is inserted before 'date' to define the specificity of the date. The original phrase 'the date exactly' should be replaced with 'the exact date' to conform to usual English language construction.<br>Error type: word order",
+    "edits": "['delete', 'it is', '']<br>['insert', '', ',']<br>['insert', '', 'exact']",
+    "id": 11948,
+    "comments": "",
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5058,
+    "created_at": "2024-02-02T03:41:48.360508Z",
+    "updated_at": "2024-02-02T14:41:33.206755Z",
+    "lead_time": 146.15699999999998
+  },
+  {
+    "text": "<b>Source:<\/b> For this way, many people don't like to use the public transport because they want to move themselves when they need.<br><b>Target:<\/b> For this reason, many people don't like to use public transport because they want to travel when they need to.<br><br><b>Explanation:<\/b><br>The word 'way' is replaced by 'reason'. 'For this way' is not a correct English phrase, the correct phrase is 'for this reason' which is used to show the cause of something.<br>Error type: word choice<br>The word 'the' is deleted because 'public transport' is a general term and does not require a determiner such as 'the'.<br>Error type: determiner<br>The phrase 'move themselves' is replaced by 'travel'. In English, 'move themselves' is not commonly used to mean 'travel'. Instead, 'travel' is a more commonly used and understood term.<br>Error type: word choice<br>The word 'to' is inserted after 'need' because 'need to' is the correct phrase and 'to' is used to indicate an intended action.<br>Error type: missing word",
+    "edits": "['replace', 'way', 'reason']<br>['delete', 'the', '']<br>['replace', 'move themselves', 'travel']<br>['insert', '', 'to']",
+    "id": 11949,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5059,
+    "created_at": "2024-02-02T03:42:55.756581Z",
+    "updated_at": "2024-02-02T03:42:55.756631Z",
+    "lead_time": 38.446
+  },
+  {
+    "text": "<b>Source:<\/b> Because of we are Chinese, why do we give up our mother tongue and learn our owne culture through a foreign language?<br><b>Target:<\/b> Because if we are Chinese, why do we give up our mother tongue and learn about our own culture through a foreign language?<br><br><b>Explanation:<\/b><br>The word 'of' is replaced with 'if' because 'if' is required before 'we are Chinese' to express the condition or hypothetical situation in the sentence.<br>Error type: preposition<br>The word 'about' is inserted in the sentence after 'learn' to suggest that we are gaining or seeking knowledge of our own culture, which is the correct usage in this context.<br>Error type: missing word<br>The word 'owne' is replaced with 'own' because 'own' is the correct spelling which shows possession over something, in this case, culture.<br>Error type: spelling",
+    "edits": "['replace', 'of', 'if']<br>['insert', '', 'about']<br>['replace', 'owne', 'own']",
+    "id": 11950,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5060,
+    "created_at": "2024-02-02T03:44:15.865320Z",
+    "updated_at": "2024-02-02T03:44:15.865367Z",
+    "lead_time": 75.986
+  },
+  {
+    "text": "<b>Source:<\/b> Do you know that 75% of people in Mexico, doesn't practice any type of exercise, this is a big problem to our society and is the problem number 1 of why Mexico is the country with more obese in the world.<br><b>Target:<\/b> Do you know that 75% of people in Mexico don't do any type of exercise? This a big problem for our society and is the number 1 problem of why Mexico is the country with the most obese people in the world.<br><br><b>Explanation:<\/b><br>The word 'doesn't' is replaced by 'don't' because the subject '75% of people' is plural, which requires the use of 'do not' or 'don't'.<br>Error type: agreement <br>The word 'practice' is replaced by 'do' as 'do exercise' is the more commonly accepted phrase, although it is valid to say 'practice exercise', the former is used more widely. <br>Error type: collocation <br>The word 'to' is replaced by 'for' because 'problem for' is the correct collocation in English when referring to a problem affecting a particular group.<br>Error type: preposition usage <br>The extra 'problem' is deleted as it was repeated unnecessarily.<br>Error type: redundancy <br>The expression 'of why' is replaced by 'the number 1 problem of why' for clarity and emphasis on the severity of the problem.<br>Error type: clarity and emphasis <br>The phrase 'more obese' is replaced by 'the most obese people' because 'the most' is used to denote the highest degree among more than two entities.<br>Error type: comparative and superlative form",
+    "edits": "['replace', \"doesn't\", \"don't\"]<br>['replace', 'practice', 'do']<br>['replace', 'to', 'for']<br>['delete', 'problem', '']<br>['replace', 'of why', 'the number 1 problem of why']<br>['replace', 'more obese', 'the most obese people']",
+    "id": 11951,
+    "label": [
+      {
+        "start": "\/text()[2]",
+        "startOffset": 71,
+        "end": "\/text()[2]",
+        "endOffset": 72,
+        "globalOffsets": {
+          "start": 291,
+          "end": 292
+        },
+        "text": "?",
+        "labels": [
+          "Missing error"
+        ]
+      },
+      {
+        "start": "\/text()[11]",
+        "startOffset": 0,
+        "end": "\/text()[11]",
+        "endOffset": 125,
+        "globalOffsets": {
+          "start": 1074,
+          "end": 1199
+        },
+        "text": "The expression 'of why' is replaced by 'the number 1 problem of why' for clarity and emphasis on the severity of the problem.",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      },
+      {
+        "start": "\/text()[2]",
+        "startOffset": 185,
+        "end": "\/text()[2]",
+        "endOffset": 191,
+        "globalOffsets": {
+          "start": 405,
+          "end": 411
+        },
+        "text": "people",
+        "labels": [
+          "Missing error"
+        ]
+      },
+      {
+        "start": "\/text()[9]",
+        "startOffset": 0,
+        "end": "\/text()[9]",
+        "endOffset": 64,
+        "globalOffsets": {
+          "start": 985,
+          "end": 1049
+        },
+        "text": "The extra 'problem' is deleted as it was repeated unnecessarily.",
+        "labels": [
+          "Hallucinated error"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5061,
+    "created_at": "2024-02-02T03:45:49.758328Z",
+    "updated_at": "2024-02-02T14:54:26.652680Z",
+    "lead_time": 111.652
+  },
+  {
+    "text": "<b>Source:<\/b> We found a pharmacy and a restroom where we could get a rest and take a shower to clean ourselves.<br><b>Target:<\/b> We found a pharmacy and a restroom where we could have a rest and take a shower to clean ourselves.<br><br><b>Explanation:<\/b><br>The verb 'get' is replaced by 'have' because the correct collocation for a rest is 'have a rest'. The verb 'have' is often used to describe situations, experiences, or states, such as taking a rest.<br>Error type: collocation",
+    "edits": "['replace', 'get', 'have']",
+    "id": 11952,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5062,
+    "created_at": "2024-02-02T05:03:04.805776Z",
+    "updated_at": "2024-02-02T05:03:04.805823Z",
+    "lead_time": 14.51
+  },
+  {
+    "text": "<b>Source:<\/b> In conclusion, my opinion is I do not like to do any sports but we need to choose one kind of sport in our life and almost all people need to do it, as we could not stay at home or working all the time.<br><b>Target:<\/b> In conclusion, I do not like to do any sports, but we need to choose one kind of sport in our life and almost all people need to do it, as we should not stay at home or work all the time.<br><br><b>Explanation:<\/b><br>The phrase 'my opinion is' is deleted because it's redundant. When you say 'In conclusion,' the following statement is automatically understood to be your opinion.<br>Error type: redundancy<br>A comma is inserted after 'sports' to separate two independent clauses in the same sentence.<br>Error type: punctuation<br>The word 'could' is replaced by 'should' to change the meaning from possibility to advice or recommendation.<br>Error type: word choice<br>The word 'working' is replaced by 'work' because the conjunction 'or' is followed by a base verb, which should be parallel with the base verb 'stay' in the previous clause.<br>Error type: word form",
+    "edits": "['delete', 'my opinion is', '']<br>['insert', '', ',']<br>['replace', 'could', 'should']<br>['replace', 'working', 'work']",
+    "id": 11953,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5063,
+    "created_at": "2024-02-02T05:04:34.322557Z",
+    "updated_at": "2024-02-02T05:04:34.322601Z",
+    "lead_time": 76.827
+  },
+  {
+    "text": "<b>Source:<\/b> Should learn other languages?.<br><b>Target:<\/b> Should we learn other languages?<br><br><b>Explanation:<\/b><br>The word 'we' is inserted because a subject is needed in the sentence to make it grammatically correct. Without it, it is unclear who the question is referring to.<br>Error type: missing word<br>The dot at the very end is deleted because it is unharmful when it follows a period, and a sentence doesn't require two sentence-ending punctuation marks.<br>Error type: punctuation",
+    "edits": "['insert', '', 'we']<br>['delete', '.', '']",
+    "id": 11954,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5064,
+    "created_at": "2024-02-02T05:14:41.609128Z",
+    "updated_at": "2024-02-02T05:14:41.609166Z",
+    "lead_time": 602.882
+  },
+  {
+    "text": "<b>Source:<\/b> The terrible consequences, are caused by the humans' unsatisfied heart.<br><b>Target:<\/b> These terrible consequences are caused by the humans' unsatisfied hearts.<br><br><b>Explanation:<\/b><br>The word 'The' is replaced by 'These' because 'these' refers to specific consequences that are close to the speaker (physically or figuratively as in context) while 'the' is used for specific consequences previously mentioned or understood in the context.<br>Error type: determiner<br>The comma is deleted after 'consequences' because it's unnecessary. A comma should not separate the subject and the predicate in a sentence.<br>Error type: punctuation<br>The word 'heart' is replaced by 'hearts' because 'hearts' is the plural form coordinated with 'humans' which indicates multiple individuals' hearts.<br>Error type: word form",
+    "edits": "['replace', 'The', 'These']<br>['delete', ',', '']<br>['replace', 'heart', 'hearts']",
+    "id": 11955,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5065,
+    "created_at": "2024-02-02T05:19:44.662071Z",
+    "updated_at": "2024-02-02T05:19:44.662113Z",
+    "lead_time": 299.638
+  },
+  {
+    "text": "<b>Source:<\/b> If the partially damaged sheets are bad, they will be treated as bad sheets, which will be securely distoryed.<br><b>Target:<\/b> If the partially damaged sheets are bad, they will be treated as bad sheets, which will be securely destroyed.<br><br><b>Explanation:<\/b><br>The word 'distoryed' is replaced by 'destroyed' because 'distoryed' is not a word in English. 'Destroyed' is correctly used here to mean that the bad sheets will be completely ruined or eradicated.<br>Error type: spelling",
+    "edits": "['replace', 'distoryed', 'destroyed']",
+    "id": 11956,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5066,
+    "created_at": "2024-02-02T05:20:32.526092Z",
+    "updated_at": "2024-02-02T05:20:32.526140Z",
+    "lead_time": 44.613
+  },
+  {
+    "text": "<b>Source:<\/b> Yes it is true that during summer the temperature is very hot and you can rarely stay near the sun because you finish t be burn by the sun.<br><b>Target:<\/b> Yes, it is true that during summer the temperature is very hot and you can rarely stay in the sun because you end being burnt by the sun.<br><br><b>Explanation:<\/b><br>A comma is inserted after 'Yes' to separate it from the rest of the sentence, as a pause is typically required after an interjection.<br>Error type: punctuation<br>The word 'near' is replaced by 'in' because 'in the sun' is the correct phrase to express exposure to sunlight.<br>Error type: preposition<br>The word 'finish' is replaced by 'end' because 'end up' is the appropriate phrase to indicate the final result of a process.<br>Error type: collocation<br>The letter 't' is replaced by 'being' to form the phrase 'end up being', which indicates a change to a new, usually unplanned, state.<br>Error type: word form<br>The word 'burn' is replaced by 'burnt' because the verb 'burn' should be in its past participle form 'burnt' after 'being'.<br>Error type: word form",
+    "edits": "['insert', '', ',']<br>['replace', 'near', 'in']<br>['replace', 'finish', 'end']<br>['replace', 't', 'being']<br>['replace', 'burn', 'burnt']",
+    "id": 11957,
+    "label": [
+      {
+        "start": "\/text()[7]",
+        "startOffset": 39,
+        "end": "\/text()[8]",
+        "endOffset": 23,
+        "globalOffsets": {
+          "start": 641,
+          "end": 750
+        },
+        "text": "because 'end up' is the appropriate phrase to indicate the final result of a process.\\nError type: collocation",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      },
+      {
+        "start": "\/text()[9]",
+        "startOffset": 0,
+        "end": "\/text()[9]",
+        "endOffset": 133,
+        "globalOffsets": {
+          "start": 751,
+          "end": 884
+        },
+        "text": "The letter 't' is replaced by 'being' to form the phrase 'end up being', which indicates a change to a new, usually unplanned, state.",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5067,
+    "created_at": "2024-02-02T05:23:01.390336Z",
+    "updated_at": "2024-02-02T05:23:01.390371Z",
+    "lead_time": 145.503
+  },
+  {
+    "text": "<b>Source:<\/b> Secondly, I do not like to go to beach, this is because I do not like big sun and sand.<br><b>Target:<\/b> Secondly, I do not like to go to the beach. This because I do not like bright sunshine and sand.<br><br><b>Explanation:<\/b><br>The word 'the' is inserted before 'beach' because definite article 'the' is used before 'beach' to indicate the specific beach that one generally goes to or refers to.<br>Error type: determiner<br>The phrase ', this' is replaced by '. This' because a period is needed to separate these two independent clauses, and the beginning of the second clause should be capitalized.<br>Error type: punctuation<br>The word 'beach' is mistakenly inserted but this change was not necessary as 'beach' was already in the correct place in the original sentence.<br>Error type: unnecessary word<br>The phrase 'big sun' is replaced by 'bright sunshine' because 'bright sunshine' is a suitable expression to describe intense sunlight.<br>Error type: word choice",
+    "edits": "['insert', '', 'the']<br>['replace', ', this', '. This']<br>['insert', '', 'beach']<br>['replace', 'big sun', 'bright sunshine']",
+    "id": 11958,
+    "label": [
+      {
+        "start": "\/text()[3]",
+        "startOffset": 50,
+        "end": "\/text()[3]",
+        "endOffset": 166,
+        "globalOffsets": {
+          "start": 265,
+          "end": 381
+        },
+        "text": "definite article 'the' is used before 'beach' to indicate the specific beach that one generally goes to or refers to",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      },
+      {
+        "start": "\/text()[1]",
+        "startOffset": 46,
+        "end": "\/text()[1]",
+        "endOffset": 48,
+        "globalOffsets": {
+          "start": 53,
+          "end": 55
+        },
+        "text": "is",
+        "labels": [
+          "Missing error"
+        ]
+      },
+      {
+        "start": "\/text()[7]",
+        "startOffset": 0,
+        "end": "\/text()[7]",
+        "endOffset": 143,
+        "globalOffsets": {
+          "start": 606,
+          "end": 749
+        },
+        "text": "The word 'beach' is mistakenly inserted but this change was not necessary as 'beach' was already in the correct place in the original sentence.",
+        "labels": [
+          "Hallucinated error"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5068,
+    "created_at": "2024-02-02T05:29:06.593731Z",
+    "updated_at": "2024-02-02T14:45:53.472998Z",
+    "lead_time": 395.488
+  },
+  {
+    "text": "<b>Source:<\/b> To sum up, there are a lot of adds in TV but they are necessary and beneficial for everyone.<br><b>Target:<\/b> To sum up, there are a lot of ads on TV but they are necessary and beneficial for everyone.<br><br><b>Explanation:<\/b><br>The word 'adds' is replaced by 'ads' because 'ads' is the correct abbreviation for advertisements, not 'adds'.<br>Error type: Spelling<br><br>The preposition 'in' is replaced by 'on' because when talking about content shown on a television we use the preposition 'on' instead of 'in'. <br>Error type: Preposition use",
+    "edits": "['replace', 'adds', 'ads']<br>['replace', 'in', 'on']",
+    "id": 11959,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5069,
+    "created_at": "2024-02-02T05:29:24.859012Z",
+    "updated_at": "2024-02-02T05:29:24.859074Z",
+    "lead_time": 14.852
+  },
+  {
+    "text": "<b>Source:<\/b> First of all, you should get outside of the airport terminal.<br><b>Target:<\/b> First of all, you should go out of the airport terminal.<br><br><b>Explanation:<\/b><br>The phrase 'get outside' is replaced by 'go out' because in this context, 'go out' is a more appropriate term to imply the physical act of leaving or exiting a building, in this case, the airport terminal. <br>Error type: word choice",
+    "edits": "['replace', 'get outside', 'go out']",
+    "id": 11960,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5070,
+    "created_at": "2024-02-02T05:30:00.190672Z",
+    "updated_at": "2024-02-02T05:30:00.190720Z",
+    "lead_time": 19.098
+  },
+  {
+    "text": "<b>Source:<\/b> SMS such as Facebook send out 700.000 messages, and 170.000 Tweets are publicized on Twitter each 60 seconds.<br><b>Target:<\/b> SMS, such as Facebook, send out 700,000 messages, and 170,000 Tweets are published on Twitter every 60 seconds.<br><br><b>Explanation:<\/b><br>A comma is inserted before and after 'such as Facebook' to separate this non-essential information from the rest of the sentence. With the commas, it clarifies that Facebook is an example of an SMS service, but not the only one.<br>Error type: punctuation<br>The numbers '700.000' and '170.000' are replaced by '700,000' and '170,000' respectively because in English, commas are used as thousand separators while periods are used as decimal points.<br>Error type: number format<br>The word 'publicized' is replaced by 'published' because tweets are 'published' and not 'publicized'. 'Publicize' is more commonly used when something is made widely known or promoted while 'published' is used when something is issued for public distribution.<br>Error type: word choice<br>The word 'each' is replaced by 'every' because 'every' is commonly used with singular countable units of time to indicate frequency, while 'each' is usually used for individual items in a list or a group.<br>Error type: word choice",
+    "edits": "['insert', '', ',']<br>['insert', '', ',']<br>['replace', '700.000', '700,000']<br>['replace', '170.000', '170,000']<br>['replace', 'publicized', 'published']<br>['replace', 'each', 'every']",
+    "id": 11961,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5071,
+    "created_at": "2024-02-02T05:31:07.423274Z",
+    "updated_at": "2024-02-02T05:31:07.423319Z",
+    "lead_time": 64.044
+  },
+  {
+    "text": "<b>Source:<\/b> My job was checking songs list which singers would perform.<br><b>Target:<\/b> My job was checking the song list which singers would perform.<br><br><b>Explanation:<\/b><br>The phrase 'songs list' is replaced with 'the song list' because 'the' is commonly used before a singular noun phrase and 'song list' makes more grammatical sense than 'songs list' in this context. The usage of 'song list' denotes that there is a list made up of various songs that the singers would perform.<br>Error type: word form and article usage",
+    "edits": "['replace', 'songs', 'the song']",
+    "id": 11962,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5072,
+    "created_at": "2024-02-02T05:32:21.819479Z",
+    "updated_at": "2024-02-02T05:32:21.819526Z",
+    "lead_time": 69.66
+  },
+  {
+    "text": "<b>Source:<\/b> That's why it is important: it makes us understand to never give up and follow our dreams.<br><b>Target:<\/b> That's why it is important: it makes us understand that we should never give up and to follow our dreams.<br><br><b>Explanation:<\/b><br>The word 'to' is replaced by 'that we should' because 'understand' in this context requires a clause after it to explain what is being understood, rather than an infinitive verb 'to never'.<br>Error type: word choice<br>The conjunction 'to' is inserted before 'follow' to indicate both actions 'never give up' and 'follow our dreams' as parallel actions or ideas, using 'and' to connect them.<br>Error type: conjunction",
+    "edits": "['replace', 'to', 'that we should']<br>['insert', '', 'to']",
+    "id": 11963,
+    "comments": "The target sentence does not correctly correct the source sentence.",
+    "annotator": 1,
+    "annotation_id": 5073,
+    "created_at": "2024-02-02T05:34:55.412368Z",
+    "updated_at": "2024-02-02T05:34:55.412409Z",
+    "lead_time": 117.424
+  },
+  {
+    "text": "<b>Source:<\/b> I had butterflies in my stomach.'Yes, I am fine,' Winnie replied.<br><b>Target:<\/b> I had butterflies in my stomach. 'Yes, I am fine,' Winnie replied.<br><br><b>Explanation:<\/b><br>A space is inserted before the quotation mark of 'Yes, I am fine,' because according to punctuation rules there should be a space before a quotation mark if it is not the start of a sentence.<br>Error type: punctuation",
+    "edits": "",
+    "id": 11964,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5074,
+    "created_at": "2024-02-02T05:35:10.812205Z",
+    "updated_at": "2024-02-02T05:35:10.812252Z",
+    "lead_time": 10.187
+  },
+  {
+    "text": "<b>Source:<\/b> Mostly Facebook users expect their friend to respond or pay attention on what they are doing.<br><b>Target:<\/b> Mostly, Facebook users expect their friends to respond or pay attention to what they are doing.<br><br><b>Explanation:<\/b><br>A comma is inserted after 'Mostly' because it is an adverb starting the sentence and should be followed by a comma to separate it from the rest of the sentence.<br>Error type: punctuation<br>The word 'friend' is replaced by 'friends' because the word 'friends' should be in plural form as it refers to all the people connected to a user on Facebook, not just one friend.<br>Error type: word form<br>The word 'on' is replaced with 'to', because the correct expression is 'pay attention to' used when telling someone to focus or direct their attention towards something.<br>Error type: preposition usage",
+    "edits": "['insert', '', ',']<br>['replace', 'friend', 'friends']<br>['replace', 'on', 'to']",
+    "id": 11965,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5075,
+    "created_at": "2024-02-02T05:35:41.312952Z",
+    "updated_at": "2024-02-02T05:35:41.313002Z",
+    "lead_time": 27.579
+  },
+  {
+    "text": "<b>Source:<\/b> In fact, along with agreeable and pleasant comments, there are also small amounts of aggressive and even racist comment.<br><b>Target:<\/b> In fact, along with agreeable and pleasant comments, there are also small amounts of aggressive and even racist comments.<br><br><b>Explanation:<\/b><br>The word 'comment' is replaced by 'comments' because the phrase 'small amounts of' should be followed by a plural noun when referring to multiple instances. Thus, 'comments' is used instead of 'comment'.<br>Error type: word form",
+    "edits": "['replace', 'comment', 'comments']",
+    "id": 11966,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5076,
+    "created_at": "2024-02-02T05:36:05.423429Z",
+    "updated_at": "2024-02-02T05:36:05.423472Z",
+    "lead_time": 16.852
+  },
+  {
+    "text": "<b>Source:<\/b> I managed to succeeded in many competitions in the country and abroad.<br><b>Target:<\/b> I managed to win many competitions in this country and abroad.<br><br><b>Explanation:<\/b><br>The phrase 'succeeded in' is replaced by 'win' because after the verb 'managed to', another infinitive verb is required. 'succeeded in' is a past tense verb phrase which is not grammatically correct in this context. <br>Error type: verb tense<br>The word 'the' is replaced by 'this' because 'this' is commonly used with 'country' when referring to the country where the speaker currently resides. 'The' is too general in this context. <br>Error type: word choice",
+    "edits": "['replace', 'succeeded in', 'win']<br>['replace', 'the', 'this']",
+    "id": 11967,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5077,
+    "created_at": "2024-02-02T05:36:43.035657Z",
+    "updated_at": "2024-02-02T05:36:43.035698Z",
+    "lead_time": 34.116
+  },
+  {
+    "text": "<b>Source:<\/b> Also holidays are very helpful days in order to revive the spirit and the soul because people have a chance to move away modern life that has full of material subjects.<br><b>Target:<\/b> Also, holidays are very helpful days to revive the spirit and the soul because people have a chance to get away from modern life, which is full of material subjects.<br><br><b>Explanation:<\/b><br>A comma is inserted after 'Also' to separate the introductory word from the main clause.<br>Error type: punctuation<br>The phrase 'in order' is deleted because it is not necessary to include this phrase when expressing purpose. 'To' is sufficient to indicate the purpose of 'revive the spirit and the soul'.<br>Error type: redundant words<br>The word 'move' is replaced by 'get away' because 'get away' is commonly used when referring to taking a break from something, in this case, 'modern life'.<br>Error type: word choice<br>The word 'to' is inserted after 'chance' because the verb 'get away' requires a preposition 'to' (get away to\/ get away from) to introduce the destination.<br>Error type: missing word<br>The word 'from' is inserted after 'get away' because 'get away from' is the correct phrase to use when expressing the idea of leaving a place in this context.<br>Error type: missing word<br>The phrase 'that is' is replaced by ', which is' because commas and 'which' are used to introduce nonessential information about the noun before the comma.<br>Error type: relative clause",
+    "edits": "['insert', '', ',']<br>['delete', 'in order', '']<br>['replace', 'move', 'revive']<br>['insert', '', 'to']<br>['insert', '', 'from']<br>['replace', 'that has', ', which is']",
+    "id": 11968,
+    "label": [
+      {
+        "start": "\/text()[7]",
+        "startOffset": 0,
+        "end": "\/text()[7]",
+        "endOffset": 41,
+        "globalOffsets": {
+          "start": 695,
+          "end": 736
+        },
+        "text": "The word 'move' is replaced by 'get away'",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      },
+      {
+        "start": "\/text()[9]",
+        "startOffset": 0,
+        "end": "\/text()[9]",
+        "endOffset": 155,
+        "globalOffsets": {
+          "start": 875,
+          "end": 1030
+        },
+        "text": "The word 'to' is inserted after 'chance' because the verb 'get away' requires a preposition 'to' (get away to\/ get away from) to introduce the destination.",
+        "labels": [
+          "Hallucinated error"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5078,
+    "created_at": "2024-02-02T05:39:12.483057Z",
+    "updated_at": "2024-02-02T05:39:12.483097Z",
+    "lead_time": 137.276
+  },
+  {
+    "text": "<b>Source:<\/b> He decided to give swimming up and started to taking care of Mel.<br><b>Target:<\/b> He decided to give swimming up and start to take care of Mel.<br><br><b>Explanation:<\/b><br>The word 'started' is replaced by 'start' because after 'and', a parallel structure is required. The verb before 'and' is the infinitive 'to give', so the verb after 'and' should also be an infinitive in the form 'to start'.<br>Error type: parallelism<br>The word 'taking' is replaced by 'take' because 'start to' should be followed by the base form of the verb.<br>Error type: word form",
+    "edits": "['replace', 'started', 'start']<br>['replace', 'taking', 'take']",
+    "id": 11969,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5079,
+    "created_at": "2024-02-02T05:39:54.345447Z",
+    "updated_at": "2024-02-02T05:39:54.345494Z",
+    "lead_time": 35.85
+  },
+  {
+    "text": "<b>Source:<\/b> but all these factors are not important for me.<br><b>Target:<\/b> But all these factors are not important to me.<br><br><b>Explanation:<\/b><br>The word 'but' is replaced by 'But' because it's the beginning of the sentence and the first word of any sentence should be capitalized. <br>Error type: capitalization<br>The preposition 'for' is replaced by 'to' because 'important to' is the accurate phrase used to indicate what is of significance to someone. <br>Error type: preposition",
+    "edits": "['replace', 'but', 'But']<br>['replace', 'for', 'to']",
+    "id": 11970,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5080,
+    "created_at": "2024-02-02T05:40:43.043120Z",
+    "updated_at": "2024-02-02T05:40:43.043168Z",
+    "lead_time": 44.977
+  },
+  {
+    "text": "<b>Source:<\/b> I saw so many interesting things during the preparetion time.<br><b>Target:<\/b> I saw so many interesting things during the preparation time.<br><br><b>Explanation:<\/b><br>The word 'preparetion' is replaced by 'preparation' because 'preparation' is the correct spelling of the word that denotes the action of making ready or being prepared for something.<br>Error type: spelling",
+    "edits": "['replace', 'preparetion', 'preparation']",
+    "id": 11971,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5081,
+    "created_at": "2024-02-02T05:40:56.619475Z",
+    "updated_at": "2024-02-02T05:40:56.619524Z",
+    "lead_time": 10.627
+  },
+  {
+    "text": "<b>Source:<\/b> One thing you should keep in mind if you want to play football is that you have to be ready to reacive some punches.<br><b>Target:<\/b> One thing you should keep in mind if you want to play football, is that you have to be ready to receive some punches.<br><br><b>Explanation:<\/b><br>A comma is inserted after 'football' because the clause \"is that you have to be ready to receive some punches\" is an explanatory clause added after the main clause.<br>Error type: punctuation<br>The word 'reacive' is replaced with 'receive' because 'reacive' is not a correct word in English. The right word to use in this context is 'receive', meaning to get or accept something given, offered, or sent.<br>Error type: spelling",
+    "edits": "['insert', '', ',']<br>['replace', 'reacive', 'receive']",
+    "id": 11972,
+    "comments": "The target sentence does not correctly correct the source.",
+    "annotator": 1,
+    "annotation_id": 5082,
+    "created_at": "2024-02-02T05:41:35.760477Z",
+    "updated_at": "2024-02-02T05:41:35.760519Z",
+    "lead_time": 27.567
+  },
+  {
+    "text": "<b>Source:<\/b> Despite of changing channels we see the same news.<br><b>Target:<\/b> Despite changing channels, we see the same news.<br><br><b>Explanation:<\/b><br>The word 'of' is deleted after 'Despite' because 'despite' is a preposition which is directly followed by a gerund 'changing' without the need of 'of'.<br>Error type: unnecessary word<br>A comma is inserted after 'channels' to separate the dependent and independent clauses in the sentence, improving sentence clarity.<br>Error type: punctuation",
+    "edits": "['delete', 'of', '']<br>['insert', '', ',']",
+    "id": 11973,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5083,
+    "created_at": "2024-02-02T05:42:20.690312Z",
+    "updated_at": "2024-02-02T05:42:20.690361Z",
+    "lead_time": 33.321
+  },
+  {
+    "text": "<b>Source:<\/b> Adriana and I immediately came to her and held her up. '<br><b>Target:<\/b> Adriana and I immediately went to her and picked her up. '<br><br><b>Explanation:<\/b><br>The verb 'came' is replaced by 'went' in the context to correctly express the direction of movement from the speakers' location to the location of 'her'.<br>Error type: word choice<br>The verb 'held' is replaced by 'picked' to accurately convey the action of lifting 'her' from a lower position to a higher one. The verb 'hold' suggests a maintaining position which is not the intention here.<br>Error type: word choice",
+    "edits": "['replace', 'came', 'went']<br>['replace', 'held', 'picked']",
+    "id": 11974,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5084,
+    "created_at": "2024-02-02T05:42:46.771592Z",
+    "updated_at": "2024-02-02T05:42:46.771628Z",
+    "lead_time": 22.583
+  },
+  {
+    "text": "<b>Source:<\/b> I think the most important thing in the relationship with our parents is to find a sort of accordance, because in the end we don't only feel anger for them but also a lot of love.<br><b>Target:<\/b> I think the most important thing in the relationship with our parents is to find a sort of agreement, because in the end we don't only feel anger towards them, but also a lot of love.<br><br><b>Explanation:<\/b><br>The word 'accordance' is replaced with 'agreement' because one 'finds an agreement' with someone, meaning an arrangement, a decision, or a plan that you have made with someone. The term 'accordance' is often used to describe doing something according to a particular rule or standard, which doesn't fit in this context.<br>Error type: word choice<br><br>The preposition 'for' is replaced with 'towards' because 'feel anger towards' is the correct collocation. In the context, the term 'towards' properly carries the meaning of 'in relation to' someone or something.<br>Error type: collocation<br><br>The comma is inserted before 'but' to separate two independent clauses in this context. A comma is commonly used before coordinating conjunctions (for, and, nor, but, or, yet, so) when they are used to connect two independent clauses.<br>Error type: punctuation",
+    "edits": "['replace', 'accordance', 'agreement']<br>['replace', 'for', 'towards', ',']",
+    "id": 11975,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5085,
+    "created_at": "2024-02-02T05:43:43.758814Z",
+    "updated_at": "2024-02-02T05:43:43.758860Z",
+    "lead_time": 39.732
+  },
+  {
+    "text": "<b>Source:<\/b> Besides the great atmosphere and the delicious eat, the service is friendly and efficient.<br><b>Target:<\/b> Besides the great atmosphere and the delicious food, the service is friendly and efficient.<br><br><b>Explanation:<\/b><br>The word 'eat' is replaced by 'food'. 'Eat' is a verb and doesn't make sense in this context. 'Food' is the correct noun to use when referring to what is consumed.<br>Error type: word usage",
+    "edits": "['replace', 'eat', 'food']",
+    "id": 11976,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5086,
+    "created_at": "2024-02-02T05:43:57.495673Z",
+    "updated_at": "2024-02-02T05:43:57.495713Z",
+    "lead_time": 10.838
+  },
+  {
+    "text": "<b>Source:<\/b> Only after, when Angelina left, Michael closed the door and there he knew he had made a huge mistake.<br><b>Target:<\/b> Only after, when Angelina left, Michael closed the door and then he knew he had made a huge mistake.<br><br><b>Explanation:<\/b><br>The word 'there' is replaced by 'then' in this context. 'There' often refers to a place, while 'then' refers to a point in time. Here, the context is referring to a sequence of time, not a place. Therefore, 'then' is more appropriate.<br>Error type: word choice",
+    "edits": "['replace', 'there', 'then']",
+    "id": 11977,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5087,
+    "created_at": "2024-02-02T05:45:57.279511Z",
+    "updated_at": "2024-02-02T05:45:57.279558Z",
+    "lead_time": 116.866
+  },
+  {
+    "text": "<b>Source:<\/b> But if you are sleepy, tired, bored, or simply you don't like to drive, you can find easier to take a public transport.<br><b>Target:<\/b> But if you are sleepy, tired, bored, or you simply don't like to drive, you could find it easier to take public transport.<br><br><b>Explanation:<\/b><br>The word 'simply' is deleted from before 'you' and relocated to after 'you' to make a smoother sentence structure.<br>Error type: word order<br>The word 'can' is replaced by 'could' to suggest a possibility or potential in the situation rather than a certainty.<br>Error type: modality<br>The pronoun 'it' is inserted after 'find' because 'find' is a transitive verb and should be followed by an object. 'It' here stands for 'taking public transport'.<br>Error type: missing word<br>The indefinite article 'a' is deleted before 'public transport' because 'public transport' is generally used as an uncountable noun and doesn't require an article.<br>Error type: article use",
+    "edits": "['delete', 'simply', '']<br>['replace', 'can', 'could']<br>['insert', '', 'it']<br>['delete', 'a', '']",
+    "id": 11978,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5088,
+    "created_at": "2024-02-02T05:46:35.897355Z",
+    "updated_at": "2024-02-02T05:46:35.897418Z",
+    "lead_time": 35.306
+  },
+  {
+    "text": "<b>Source:<\/b> Since she left to Paris last year I had been living in the school residence, which wasn't cheerful at all, what made me feel really depressed.<br><b>Target:<\/b> Since she left for Paris last year, I had been living in the school residence, which wasn't cheerful at all, which made me feel really depressed.<br><br><b>Explanation:<\/b><br>The word 'to' is replaced with 'for' because the correct preposition to use with 'left' when indicating a destination is 'for'.<br>Error type: preposition<br>A comma is inserted after 'year' to separate independent clauses in the sentence, improving readability.<br>Error type: punctuation<br>The word 'what' is replaced by 'which' because the relative pronoun 'which' is used to introduce a clause that provides extra information about the previous part of the sentence.<br>Error type: relative pronoun",
+    "edits": "['replace', 'to', 'for']<br>['insert', '', ',']<br>['replace', 'what', 'which']",
+    "id": 11979,
+    "label": [
+      {
+        "start": "\/text()[5]",
+        "startOffset": 33,
+        "end": "\/text()[5]",
+        "endOffset": 104,
+        "globalOffsets": {
+          "start": 504,
+          "end": 575
+        },
+        "text": "to separate independent clauses in the sentence, improving readability.",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5089,
+    "created_at": "2024-02-02T05:49:02.568962Z",
+    "updated_at": "2024-02-02T05:49:02.569000Z",
+    "lead_time": 57.329
+  },
+  {
+    "text": "<b>Source:<\/b> Also, the narrator mainly uses direct speech, but he only uses indirect speech in just a few occasions referring to his own words.<br><b>Target:<\/b> Also, the narrator mainly uses direct speech, but he only uses indirect speech on just a few occasions, when referring to his own words.<br><br><b>Explanation:<\/b><br>The preposition 'in' is replaced with 'on' because the correct preposition to use with 'occasions' is 'on'. <br>Error type: preposition<br><br>The phrase ', when' is inserted after 'occasions' because it provides a distinct pause and allows the sentence to flow better, clearly indicating that what follows is the time when those occasions occur. The comma also separates the added information--who the indirect speech refers to.<br>Error type: punctuation and word choice",
+    "edits": "['replace', 'in', 'on']<br>['insert', '', ', when']",
+    "id": 11980,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5090,
+    "created_at": "2024-02-02T05:49:44.305766Z",
+    "updated_at": "2024-02-02T05:49:44.305814Z",
+    "lead_time": 28.215
+  },
+  {
+    "text": "<b>Source:<\/b> In most cases they are just doing their job as well as they can, leading their boring life.<br><b>Target:<\/b> In most cases, they are just doing their job as well as they can, leading their boring life.<br><br><b>Explanation:<\/b><br>A comma is inserted before 'they' to set off the introductory phrase \"In most cases\" from the main sentence. This helps the sentence to be more clear and readable.<br>Error type: punctuation",
+    "edits": "['insert', '', ',']",
+    "id": 11981,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5091,
+    "created_at": "2024-02-02T05:50:04.037219Z",
+    "updated_at": "2024-02-02T05:50:04.037262Z",
+    "lead_time": 15.062
+  },
+  {
+    "text": "<b>Source:<\/b> Moreover, you will go between two ancient obelisks which have been recently restored.<br><b>Target:<\/b> Moreover, you will pass between two ancient obelisks which have been recently restored.<br><br><b>Explanation:<\/b><br>The word 'go' is replaced by 'pass' because 'pass' is a more accurate word to indicate movement through a defined space, such as between two objects ('two ancient obelisks' in this context).<br>Error type: word choice",
+    "edits": "['replace', 'go', 'pass']",
+    "id": 11982,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5092,
+    "created_at": "2024-02-02T05:51:19.836342Z",
+    "updated_at": "2024-02-02T05:51:19.836387Z",
+    "lead_time": 73.1
+  },
+  {
+    "text": "<b>Source:<\/b> To conclude, the future of public transport will depend on the usage people give it.<br><b>Target:<\/b> To conclude, the future of public transport will depend on the usage people make of.<br><br><b>Explanation:<\/b><br>The phrase 'give it' is replaced by 'make of' because the correct collocation is 'make of' when talking about how people use or perceive something.<br>Error type: collocation",
+    "edits": "['replace', 'give it', 'make of']",
+    "id": 11983,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5093,
+    "created_at": "2024-02-02T05:52:01.051309Z",
+    "updated_at": "2024-02-02T10:06:55.328767Z",
+    "lead_time": 53.779
+  },
+  {
+    "text": "<b>Source:<\/b> From the 4 source ate, 3 of them remained a steady decline with the exception of chicken consumption which had risen over the 25 year period.<br><b>Target:<\/b> From the 4 sources eaten, 3 of them maintained a steady decline, with the exception of chicken consumption, which had risen over the 25 year period.<br><br><b>Explanation:<\/b><br>The phrase 'source ate' is replaced by 'sources eaten' because 'sources' must be in plural form to fit with the quantity given '4' and 'eaten' is the past participle form of the verb 'eat' which should be used after 'sources'.<br>Error type: word form<br>The word 'remained' is replaced by 'maintained' because in this context 'maintained' meaning 'continued' is more suitable to describe the continuous process of decline.<br>Error type: word meaning<br>A comma is inserted to separate two independent clauses, appropriately depicting the contrast or exception in the sentence.<br>Error type: punctuation<br>Another comma is inserted to maintain clarity within the complex sentence, specifically before the relative clause \"which had risen\".<br>Error type: punctuation",
+    "edits": "['replace', 'source ate', 'sources eaten']<br>['replace', 'remained', 'maintained']<br>['insert', '', ',']<br>['insert', '', ',']",
+    "id": 11984,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5094,
+    "created_at": "2024-02-02T05:53:18.582805Z",
+    "updated_at": "2024-02-02T05:53:18.582853Z",
+    "lead_time": 73.095
+  },
+  {
+    "text": "<b>Source:<\/b> The city has many projects such as the ' Keep it clean, keep it beauty ', whose goal is to promote proper disposal in the public areas.<br><b>Target:<\/b> The city has many projects, such as 'Keep it clean, keep it beautiful', the goal of which promote proper disposal in the public areas.<br><br><b>Explanation:<\/b><br>A comma is inserted after 'projects' because a comma is needed to offset the phrase \"such as 'Keep it clean, keep it beautiful'\" for correct punctuation.<br>Error type: punctuation<br>The article 'the' before 'goal' is deleted because the phrase 'goal of' does not need an article.<br>Error type: unnecessary word<br>The word 'beauty' is replaced with 'beautiful' because 'beautiful' is the correct adjective form to follow 'keep it'.<br>Error type: word form<br>The word 'whose' is replaced with 'the' because 'the' specifically refers to 'Keep it clean, keep it beautiful' project when introducing the goal.<br>Error type: pronouns<br>The phrase 'is to promote' is replaced with 'of which' because the phrase 'of which' is used to link and integrate the clause 'promote proper disposal in the public areas' with the preceding noun phrase ('the goal').<br>Error type: phrase replacement",
+    "edits": "['insert', '', ',']<br>['delete', 'the', '']<br>['replace', 'beauty', 'beautiful']<br>['replace', 'whose', 'the']<br>['replace', 'is to promote', 'of which']",
+    "id": 11985,
+    "label": [
+      {
+        "start": "\/text()[1]",
+        "startOffset": 75,
+        "end": "\/text()[1]",
+        "endOffset": 80,
+        "globalOffsets": {
+          "start": 82,
+          "end": 87
+        },
+        "text": "whose",
+        "labels": [
+          "Missing error"
+        ]
+      },
+      {
+        "start": "\/text()[10]",
+        "startOffset": 12,
+        "end": "\/text()[10]",
+        "endOffset": 20,
+        "globalOffsets": {
+          "start": 905,
+          "end": 913
+        },
+        "text": "pronouns",
+        "labels": [
+          "Wrong error type"
+        ]
+      },
+      {
+        "start": "\/text()[5]",
+        "startOffset": 0,
+        "end": "\/text()[5]",
+        "endOffset": 97,
+        "globalOffsets": {
+          "start": 479,
+          "end": 576
+        },
+        "text": "The article 'the' before 'goal' is deleted because the phrase 'goal of' does not need an article.",
+        "labels": [
+          "Hallucinated error"
+        ]
+      },
+      {
+        "start": "\/text()[11]",
+        "startOffset": 0,
+        "end": "\/text()[11]",
+        "endOffset": 54,
+        "globalOffsets": {
+          "start": 914,
+          "end": 968
+        },
+        "text": "The phrase 'is to promote' is replaced with 'of which'",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5095,
+    "created_at": "2024-02-02T05:56:44.870564Z",
+    "updated_at": "2024-02-02T05:56:44.870602Z",
+    "lead_time": 201.123
+  },
+  {
+    "text": "<b>Source:<\/b> Since you've applied for the sales assistant in the sales department, the sales manager will be interviewing you.<br><b>Target:<\/b> Since you've applied for the sales assistant position in the sales department, the sales manager will be interviewing you.<br><br><b>Explanation:<\/b><br>The word 'position' is inserted after 'sales assistant' because we need to clarify that the application is for the 'position' or 'job' of a sales assistant, not for the individual person.<br>Error type: missing word",
+    "edits": "['insert', '', 'position']",
+    "id": 11986,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5096,
+    "created_at": "2024-02-02T05:56:57.439334Z",
+    "updated_at": "2024-02-02T05:56:57.439377Z",
+    "lead_time": 9.138
+  },
+  {
+    "text": "<b>Source:<\/b> And if the ecology is important for you just think about the pollution.<br><b>Target:<\/b> And if the environment is important to you, just think about the pollution.<br><br><b>Explanation:<\/b><br>The term 'ecology' is replaced with 'environment'. Although 'ecology' is related to the study of the interactions of organisms with their environment, 'environment' is the more appropriate term when referring to overall surroundings that one might be concerned with preserving.<br>Error type: word choice<br>The preposition 'for' is replaced by 'to'. In this context, 'important to you' is the common usage, expressing that something is of significance or value to an individual.<br>Error type: preposition<br>A comma is inserted after 'you' to separate the clauses and improve the readability of the sentence.<br>Error type: punctuation",
+    "edits": "['replace', 'ecology', 'environment']<br>['replace', 'for', 'to']<br>['insert', '', ',']",
+    "id": 11987,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5097,
+    "created_at": "2024-02-02T05:57:32.443078Z",
+    "updated_at": "2024-02-02T05:57:32.443119Z",
+    "lead_time": 29.652
+  },
+  {
+    "text": "<b>Source:<\/b> We can't understand what others think usually, but in this friction, the author invited us know what inside the madman's mind.<br><b>Target:<\/b> We can't understand what others think usually, but in this story, the author invited us to know what was inside the madman's mind.<br><br><b>Explanation:<\/b><br>The word 'friction' is replaced with 'story' because the correct term for a narrative or a tale is 'story'. 'Friction' refers to the resistance that one surface or object encounters when moving over another, which does not fit in this context.<br>Error type: word choice<br>The word 'to' is inserted after 'us' because the phrase 'invited us to know' is grammatically correct and idiomatic in English. 'Invite' is a verb that typically requires the preposition 'to' followed by an infinitive verb.<br>Error type: missing word<br>The word 'was' is inserted before 'inside' to form the past tense of 'be'. This correctly conveys the meaning that the author allowed us to understand what existed inside the madman's mind.<br>Error type: tense",
+    "edits": "['replace', 'friction', 'story']<br>['insert', '', 'to']<br>['insert', '', 'was']",
+    "id": 11988,
+    "label": [
+      {
+        "start": "\/text()[7]",
+        "startOffset": 75,
+        "end": "\/text()[7]",
+        "endOffset": 189,
+        "globalOffsets": {
+          "start": 880,
+          "end": 994
+        },
+        "text": "This correctly conveys the meaning that the author allowed us to understand what existed inside the madman's mind.",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5098,
+    "created_at": "2024-02-02T05:58:28.884739Z",
+    "updated_at": "2024-02-02T05:58:28.884786Z",
+    "lead_time": 39.51
+  },
+  {
+    "text": "<b>Source:<\/b> Moreover they remind in the list of sites in danger without to receive assistance.<br><b>Target:<\/b> Moreover, they remain on the list of sites in danger without receiving assistance.<br><br><b>Explanation:<\/b><br>A comma is inserted after 'Moreover' because it is an introductory adverb and should be followed by a comma.<br>Error type: punctuation<br>The word 'remind' is replaced by 'remain' because 'remain' means 'stay in the same place' which is the correct context meaning, whereas 'remind' means 'cause someone to remember'.<br>Error type: word choice<br>The word 'on' is inserted after 'remain' because in English, we use the preposition 'on' to indicate something is on a list.<br>Error type: preposition<br>The word 'to' is replaced with 'without' because the negative form 'without' indicates the lack of action of 'receiving', which fits the context better.<br>Error type: preposition<br>The word 'receive' is replaced by 'receiving' because the preposition 'without' is followed by a gerund (-ing form of the verb) to show the action that is missing.<br>Error type: word form",
+    "edits": "['insert', '', ',']<br>['replace', 'remind', 'remain']<br>['insert', '', 'on']<br>['replace', 'to', 'without']<br>['replace', 'receive', 'receiving']",
+    "id": 11989,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5099,
+    "created_at": "2024-02-02T06:05:30.082040Z",
+    "updated_at": "2024-02-02T06:05:30.082084Z",
+    "lead_time": 416.522
+  },
+  {
+    "text": "<b>Source:<\/b> It's difficult, but I think that it is necessary try to invent new way to finance and defend the natural and cultural heritage.<br><b>Target:<\/b> It's difficult, but I think that it is necessary to try to invent new ways to finance and defend the natural and cultural heritage.<br><br><b>Explanation:<\/b><br>The word 'to' is inserted after 'necessary' because when 'necessary' is used as an adjective followed by a verb, the infinitive form with 'to' is required.<br>Error type: missing word<br>The word 'way' is replaced by 'ways' because 'ways' in plural form indicates multiple strategies or methods, which is more appropriate in this context.<br>Error type: word form",
+    "edits": "['insert', '', 'to']<br>['replace', 'way', 'ways']",
+    "id": 11990,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5100,
+    "created_at": "2024-02-02T06:05:56.030395Z",
+    "updated_at": "2024-02-02T06:05:56.030435Z",
+    "lead_time": 22.557
+  },
+  {
+    "text": "<b>Source:<\/b> I am planning to gain admission into the university of my choice in order to obtain a bachelor's degree.<br><b>Target:<\/b> I am planning to gain admission at the university of my choice in order to obtain a bachelor's degree.<br><br><b>Explanation:<\/b><br>The preposition 'into' is replaced by 'at'. When we talk about being accepted by a university or school, the preposition 'at' is more commonly used. You gain admission at a university, not into it. So, 'gain admission at' is the correct phrase to use.<br>Error type: preposition use",
+    "edits": "['replace', 'into', 'at']",
+    "id": 11991,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5101,
+    "created_at": "2024-02-02T06:06:13.068099Z",
+    "updated_at": "2024-02-02T06:06:13.068147Z",
+    "lead_time": 14.179
+  },
+  {
+    "text": "<b>Source:<\/b> The second bank, Royal Savings Bank, has many branches in the UK (over 650), so you can make all bank operations on spot.<br><b>Target:<\/b> The second bank, Royal Savings Bank, has many branches in the UK (over 650), so you can do all banking transactions on the spot.<br><br><b>Explanation:<\/b><br>The phrase 'make all bank operations' is replaced by 'do all banking transactions' because 'do' is the proper verb to be used when talking about carrying out transactions. Furthermore, 'banking transactions' is a more suitable phrase than 'bank operations' to refer to specific actions conducted in a bank, like depositing or withdrawing money.<br>Error type: collocation<br>The word 'the' is inserted before 'spot'. The phrase 'on the spot' means immediately or at that very place. Without 'the', the phrase does not convey the intended meaning correctly.<br>Error type: missing word",
+    "edits": "['replace', 'make', 'do']<br>['replace', 'bank operations', 'banking transactions']<br>['insert', '', 'the']",
+    "id": 11992,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5102,
+    "created_at": "2024-02-02T06:10:59.978788Z",
+    "updated_at": "2024-02-02T06:10:59.978833Z",
+    "lead_time": 283.195
+  },
+  {
+    "text": "<b>Source:<\/b> If you don't start studying before exam with an appropriate time, you will only have enough time to know the broad lines of the subject, but this will never help you soak the details and understand the concepts lying behind every single word.<br><b>Target:<\/b> If you don't start studying before the exam at an appropriate time, you will only have enough time to know the broad outlines of the subject, but this will never help you soak up the details and understand the concepts lying behind every single word.<br><br><b>Explanation:<\/b><br>The word 'the' is inserted before 'exam' because it is needed to refer to a specific upcoming exam in the context.<br>Error type: determiner<br>The word 'with' is replaced by 'at' because the preposition 'at' is used to express specific times, in this case, an appropriate time to begin studying.<br>Error type: preposition<br>The word 'lines' is replaced by 'outlines' because the phrase 'broad outlines' means the general principles or overview of a subject.<br>Error type: collocation<br>The word 'up' is inserted after 'soak' because the phrase 'soak up' is an idiomatic expression meaning to absorb or learn something fully.<br>Error type: phrasal verb",
+    "edits": "['insert', '', 'the']<br>['replace', 'with', 'at']<br>['replace', 'lines', 'outlines']<br>['insert', '', 'up']",
+    "id": 11993,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5103,
+    "created_at": "2024-02-02T06:13:16.682863Z",
+    "updated_at": "2024-02-02T06:13:16.682901Z",
+    "lead_time": 75.332
+  },
+  {
+    "text": "<b>Source:<\/b> A wide world war is the only case in which we would see a dramatic change in peoples lives in the time length of 50 years from now.<br><b>Target:<\/b> A worldwide war is the only case in which we would see a dramatic change in peoples lives in the period of 50 years from now.<br><br><b>Explanation:<\/b><br>The term 'wide world' is replaced by 'worldwide' because 'worldwide' is the correct term to refer to something that is happening or existing all around the world.<br>Error type: word choice<br>The term 'time length' is replaced by 'period' because 'period' is a more appropriate term to denote a specific length of time in this context.<br>Error type: word choice",
+    "edits": "['replace', 'wide world', 'worldwide']<br>['replace', 'time length', 'period']",
+    "id": 11994,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5104,
+    "created_at": "2024-02-02T06:16:56.421647Z",
+    "updated_at": "2024-02-02T06:16:56.421687Z",
+    "lead_time": 108.586
+  },
+  {
+    "text": "<b>Source:<\/b> Have you ever thought about how you can promote your language courses for example?<br><b>Target:<\/b> Have you ever thought about how you could promote your language courses, for example?<br><br><b>Explanation:<\/b><br>The word 'can' is replaced by 'could' because in reported speech and hypothetical situations such as this one, we usually use 'could' instead of 'can'.<br>Error type: verb tense<br>A comma is inserted before 'for example' to indicate a pause and clarify that 'for example' is an additional piece of information.<br>Error type: punctuation",
+    "edits": "['replace', 'can', 'could']<br>['insert', '', ',']",
+    "id": 11995,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5105,
+    "created_at": "2024-02-02T06:18:55.359545Z",
+    "updated_at": "2024-02-02T06:18:55.359575Z",
+    "lead_time": 11.046
+  },
+  {
+    "text": "<b>Source:<\/b> Last summer I went on holiday in Sardegna, in Italy, with my family.<br><b>Target:<\/b> Last summer I went on holiday to Sardegna, in Italy, with my family.<br><br><b>Explanation:<\/b><br>The preposition 'in' is replaced by 'to' because when talking about traveling, we use 'to' instead of 'in'. In this sentence, it should be 'went on holiday to Sardegna' to indicate traveling to a destination. <br>Error type: preposition usage",
+    "edits": "['replace', 'in', 'to']",
+    "id": 11996,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5106,
+    "created_at": "2024-02-02T06:20:58.977827Z",
+    "updated_at": "2024-02-02T06:20:58.977875Z",
+    "lead_time": 94.845
+  },
+  {
+    "text": "<b>Source:<\/b> The bigger the city, bigger the problem.<br><b>Target:<\/b> The bigger the city, the bigger the problem.<br><br><b>Explanation:<\/b><br>An article 'the' is inserted before 'bigger' in the second clause to maintain parallel structure with the first clause. In English language, comparative correlative conjunctions like 'the...the...' require definite article 'the' in both parts of the sentence for proper grammatical construction.<br>Error type: missing word",
+    "edits": "['insert', '', 'the']",
+    "id": 11997,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5107,
+    "created_at": "2024-02-02T06:21:36.440739Z",
+    "updated_at": "2024-02-02T06:21:36.440788Z",
+    "lead_time": 13.689
+  },
+  {
+    "text": "<b>Source:<\/b> They helped each other and the elders ones taught the youngsters.<br><b>Target:<\/b> They helped each other and the elder ones taught the youngsters.<br><br><b>Explanation:<\/b><br>The word 'elders' is replaced by 'elder' because 'elder' is the correct comparative adjective form when comparing ages between groups. 'Elders' is a noun referring to people who are older, usually in positions of authority, whereas 'elder' is used as an adjective.<br>Error type: word choice",
+    "edits": "['replace', 'elders', 'elder']",
+    "id": 11998,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5108,
+    "created_at": "2024-02-02T06:22:05.250201Z",
+    "updated_at": "2024-02-02T06:22:05.250246Z",
+    "lead_time": 25.388
+  },
+  {
+    "text": "<b>Source:<\/b> Is the car faster then public transport?<br><b>Target:<\/b> Is the car faster than public transport?<br><br><b>Explanation:<\/b><br>The word 'then' is replaced by 'than' because 'than' is used in comparative structures to show comparison, while 'then' is used to denote time or sequence.<br>Error type: word choice",
+    "edits": "['replace', 'then', 'than']",
+    "id": 11999,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5109,
+    "created_at": "2024-02-02T06:24:43.032161Z",
+    "updated_at": "2024-02-02T06:24:43.032210Z",
+    "lead_time": 136.994
+  },
+  {
+    "text": "<b>Source:<\/b> Candide stabs the Baron, a Jesuit Priest, after the Baron forbids Candides marriage to Cunegonde.<br><b>Target:<\/b> Candide stabs the Baron, a Jesuit Priest, after the Baron forbids Candide's marriage to Cunegonde.<br><br><b>Explanation:<\/b><br>The word 'Candides' is replaced by 'Candide's' because 'Candide's' is the possessive form of 'Candide'. In English, to show possession, we commonly use an apostrophe followed by the letter 's'.<br>Error type: punctuation and word form",
+    "edits": "['replace', 'Candides', \"Candide's\"]",
+    "id": 12000,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5110,
+    "created_at": "2024-02-02T06:25:10.962682Z",
+    "updated_at": "2024-02-02T06:25:10.962730Z",
+    "lead_time": 14.542
+  },
+  {
+    "text": "<b>Source:<\/b> Television violence is prevalent in the United States and some people disagree with its effects on children.<br><b>Target:<\/b> Television violence is prevalent in the United States and some people disagree about its effects on children.<br><br><b>Explanation:<\/b><br>The preposition 'with' is replaced by 'about' because when expressing disagreement about a particular topic or point, the correct preposition to use is 'about'.<br>Error type: preposition usage",
+    "edits": "['replace', 'with', 'about']",
+    "id": 12001,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5111,
+    "created_at": "2024-02-02T06:27:00.537737Z",
+    "updated_at": "2024-02-02T06:27:00.537788Z",
+    "lead_time": 106.554
+  },
+  {
+    "text": "<b>Source:<\/b> In my opinion, the discovery and harness of atom and its energy and the corresponding invention of nuclear weapons have been the most significant factors of change in our lifetime, if not, perhaps, in several lifetimes.<br><b>Target:<\/b> In my opinion, the discovery and harnessing of the atom and its energy and the corresponding invention of nuclear weapons have been the most significant factors of change in our lifetime, if not, perhaps, in several lifetimes.<br><br><b>Explanation:<\/b><br>The word 'harness' is replaced with 'harnessing' because nouns such as 'discovery' and 'harnessing' are more appropriate to indicate actions\/processes in this context.<br>Error type: word form<br>'The' is inserted before 'atom' because it is necessary to indicate a specific atom that is known to both the speaker and listener in the context. <br>Error type: determiner",
+    "edits": "['replace', 'harness', 'harnessing']<br>['insert', '', 'the']",
+    "id": 12002,
+    "label": [
+      {
+        "start": "\/text()[5]",
+        "startOffset": 40,
+        "end": "\/text()[5]",
+        "endOffset": 146,
+        "globalOffsets": {
+          "start": 707,
+          "end": 813
+        },
+        "text": "it is necessary to indicate a specific atom that is known to both the speaker and listener in the context.",
+        "labels": [
+          "Wrong error explanation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5112,
+    "created_at": "2024-02-02T06:28:40.488668Z",
+    "updated_at": "2024-02-02T06:28:40.488713Z",
+    "lead_time": 36.817
+  },
+  {
+    "text": "<b>Source:<\/b> change the rules of boxing slightly would much improve the safety risks of the sport and not detract form the entertainment.<br><b>Target:<\/b> Changing the rules of boxing slightly would much improve the safety risks of the sport and not detract from the entertainment.<br><br><b>Explanation:<\/b><br>The word 'change' is replaced by 'Changing' because the beginning of a sentence should start with a capital letter. Moreover, 'Changing' functions as a gerund, which allows for 'change' to be used as the subject of the sentence.<br>Error type: word form<br>The word 'form' is replaced by 'from' because 'detract from' is the correct collocation, meaning to reduce the quality or value of something.<br>Error type: collocation",
+    "edits": "['replace', 'change', 'Changing']<br>['replace', 'form', 'from']",
+    "id": 12003,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5113,
+    "created_at": "2024-02-02T09:17:25.502987Z",
+    "updated_at": "2024-02-02T09:17:25.503024Z",
+    "lead_time": 10098.482
+  },
+  {
+    "text": "<b>Source:<\/b> Divorce is at fifty percent and rising, women are having more heart attacks, being more stressful, and kids are being more neglected.<br><b>Target:<\/b> Divorce is at fifty percent and rising, women are having more heart attacks, being more stressed, and kids are being more neglected.<br><br><b>Explanation:<\/b><br>The word 'stressful' is replaced with 'stressed' because here we need to describe the condition of the 'women'. 'Stressful' is used to describe situations or events that cause stress, while 'stressed' describes a person who is under a lot of stress.<br>Error type: word choice",
+    "edits": "['replace', 'stressful', 'stressed']",
+    "id": 12004,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5114,
+    "created_at": "2024-02-02T09:18:41.394134Z",
+    "updated_at": "2024-02-02T09:18:41.394174Z",
+    "lead_time": 71.234
+  },
+  {
+    "text": "<b>Source:<\/b> There should be a guideline or law stating that eggs should only be taken from the mother and not from dead, foetuses.<br><b>Target:<\/b> There should be a guideline or law stating that eggs should only be taken from the mother and not from dead foetuses.<br><br><b>Explanation:<\/b><br>The comma is deleted because it incorrectly separates the adjective 'dead' from the noun 'foetuses' that it's modifying. Adjectives should be placed immediately before the noun they modify without being separated by a comma.<br>Error type: punctuation",
+    "edits": "['delete', ',', '']",
+    "id": 12005,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5115,
+    "created_at": "2024-02-02T09:20:41.927362Z",
+    "updated_at": "2024-02-02T09:20:41.927414Z",
+    "lead_time": 116.975
+  },
+  {
+    "text": "<b>Source:<\/b> Although this would seem to be good it is not because of his training he kills two men, a Jew and an Archbishop with no hesitation and then proceeds to kill his sweethearts brother.<br><b>Target:<\/b> Although this would seem to be good, it is not. Because of his training, he kills two men, a Jew and an Archbishop with no hesitation and then proceeds to kill his sweetheart's brother.<br><br><b>Explanation:<\/b><br>A comma is inserted after 'be good' to clarify the structure of the sentence and separate contrasting parts.<br>Error type: punctuation<br>A period is inserted after 'it is not' to distinguish between two separate sentences. Each sentence deals with a separate idea and should therefore be separated by a full stop.<br>Error type: punctuation<br>'Because' is capitalized because it initiates a new sentence after the inserted period.<br>Error type: capitalization<br>A comma is inserted after 'his training' to separate the introductory prepositional phrase from the rest of the sentence, improving readability.<br>Error type: punctuation<br>The word 'sweethearts' is replaced by \"sweetheart's\" to show the possessive form. 'Sweetheart's brother' indicates the brother of his sweetheart.<br>Error type: word form",
+    "edits": "['insert', '', ',']<br>['insert', '', '.']<br>['insert', '', 'Because']<br>['insert', '', ',']<br>['replace', 'sweethearts', \"sweetheart's\"]",
+    "id": 12006,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5116,
+    "created_at": "2024-02-02T09:27:26.291748Z",
+    "updated_at": "2024-02-02T09:27:26.291795Z",
+    "lead_time": 401.186
+  },
+  {
+    "text": "<b>Source:<\/b> In fact, in political, economic and defence terms I feel this realocation of resources can and will be very positive.<br><b>Target:<\/b> In fact, in political, economic and defence terms, I feel this reallocation of resources can and will be very positive.<br><br><b>Explanation:<\/b><br>A comma is inserted after 'defence terms' to break up the introductory phrase from the main clause of the sentence, enhancing readability.<br>Error type: punctuation<br>The word 'realocation' is replaced by 'reallocation' because 'reallocation' is the correct spelling of the word meaning the act of distributing or placing resources in a different way.<br>Error type: spelling",
+    "edits": "['insert', '', ',']<br>['replace', 'realocation', 'reallocation']",
+    "id": 12007,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5117,
+    "created_at": "2024-02-02T09:28:04.369657Z",
+    "updated_at": "2024-02-02T09:28:04.369696Z",
+    "lead_time": 31.012
+  },
+  {
+    "text": "<b>Source:<\/b> A recent death in the ring has inevitably led to a public uproar on the safety of the sport, and the controvesy over whether the sport should be banned or not is yet again the forefront of discussion.<br><b>Target:<\/b> A recent death in the ring has inevitably led to a public uproar on the safety of the sport, and the controversy over whether the sport should be banned or not is yet again at the forefront of discussion.<br><br><b>Explanation:<\/b><br>The word 'controvesy' is replaced with 'controversy' because 'controvesy' is a spelling mistake and 'controversy' is the correct spelling.<br>Error type: spelling<br>The word 'at' is inserted before 'the forefront' because the idiomatic prepositional phrase 'at the forefront of' is used to indicate that something is the most important feature or aspect of a situation or debate.<br>Error type: preposition",
+    "edits": "['replace', 'controvesy', 'controversy']<br>['insert', '', 'at']",
+    "id": 12008,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5118,
+    "created_at": "2024-02-02T09:29:14.054603Z",
+    "updated_at": "2024-02-02T09:29:14.054648Z",
+    "lead_time": 48.628
+  },
+  {
+    "text": "<b>Source:<\/b> People can easily do calculus or other type functions with a computer.<br><b>Target:<\/b> People can easily do calculus or other types of functions with a computer.<br><br><b>Explanation:<\/b><br>The phrase 'type' is replaced by 'types of' because the proper structure when referring to multiple categories or varieties of something is 'types of'.<br>Error type: prepositional phrase",
+    "edits": "['replace', 'type', 'types of']",
+    "id": 12009,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5119,
+    "created_at": "2024-02-02T09:30:50.636324Z",
+    "updated_at": "2024-02-02T09:30:50.636368Z",
+    "lead_time": 92.81
+  },
+  {
+    "text": "<b>Source:<\/b> In concluding I wish to propose clean, efficient comfortable and cheap public transport for the near future.<br><b>Target:<\/b> In conclusion, wish to propose clean, efficient comfortable and cheap public transport for the near future.<br><br><b>Explanation:<\/b><br>The term 'concluding' is replaced with 'conclusion,' because \"In conclusion\" is a more appropriate phrase to signal the end of the discourse. Also, a comma is added after 'conclusion' to separate it from the rest of the sentence.<br>Error type: word choice and punctuation",
+    "edits": "['replace', 'concluding', 'conclusion,']",
+    "id": 12010,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5120,
+    "created_at": "2024-02-02T09:31:46.382947Z",
+    "updated_at": "2024-02-02T09:31:46.382991Z",
+    "lead_time": 52.544
+  },
+  {
+    "text": "<b>Source:<\/b> It can be passed on to humans through eating parts of the animal such as the brain which is affected and these parts are usually sold and put into fast foods such as beef burgers.<br><b>Target:<\/b> It can be passed on to humans through eating parts of the animal such as the brain which is affected and these parts are usually sold and put into fast foods such as beefburgers.<br><br><b>Explanation:<\/b><br>The term 'beef burgers' is replaced by 'beefburgers' because it is a concept that is commonly denoted by a single compound word in English. Writing it as two separate words may create confusion.<br>Error type: word choice",
+    "edits": "['replace', 'beef burgers', 'beefburgers']",
+    "id": 12011,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5121,
+    "created_at": "2024-02-02T09:32:29.683106Z",
+    "updated_at": "2024-02-02T09:32:29.683151Z",
+    "lead_time": 31.3
+  },
+  {
+    "text": "<b>Source:<\/b> Though it has probably been around for awhile, it's presence hasn't really been known untill fairly recently, and it's consequences have been devistating.<br><b>Target:<\/b> Though it has probably been around for a while its presence hasn't really been known until fairly recently, and its consequences have been devastating.<br><br><b>Explanation:<\/b><br>The word 'awhile' is replaced by 'a while' because 'awhile' is an adverb meaning 'for a short time', whereas 'a while' is a noun phrase used after the preposition 'for' to mean 'a period of time\".<br>Error type: word choice<br>The word 'untill' is replaced by 'until' because 'until' is the correct spelling of the word indicating up to \/ before a certain point of time.<br>Error type: spelling<br>The word 'devistating' is replaced by 'devastating' because 'devastating' is the correct spelling of the word used to describe something highly destructive or damaging.<br>Error type: spelling",
+    "edits": "['replace', 'awhile', 'a while']<br>['replace', 'untill', 'until']<br>['replace', 'devistating', 'devastating']",
+    "id": 12012,
+    "label": [
+      {
+        "start": "\/text()[1]",
+        "startOffset": 115,
+        "end": "\/text()[1]",
+        "endOffset": 119,
+        "globalOffsets": {
+          "start": 122,
+          "end": 126
+        },
+        "text": "it's",
+        "labels": [
+          "Missing error"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5122,
+    "created_at": "2024-02-02T09:38:14.800839Z",
+    "updated_at": "2024-02-02T09:38:14.800884Z",
+    "lead_time": 116.723
+  },
+  {
+    "text": "<b>Source:<\/b> Desegragation reduced some prejudice, but it still exists.<br><b>Target:<\/b> Desegregation reduced some prejudice, but it still exists.<br><br><b>Explanation:<\/b><br>The word 'Desegragation' is replaced by 'Desegregation' because 'Desegregation' is the correct spelling for the policy of ending racial segregation.<br>Error type: spelling",
+    "edits": "['replace', 'Desegragation', 'Desegregation']",
+    "id": 12013,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5123,
+    "created_at": "2024-02-02T09:38:54.699845Z",
+    "updated_at": "2024-02-02T09:38:54.699908Z",
+    "lead_time": 35.694
+  },
+  {
+    "text": "<b>Source:<\/b> Granted, it is the person who 'told' the computer what to do that truly made the error; however if that person knew what he should do, or better stated 'was able to do with a computer', he would not have erroneous answers.<br><b>Target:<\/b> Granted, it is the person who 'told' the computer what to do that truly made the error. However, person knew what he should do, or better stated 'was able to do with a computer', he would not have erroneous answers.<br><br><b>Explanation:<\/b><br>The semicolon is replaced by a period because a new independent clause is starting. While a semicolon can be used to join two closely related independent clauses, it is more conventional to use a period when the connection between clauses is already clear or additionally clarified by a connecting word like 'however'.<br>Error type: punctuation",
+    "edits": "",
+    "id": 12014,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5124,
+    "created_at": "2024-02-02T09:40:04.523736Z",
+    "updated_at": "2024-02-02T09:40:04.523783Z",
+    "lead_time": 55.176
+  },
+  {
+    "text": "<b>Source:<\/b> A rather hard view would be that if someone who works on a menial or physically taxing job does not make a fair or moderate salary then it is his or her own fault (or bad luck).<br><b>Target:<\/b> A rather hard view would be that if someone who works on a menial or physically taxing job does not make a fair or moderate salary, then it is his or her own fault (or bad luck).<br><br><b>Explanation:<\/b><br>A comma is inserted before 'then' to separate the two independent clauses in the sentence. This helps the reading process and makes the meaning of the sentence clearer.<br>Error type: punctuation",
+    "edits": "['insert', '', ',']",
+    "id": 12015,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5125,
+    "created_at": "2024-02-02T09:40:36.917207Z",
+    "updated_at": "2024-02-02T09:40:36.917254Z",
+    "lead_time": 22.825
+  },
+  {
+    "text": "<b>Source:<\/b> It is unfair to hold responsible the scientist on the fore front of human knowledge, who discovers something when another scientist in another part of the world may make the discovery independently afterwards.<br><b>Target:<\/b> It is unfair to hold responsible the scientist at the forefront of human knowledge, who discovers something when another scientist in another part of the world may make the discovery independently afterwards.<br><br><b>Explanation:<\/b><br>The preposition 'on' is replaced by 'at' because when we refer to a position or status, 'at' is usually used.<br>Error type: preposition<br>The two separate words 'fore front' are replaced by the single word 'forefront' because 'forefront' is a single word meaning the leading or most important position or place.<br>Error type: spelling",
+    "edits": "['replace', 'on', 'at']<br>['replace', 'fore front', 'forefront']",
+    "id": 12016,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5126,
+    "created_at": "2024-02-02T09:41:14.129512Z",
+    "updated_at": "2024-02-02T09:41:14.129558Z",
+    "lead_time": 30.184
+  },
+  {
+    "text": "<b>Source:<\/b> We must remember, however, that the field of technology is not the only one in which significant advances have been made in the 0th century.<br><b>Target:<\/b> We must remember, however, that the field of technology is not the only one in which significant advances have been made in the 20th century.<br><br><b>Explanation:<\/b><br>The term '0th' is replaced by '20th' because '0th' is not a grammatically correct ordinal number in English. In this context, '20th' is used to indicate the correct historical century where significant technological advances were made.<br>Error type: numeral",
+    "edits": "['replace', '0th', '20th']",
+    "id": 12017,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5127,
+    "created_at": "2024-02-02T09:41:33.736788Z",
+    "updated_at": "2024-02-02T09:41:33.736831Z",
+    "lead_time": 11.487
+  },
+  {
+    "text": "<b>Source:<\/b> This thing, technology has been and will always be both the closest friend and yet the greatest Nemesis of our world.<br><b>Target:<\/b> This thing, technology, has been and will always be both the closest friend and yet the greatest Nemesis of our world.<br><br><b>Explanation:<\/b><br>A comma is inserted after 'technology' because a comma is needed to separate this appositive phrase ('technology') from the rest of the sentence. This makes the sentence clear and easy to read.<br>Error type: punctuation",
+    "edits": "['insert', '', ',']",
+    "id": 12018,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5128,
+    "created_at": "2024-02-02T09:44:51.664194Z",
+    "updated_at": "2024-02-02T09:44:51.664242Z",
+    "lead_time": 194.425
+  },
+  {
+    "text": "<b>Source:<\/b> The idea I feel that has most significantly changed people's lives in the 20th century is that of caring for the environment.<br><b>Target:<\/b> The idea that I feel has most significantly changed people's lives in the 20th century is that of caring for the environment.<br><br><b>Explanation:<\/b><br>The word 'that' is relocated from after 'I feel' to before 'I feel' because 'that' is a relative pronoun that introduces a relative clause. The clause 'that I feel has most significantly changed people's lives in the 20th century' provides information about the 'idea', so 'that' should directly follow 'idea'.<br>Error type: word order",
+    "edits": "['relocate', 'that', 'that']",
+    "id": 12019,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5129,
+    "created_at": "2024-02-02T09:45:23.205516Z",
+    "updated_at": "2024-02-02T09:45:23.205562Z",
+    "lead_time": 27.651
+  },
+  {
+    "text": "<b>Source:<\/b> Modern times saw gas and electric ranges as to staple.<br><b>Target:<\/b> Modern times saw gas and electric ranges become a staple.<br><br><b>Explanation:<\/b><br>The phrase 'as to' is replaced with 'become' because 'become' is appropriate to show the transformation of gas and electric ranges into a staple. 'As to' is incorrect in this context because it can mean 'about' or 'regarding' which does not fit in this sentence. <br>Error type: word choice<br>The article 'a' is inserted before 'staple' to specify that gas and electric ranges have become one recognized part or item of importance (staple) in modern times. 'Staple' is a singular countable noun here so it needs an article.<br>Error type: missing word",
+    "edits": "['replace', 'as to', 'become']<br>['insert', '', 'a']",
+    "id": 12020,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5130,
+    "created_at": "2024-02-02T09:46:53.245452Z",
+    "updated_at": "2024-02-02T09:46:53.245502Z",
+    "lead_time": 20.79
+  },
+  {
+    "text": "<b>Source:<\/b> If not killed then more likely paralysed.<br><b>Target:<\/b> If not killed, then more likely paralysed.<br><br><b>Explanation:<\/b><br>A comma is inserted between 'killed' and 'then' to separate two related but distinct clauses, improving the sentence's readability and clarity.<br>Error type: punctuation",
+    "edits": "['insert', '', ',']",
+    "id": 12021,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5131,
+    "created_at": "2024-02-02T09:47:06.803134Z",
+    "updated_at": "2024-02-02T09:47:06.803179Z",
+    "lead_time": 10.177
+  },
+  {
+    "text": "<b>Source:<\/b> Many other sports are more dangerous than boxing, motor sports and even mountaineering has risks that are real.<br><b>Target:<\/b> Many other sports are more dangerous than boxing; motor sports and even mountaineering have risks that are real.<br><br><b>Explanation:<\/b><br>The comma is replaced by a semicolon because a semicolon is used to separate two closely related independent clauses within a sentence.<br>Error type: punctuation<br>The word 'has' is replaced by 'have' because the subject 'motor sports and even mountaineering' is plural, so the verb should also be in the plural form.<br>Error type: person and number",
+    "edits": "['replace', ',', ';']<br>['replace', 'has', 'have']",
+    "id": 12022,
+    "all_correct": "There is no error in the explanation(s) above.",
+    "annotator": 1,
+    "annotation_id": 5132,
+    "created_at": "2024-02-02T09:50:27.737524Z",
+    "updated_at": "2024-02-02T09:50:27.737558Z",
+    "lead_time": 193.657
+  }
+]
